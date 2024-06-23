@@ -1,6 +1,7 @@
 <script setup>
-import { ref, reactive } from 'vue'
+import { ref, reactive, defineEmits } from 'vue'
 
+const emit = defineEmits(['select'])
 const toggle = ref(true)
 
 const pdata = reactive({
@@ -8,31 +9,35 @@ const pdata = reactive({
     onClass: 'icon-card-list'
 })
 
+const selectedToggle = () => {
+    toggle.value = !toggle.value
+    emit('select', toggle.value)
+}
+
 </script>
 
 <template>
-    <h1>UI Switch</h1>
-    <div class="switch-wrapper">
-        <div class="btf-switch" @click="toggle = !toggle">
-            <div class="b-base">
-                <i class="icon size-20" :class="[pdata.baseClass]"></i>
-                <i class="icon size-20" :class="[pdata.onClass]"></i>
-            </div>
-            <div class="b-button" :class="{on: toggle}">
-                <div class="button-wrap">
-                    <i class="icon size-20" :class="[`${pdata.baseClass}-active`]"></i>
-                    <i class="icon size-20" :class="[`${pdata.onClass}-active`]"></i>
-                </div>
+    <div class="btf-switch" @click="selectedToggle">
+        <div class="b-base">
+            <i class="icon size-20" :class="[pdata.baseClass]"></i>
+            <i class="icon size-20" :class="[pdata.onClass]"></i>
+        </div>
+        <div class="b-button" :class="{on: toggle}">
+            <div class="button-wrap">
+                <i class="icon size-20" :class="[`${pdata.baseClass}-active`]"></i>
+                <i class="icon size-20" :class="[`${pdata.onClass}-active`]"></i>
             </div>
         </div>
     </div>
-    <div class="button-wrapper">
+    <!-- <div class="switch-wrapper">
+    </div> -->
+    <!-- <div class="button-wrapper">
 
-        <button class="btf-button outline round shadow" :class="{show: toggle}" @click="toggle = !toggle">
+        <button class="btf-button outline round shadow" :class="{show: toggle}" @click="selectedToggle">
             test text
             <i class="icon icon-roulette size-14"></i>
         </button>
-    </div>
+    </div> -->
 </template>
 
 <style lang="scss" scoped>
