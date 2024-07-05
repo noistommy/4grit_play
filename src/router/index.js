@@ -40,8 +40,14 @@ const router = createRouter({
       name: 'ui-pagination',
     
       component: () => import('../views/UIPagination.vue')
+    },
+    {
+      path: '/ui-select-box',
+      name: 'ui-select-box',
+
+      component: () => import('../views/UISelectBox.vue')
+    
     }
   ]
 })
-
 export default router

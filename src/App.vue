@@ -1,8 +1,9 @@
 <script setup>
-import { onMounted } from 'vue';
+import { onMounted, getCurrentInstance } from 'vue';
 import { useRoute } from 'vue-router'
 import { RouterLink, RouterView } from 'vue-router'
 import setMeta from '@/meta'
+
 
 const route = useRoute()
 console.log(route)
@@ -14,19 +15,30 @@ onMounted(() => {
     keywords: 'frontend, vue3'
   })
 })
+
+const { proxy } = getCurrentInstance()
+
+// composition api or setup
+
+
+const testSnackbar = () => {
+  proxy.$snackbars.show('success', 'tesat snackbars', {})
+}
+
 </script>
 
 <template>
   <metainfo />
   <div class="pane-layout layout-v">
     <header>
-      <nav>
+      <nav @click="testSnackbar">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/font">About</RouterLink>
         <RouterLink to="/draw">SVG Draw</RouterLink>
         <RouterLink to="/flexible">Flexible View</RouterLink>
         <RouterLink to="/ui-switch">UI_Switch</RouterLink>
         <RouterLink to="/ui-pagination">UI_Pagination</RouterLink>
+        <RouterLink to="/ui-select-box">UI_SelectBox</RouterLink>
       </nav>
     </header>
     <div class="handle-pane"></div>
@@ -34,6 +46,9 @@ onMounted(() => {
       <RouterView />
     </main>
   </div>
+  <!-- <div class="snackbars top-full">
+    <div class="snack">test</div>
+  </div> -->
   
 </template>
 
