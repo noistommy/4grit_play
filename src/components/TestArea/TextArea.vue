@@ -63,6 +63,11 @@ const loopTest = current => {
         <SolomonUfo />
         <button @click="svgTogglePlay">{{ state || 'playing' }}</button>
     </div>
+    <div>
+        <h3>Paticle test</h3>
+        <img src="../../assets/particle_1.svg" alt="">
+        
+    </div>
     <div class="test-view">
         <h3>ViewBox test</h3>
         <TestSvg />
