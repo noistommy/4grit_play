@@ -52,11 +52,26 @@ import onMouseDown from '@/lib/flexible-view'
     <div class="flexible-container layout-h" @mousedown="onMouseDown">
         <div class="view-1">View 1</div>
         <span class="flexible-handle"></span>
-        <div class="view-2">View 2</div>
+        <div class="view-2">
+            
+        </div>
+    </div>
+    <div class="ga-grid">
+        <div class="column span-3"><span>1</span></div>
+        <div class="column span-3"><span>1</span></div>
+        <div class="column span-5"></div>
+        <div class="column span-3"><span>1</span></div>
+        <div class="column span-3"><span>1</span></div>
+        <div class="column span-6"><span>1</span></div>
     </div>
 </template>
 
 <style lang="scss" scoped>
+.column > span{
+    display: inline-block;
+    width: 100%;
+    background-color: #454545;;
+}
 .flexible-container {
     width: 780px;
     height: 800px;

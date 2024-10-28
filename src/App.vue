@@ -39,6 +39,7 @@ const testSnackbar = () => {
         <RouterLink to="/ui-switch">UI_Switch</RouterLink>
         <RouterLink to="/ui-pagination">UI_Pagination</RouterLink>
         <RouterLink to="/ui-select-box">UI_SelectBox</RouterLink>
+        <RouterLink to="/fire-cracker">FireCracker</RouterLink>
       </nav>
     </header>
     <div class="handle-pane"></div>
@@ -53,6 +54,9 @@ const testSnackbar = () => {
 </template>
 
 <style lang="scss" scoped>
+#app {
+  height: 100vh;
+}
 main {
   padding: 1rem;
 }

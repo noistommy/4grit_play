@@ -9,6 +9,10 @@ import { ref, reactive, onMounted } from 'vue';
 let player = reactive({});
 let state = ref('')
 
+let targetEl = ref(null)
+let showTest = ref(false)
+let observer = null
+
 onMounted(() => {
     const element = document.getElementById('ewqfWDErNCm1');
     player = element ? element.svgatorPlayer : {};
@@ -18,10 +22,23 @@ onMounted(() => {
     // player.ready(player => player.play())
     // player.on('pause', offset => console.log(`current animation ${offset}`))
     // player.on('play', offset => console.log(`start play  ${offset}`))
-    player.on('keyframe', loopTest)
+    
     // element.addEventListener('click', () => svgTogglePlay())
     element.addEventListener('click', () => console.log(player.currentTime))
     // element.addEventListener('mouseover', () => console.log(player.currentTime))\
+    observer = new IntersectionObserver((entries) => {
+        if(entries[0].isIntersecting) {
+           showTest.value = true
+           alert('show')
+        } else {
+            showTest.value = false
+            alert('hide')
+        }
+    }, {
+        root: null,
+        threshold: 0
+    });
+    observer.observe(targetEl.value)
 })
 
 const svgTogglePlay = () => {
@@ -66,9 +83,9 @@ const loopTest = current => {
     <div>
         <h3>Paticle test</h3>
         <img src="../../assets/particle_1.svg" alt="">
-        
+        <TestSvg />
     </div>
-    <div class="test-view">
+    <div  ref="targetEl" class="test-view">
         <h3>ViewBox test</h3>
         <TestSvg />
     </div>
@@ -79,5 +96,8 @@ div {
     padding: 20px;
     border: 1px solid #454545;
     margin-bottom: 10px;
+}
+.test-view {
+    min-height: 800px;
 }
 </style>

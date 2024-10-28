@@ -47,6 +47,13 @@ const router = createRouter({
 
       component: () => import('../views/UISelectBox.vue')
     
+    },
+    {
+      path: '/fire-cracker',
+      name: 'fire-cracker',
+
+      component: () => import('../views/FireCracker.vue')
+    
     }
   ]
 })

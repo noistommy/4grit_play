@@ -1,3 +1,4 @@
+import './frog.css'
 import './assets/main.css'
 import './assets/icomoon/style.css'
 
