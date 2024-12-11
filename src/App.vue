@@ -40,6 +40,8 @@ const testSnackbar = () => {
         <RouterLink to="/ui-pagination">UI_Pagination</RouterLink>
         <RouterLink to="/ui-select-box">UI_SelectBox</RouterLink>
         <RouterLink to="/fire-cracker">FireCracker</RouterLink>
+        <RouterLink to="/side-nav-layout">SideNavLayout</RouterLink>
+        <RouterLink to="/grid-system">GridSystem</RouterLink>
       </nav>
     </header>
     <div class="handle-pane"></div>
@@ -58,7 +60,6 @@ const testSnackbar = () => {
   height: 100vh;
 }
 main {
-  padding: 1rem;
 }
 nav {
   display: flex;
@@ -100,4 +101,12 @@ nav a:first-of-type {
   }
 }
 
+</style>
+
+<style lang="scss" scoped>
+.container {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-color: #f2f2f2;
+}
 </style>

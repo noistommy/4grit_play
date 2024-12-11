@@ -1,0 +1,12 @@
+{
+  "pageA": {
+    "title": "Title",
+    "subTitle": "Sub Title",
+    "main": "Contents is <wbr>2 lines"
+  },
+  "pageB": {
+    "title": "Title",
+    "subTitle": "Sub Title",
+    "main": "Contents"
+  }
+}

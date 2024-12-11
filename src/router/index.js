@@ -54,6 +54,20 @@ const router = createRouter({
 
       component: () => import('../views/FireCracker.vue')
     
+    },
+    {
+      path: '/side-nav-layout',
+      name: 'side-nav-layout',
+
+      component: () => import('../views/SideNavLayout.vue')
+    
+    },
+    {
+      path: '/grid-system',
+      name: 'grid-system',
+
+      component: () => import('../views/GridSystem.vue')
+    
     }
   ]
 })

@@ -55,60 +55,8 @@ runFire()
         </use>
       </g>
   </svg>
-  <div class="container" :class="{show: toggleSide}">
-    <div class="item-left">
-      <button @click="toggleSide = !toggleSide">Button</button>
-    </div>
-    <div class="item-right">
-      
-      main
-    </div>
-  </div>
-
 </template>
 
 <style lang="scss">
 
-.container {
-  display: flex;
-  height: 100%;
-  .item-left {
-    position: relative;
-    width: 500px;
-    height: 100%;
-    background-color: #565656;
-    //overflow: hidden;
-    transition: margin 500ms ease;
-    margin-left: -500px;
-    z-index: 1;
-    button {
-      position: absolute;
-      top: 30px;
-      right: 0;
-      transform: translateX(100%);
-      transition: transform 500ms ease;
-      z-index: 10;
-    }
-  }
-  .item-right {
-    flex-grow: 1;
-    width: 100%;
-    position: relative;
-    background-color: #fff;
-    
-  }
-  &.show {
-    .item-left {
-      transition: margin 500ms ease;
-      margin: 0;
-      button {
-        transform: translateX(50%);
-      }
-      
-    }
-    .item-right {
-      
-    }
-  }
-}
 </style>

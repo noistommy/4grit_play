@@ -1,7 +1,9 @@
 <script setup>
+import { useI18n } from 'vue-i18n'
 import { ref, reactive, computed, onMounted } from 'vue'
 // import Fonts from '@/data/font-list.json'
 import GoogleFonts from '@/data/google-fonts.json'
+
 const MIN_SIZE = 12
 const MAX_SIZE = 110
 let titleBaseline = 0
@@ -49,6 +51,11 @@ const searchFont = ({ target }) => {
   searchList.value = GoogleFonts.items.filter(item => item.family.indexOf(target.value) > -1)
   // searchList.value = Fonts.filter(item => item.family.indexOf(target.value) > -1)
 }
+const { locale } = useI18n() || 'ko'
+const changeLocale = () => {
+  locale.value = locale.value === 'ko' ? 'en' : 'ko'
+}
+
 onMounted(() => {
   if(block.value) {
     titleBaseline = getBaselineOffset(60)
@@ -58,11 +65,15 @@ onMounted(() => {
 })
 
 
+
 </script>
+
 <template>
-  <div class="bettery-test">
-    <i class="icon-berrery duotone"></i>
-  </div>
+  <div class="title">{{ $t('pageA.title') }}</div>
+  <div class="title">{{ $t('pageA.subTitle') }}</div>
+  <div class="title" v-html="$t('pageA.main')"></div>
+  <button class="ga-button" @click="changeLocale()">{{ locale }} {{ $i18n.locale }}</button>
+  <button class="ga-button" @click="locale = locale === 'ko' ? 'en' : 'ko'">{{ locale }}</button>
   <div class="block" ref="block" :style="{ fontFamily: search }">Lqfglx{{ search }}<span ref="base"></span></div>
   <div class="font-control-wrapper">
     <div class="field">

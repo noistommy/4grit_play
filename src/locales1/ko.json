@@ -1,0 +1,12 @@
+{
+  "pageA": {
+    "title": "제목",
+    "subTitle": "소제목",
+    "main": "본문은 <wbr> 두줄입니다"
+  },
+  "pageB": {
+    "title": "제목",
+    "subTitle": "소제목",
+    "main": "본문"
+  }
+}

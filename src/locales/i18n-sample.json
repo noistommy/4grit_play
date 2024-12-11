@@ -1,0 +1,4247 @@
+{
+  "messages": {
+    "common": {
+      "feedDaButton": {
+        "ko": "조회 중인 화면 <br>AI로 분석하기",
+        "en": "Analyze this<br>screen with AI",
+        "ja": "現在の画面を<br>AIで分析する"
+      },
+      "filterPeriod": {
+        "ko": "유효기간",
+        "en": "Expiration date",
+        "ja": "有効期間",
+        "comment": "BA-4023"
+      },
+      "availablePV": {
+        "ko": "분석 가능",
+        "en": "Available",
+        "ja": "分析できます。 "
+      },
+      "inuse": {
+        "ko": "사용 중",
+        "en": "In use",
+        "ja": "利用中"
+      },
+      "heatmap": {
+        "ko": "Heatmap",
+        "ja": "Heatmap",
+        "en": "Heatmap",
+        "comment": "202309 heatmap"
+      },
+      "journey": {
+        "ko": "Journey",
+        "ja": "Journey",
+        "en": "Journey"
+      },
+      "ranking": {
+        "ko": "Ranking",
+        "ja": "Ranking",
+        "en": "Ranking"
+      },
+      "trend": {
+        "ko": "Trend",
+        "ja": "Trend",
+        "en": "Trend"
+      },
+      "mine": {
+        "ko": "Mine",
+        "ja": "Mine",
+        "en": "Mine"
+      },
+      "admin": {
+        "ko": "어드민",
+        "ja": "管理者",
+        "en": "ADMIN"
+      },
+      "apply": {
+        "en": "Apply",
+        "ja": "適用",
+        "ko": "적용"
+      },
+      "login": {
+        "ko": "로그인",
+        "ja": "ログイン",
+        "en": "Sign In"
+      },
+      "contact": {
+        "ko": "문의",
+        "en": "Contact Us",
+        "ja": "お問い合わせ"
+      },
+      "continue": {
+        "en": "Continue",
+        "ja": "続ける",
+        "ko": "계속"
+      },
+      "cardPlan": {
+        "en": "(monthly subscription)",
+        "ko": "(정기 구독)",
+        "ja": "(フォロー)"
+      },
+      "wireTransaction": {
+        "en": "(wire transaction)",
+        "ja": "(銀行振込)",
+        "ko": "(무통장 입금)"
+      },
+      "subscribeYourPlan": {
+        "en": "Subscribe Your Plan",
+        "ja": "プランのお申込み",
+        "ko": "플랜 신청"
+      },
+      "subscriptionTerms": {
+        "en": "Subscription Terms",
+        "ja": "利用期間",
+        "ko": "이용 기간",
+        "comment": "0918 한국어 수정"
+      },
+      "expiryDate": {
+        "en": "Termination Date",
+        "ja": "解約期間",
+        "ko": "해지 적용일"
+      },
+      "planInUse": {
+        "en": "Plan in Use",
+        "ja": "ご利用中のプラン",
+        "ko": "이용 중인 플랜"
+      },
+      "noPlanInUse": {
+        "en": "No Plan in Use",
+        "ja": "ご利用中のプランなし",
+        "ko": "이용 중인 플랜 없음"
+      },
+      "planSubscription": {
+        "en": "Plan Subscription",
+        "ja": "プランのお申込み",
+        "ko": "플랜 신청"
+      },
+      "changePlan": {
+        "en": "Change Plan",
+        "ja": "プラン変更",
+        "ko": "플랜 변경"
+      },
+      "viewMorePlans": {
+        "en": "View More Plans",
+        "ja": "プランもっと見る",
+        "ko": "플랜 더 보기"
+      },
+      "cancelPlanChange": {
+        "en": "Cancel Plan Change",
+        "ja": "プラン変更キャンセル",
+        "ko": "플랜 변경 취소"
+      },
+      "cancelSubscription": {
+        "en": "Cancel Subscription",
+        "ja": "プラン解約",
+        "ko": "플랜 해지"
+      },
+      "upgradePlan": {
+        "en": "Upgrade Plan",
+        "ja": "上位プランへアップグレード",
+        "ko": "플랜 업그레이드"
+      },
+      "proPlan": {
+        "ko": "Pro 플랜",
+        "ja": "Pro プラン",
+        "en": "Pro plan",
+        "comment": "210723 다국어 적용"
+      },
+      "onlyProPlan": {
+        "ko": "Pro 플랜 이상부터 사용 가능합니다.",
+        "ja": "Proプラン以上のプランからご利用できます。 ",
+        "en": "Available from Pro plan and above.",
+        "comment": "210813 다국어적용"
+      },
+      "chargePv": {
+        "en": "Top Up PVs",
+        "ja": "PVチャージ",
+        "ko": "PV 충전",
+        "comment": "toss"
+      },
+      "chargeJam": {
+        "en": "Top Up JAM",
+        "ja": "JAMチャージ",
+        "ko": "JAM 충전"
+      },
+      "charge": {
+        "en": "topped up",
+        "ja": "チャージ",
+        "ko": "충전"
+      },
+      "retake": {
+        "en": "Retake",
+        "ja": "再撮影",
+        "ko": "재촬영",
+        "comment": "210813 다국어적용"
+      },
+      "yes": {
+        "ko": "예",
+        "ja": "はい",
+        "en": "Yes"
+      },
+      "no": {
+        "ko": "아니오",
+        "ja": "いいえ",
+        "en": "No"
+      },
+      "yesWithPercentage": {
+        "ko": "예 {value}",
+        "ja": "はい {value}",
+        "en": "Yes {value}"
+      },
+      "noWithPercentage": {
+        "ko": "아니오 {value}",
+        "ja": "いいえ {value}",
+        "en": "No {value}"
+      },
+      "on": {
+        "ko": "ON",
+        "ja": "ON",
+        "en": "ON"
+      },
+      "off": {
+        "ko": "OFF",
+        "ja": "OFF",
+        "en": "OFF"
+      },
+      "preview": {
+        "ko": "미리보기",
+        "ja": "プレビュー",
+        "en": "Preview",
+        "comment": "202309 heatmap"
+      },
+      "nonStop": {
+        "ko": "종료 없음",
+        "ja": "制限なし",
+        "en": "Nonstop",
+        "comment": "202309 heatmap"
+      },
+      "instantlyStart": {
+        "ko": "즉시 시작",
+        "ja": "すぐ開始",
+        "en": "Start immediately"
+      },
+      "none": {
+        "ko": "날짜 추가",
+        "ja": "None",
+        "en": "Add dates",
+        "comment": "2021.07.21 기준 안 쓰이는 레이블"
+      },
+      "copy": {
+        "ko": "복사",
+        "ja": "コピー",
+        "en": "Copy"
+      },
+      "use": {
+        "en": "Apply",
+        "ja": "利用",
+        "ko": "적용"
+      },
+      "confirm": {
+        "ko": "확인",
+        "en": "Confirm",
+        "ja": "確認"
+      },
+      "register": {
+        "ko": "등록",
+        "en": "Register",
+        "ja": "登録"
+      },
+      "move": {
+        "ko": "이동",
+        "en": "Move",
+        "ja": "移動"
+      },
+      "edit": {
+        "ko": "수정",
+        "en": "Edit",
+        "ja": "編集"
+      },
+      "share": {
+        "ko": "공유",
+        "ja": "共有",
+        "en": "Sharing"
+      },
+      "delete": {
+        "ko": "삭제",
+        "en": "Delete",
+        "ja": "削除"
+      },
+      "change": {
+        "ko": "변경",
+        "en": "Change",
+        "ja": "変更",
+        "comment": "210813 다국어적용"
+      },
+      "sendSuccess": {
+        "ko": "전송 완료",
+        "en": "complete",
+        "ja": "送信完了",
+        "comment": "202309 heatmap"
+      },
+      "submit": {
+        "ko": "전송",
+        "en": "Submit",
+        "ja": "送信"
+      },
+      "cancel": {
+        "ko": "취소",
+        "en": "Cancel",
+        "ja": "キャンセル"
+      },
+      "name": {
+        "ko": "이름",
+        "ja": "氏名",
+        "en": "Name"
+      },
+      "exName": {
+        "ko": "홍길동",
+        "ja": "山田太郎",
+        "en": "Hong Gildong"
+      },
+      "ok": {
+        "ko": "OK",
+        "en": "OK",
+        "ja": "OK"
+      },
+      "save": {
+        "en": "Save",
+        "ja": "保存",
+        "ko": "저장"
+      },
+      "close": {
+        "ko": "닫기",
+        "en": "Close",
+        "ja": "閉じる"
+      },
+      "exit": {
+        "ko": "나가기",
+        "en": "Exit",
+        "ja": "閉じる"
+      },
+      "undo": {
+        "ko": "실행 취소",
+        "en": "Undo",
+        "ja": "元に戻す"
+      },
+      "view": {
+        "en": "View",
+        "ja": "確認",
+        "ko": "보기"
+      },
+      "selected": {
+        "ko": "선택됨",
+        "ja": "選択済み",
+        "en": "Selected",
+        "comment": "210813 다국어적용"
+      },
+      "trackingCode": {
+        "en": "Tracking Code",
+        "ko": "트래킹코드",
+        "ja": "トラッキングコード"
+      },
+      "contactUs": {
+        "ko": "이용 문의",
+        "ja": "お問い合わせ",
+        "en": "Contact Us"
+      },
+      "comingSoon": {
+        "ko": "Coming soon",
+        "ja": "Coming soon",
+        "en": "Coming soon"
+      },
+      "backToTop": {
+        "en": "Back To Top",
+        "ja": "トップへ戻る",
+        "ko": "맨 위로 가기",
+        "comment": "2020.09.10_SH : 영문 대소문자 수정"
+      },
+      "etc": {
+        "en": "etc.",
+        "ja": "その他",
+        "ko": "기타"
+      },
+      "etc2": {
+        "en": "etc.",
+        "ja": "その他.",
+        "ko": "그 외",
+        "comment": "220822 다국어 적용"
+      },
+      "reset": {
+        "en": "Reset",
+        "ko": "초기화",
+        "ja": "リセット"
+      },
+      "list": {
+        "ko": "목록",
+        "en": "List",
+        "ja": "一覧"
+      },
+      "select": {
+        "ko": "선택",
+        "en": "Select",
+        "ja": "選択"
+      },
+      "prev": {
+        "ko": "이전",
+        "ja": "前へ",
+        "en": "Back"
+      },
+      "next": {
+        "ko": "다음",
+        "ja": "次へ",
+        "en": "Next"
+      },
+      "back": {
+        "ko": "이전",
+        "en": "Back",
+        "ja": "戻る"
+      },
+      "id": {
+        "ko": "아이디",
+        "ja": "ID",
+        "en": "ID"
+      },
+      "email": {
+        "ko": "이메일",
+        "ja": "メールアドレス",
+        "en": "Email"
+      },
+      "password": {
+        "ko": "비밀번호",
+        "ja": "パスワード",
+        "en": "Password"
+      },
+      "currentPassword": {
+        "en": "Current Password",
+        "ko": "현재 비밀번호",
+        "ja": "現在のパスワード"
+      },
+      "newPassword": {
+        "ko": "새 비밀번호",
+        "en": "New Password",
+        "ja": "新しいパスワード"
+      },
+      "company": {
+        "en": "Company",
+        "ja": "会社名",
+        "ko": "회사명"
+      },
+      "userTel": {
+        "ko": "연락처",
+        "ja": "電話番号",
+        "en": "Contact Number"
+      },
+      "emailLang": {
+        "ko": "이메일 언어",
+        "ja": "メールの言語設定",
+        "en": "Email Language"
+      },
+      "timezone": {
+        "ko": "타임존",
+        "en": "Time zone",
+        "ja": "タイムゾーン"
+      },
+      "expireJam": {
+        "ko": "사용하지 않은 JAM은 유효기간이 <br> 지나면 소멸됩니다. JAM 메뉴의 <br> '유효기간 안내'를 확인해 주세요.",
+        "ja": "有効期限を過ぎたJAMは失効致します。<br>JAMメニューにて「有効期間のご案内」を<br>ご確認ください。",
+        "en": "JAM will expire after <br>the expiration date.<br> Please check the JAM menu <br> for the 'Expiration notice'."
+      },
+      "ipName": {
+        "en": "IP Name",
+        "ja": "IP名",
+        "ko": "IP명",
+        "comment": "IP Name"
+      },
+      "ipAddress": {
+        "en": "IP Address",
+        "ja": "IPアドレス",
+        "ko": "IP 주소"
+      },
+      "referrer": {
+        "en": "Referrer",
+        "ko": "유입경로",
+        "ja": "流入経路"
+      },
+      "date": {
+        "en": "Date",
+        "ja": "日付",
+        "ko": "일자"
+      },
+      "item": {
+        "en": "item",
+        "ja": "アイテム",
+        "ko": "항목"
+      },
+      "collectedPv": {
+        "en": "Tracked PV",
+        "ja": "収集PV",
+        "ko": "수집 PV"
+      },
+      "domain": {
+        "en": "Domain",
+        "ja": "ドメイン",
+        "ko": "도메인",
+        "comment": "210723 다국어 적용"
+      },
+      "subDomain": {
+        "en": "Sub Domain",
+        "ja": "サブドメイン",
+        "ko": "서브 도메인",
+        "comment": "230801 서브도메인"
+      },
+      "firstPath": {
+        "en": "Initial Path",
+        "ja": "Pathリスト",
+        "ko": "시작 패스",
+        "comment": "230801 서브도메인"
+      },
+      "allDomain": {
+        "en": "All Domain",
+        "ja": "全ドメイン",
+        "ko": "전체 도메인",
+        "comment": "230801 서브도메인"
+      },
+      "note": {
+        "en": "Note",
+        "ja": "案内",
+        "ko": "안내"
+      },
+      "noLimit": {
+        "ko": "제한 없음",
+        "ja": "制限なし",
+        "en": "Unlimited"
+      },
+      "directInput": {
+        "ko": "직접 입력",
+        "ja": "直接入力",
+        "en": "Direct Input"
+      },
+      "validation": {
+        "en": "Validation",
+        "ja": "有効性を検査する",
+        "ko": "유효성 검사하기",
+        "comment": "210813 다국어적용"
+      },
+      "all": {
+        "en": "All",
+        "ja": "すべて",
+        "ko": "전체"
+      },
+      "allSelect": {
+        "en": "Select All",
+        "ja": "全て選択",
+        "ko": "전체 선택",
+        "comment": "UTM 전체 선택에서 사용"
+      },
+      "allSelectForSearch": {
+        "en": "Select All Results",
+        "ja": "結果全て選択",
+        "ko": "결과 전체 선택",
+        "comment": "UTM 전체 선택에서 사용"
+      },
+      "seeAll": {
+        "en": "See All",
+        "ja": "全体を見る",
+        "ko": "전체보기"
+      },
+      "seeUrl": {
+        "ko": "롤백 URL",
+        "ja": "ロールバック URL",
+        "en": "Rollback URL",
+        "comment": "View URLs 에서 Rollback URL로 변경함"
+      },
+      "unapplied": {
+        "en": "Unapplied",
+        "ja": "未適用",
+        "ko": "미적용"
+      },
+      "recentMonths": {
+        "en": "Last {month} Months",
+        "ja": "過去{month}カ月",
+        "ko": "최근 {month}개월"
+      },
+      "remainingPV": {
+        "en": "Remaining PV",
+        "ja": "残存PV数",
+        "ko": "잔여 PV"
+      },
+      "userPV": {
+        "en": "Used PV",
+        "ja": "利用PV数",
+        "ko": "사용 PV"
+      },
+      "providedPV": {
+        "en": "Provided PV",
+        "ja": "提供PV数",
+        "ko": "제공 PV"
+      },
+      "planName": {
+        "en": "Plan",
+        "ja": "プラン名",
+        "ko": "플랜명"
+      },
+      "required": {
+        "ko": "필수",
+        "ja": "必須",
+        "en": "Required",
+        "comment": "220822 다국어 적용"
+      },
+      "servicePeriod": {
+        "en": "Service Period",
+        "ja": "利用期間",
+        "ko": "이용 기간"
+      },
+      "paymentMethod": {
+        "en": "Payment Method",
+        "ja": "決済方法",
+        "ko": "결제 수단"
+      },
+      "total": {
+        "en": "Total",
+        "ja": "合計",
+        "ko": "합계"
+      },
+      "totalKRW": {
+        "en": "Total (KRW)",
+        "ja": "合計 (KRW)",
+        "ko": "결제 금액"
+      },
+      "pageView": {
+        "ko": "Page View",
+        "ja": "Page View",
+        "en": "Page View",
+        "comment": "[BA] 지표관련용어 영문통일SH"
+      },
+      "usedDate": {
+        "en": "Date",
+        "ja": "日付",
+        "ko": "일자"
+      },
+      "remainReport": {
+        "ko": "잔여 Report",
+        "ja": "残りレポート",
+        "en": "Remaining Report"
+      },
+      "usedReport": {
+        "ko": "사용 Report",
+        "ja": "使用レポート",
+        "en": "Used Report"
+      },
+      "providedReport": {
+        "ko": "제공 Report",
+        "ja": "提供レポート",
+        "en": "Provided Report"
+      },
+      "ea": {
+        "ko": "개",
+        "en": "",
+        "ja": "つ"
+      },
+      "pv": {
+        "ko": "PV",
+        "ja": "PV",
+        "en": "PV"
+      },
+      "uv": {
+        "ko": "UV",
+        "ja": "UV",
+        "en": "UV"
+      },
+      "url": {
+        "ko": "URL",
+        "ja": "URL",
+        "en": "URL"
+      },
+      "session": {
+        "ko": "Session",
+        "ja": "Session",
+        "en": "Session",
+        "comment": "[BA] 지표관련용어 영문통일SH"
+      },
+      "sessions": {
+        "ko": "Sessions",
+        "ja": "Sessions",
+        "en": "Sessions",
+        "comment": "[BA] 지표관련용어 영문통일SH"
+      },
+      "sessioni": {
+        "ko": "세션",
+        "ja": "セッション",
+        "en": "Session"
+      },
+      "duration": {
+        "ko": "평균 체류시간",
+        "ja": "平均滞在時間",
+        "en": "Avg. Duration",
+        "comment": "21.07.23 다국어 적용"
+      },
+      "dropOff": {
+        "ko": "이탈한 세션",
+        "ja": "離脱した<br>セッション",
+        "en": "Drop Off",
+        "comment": "21.07.23 다국어 적용"
+      },
+      "refresh": {
+        "ko": "새로고침",
+        "ja": "更新ボタン",
+        "en": "Refresh",
+        "comment": "21.07.23 다국어 적용"
+      },
+      "rollback": {
+        "ko": "롤백",
+        "ja": "ロールバック",
+        "en": "Rollback",
+        "comment": "21.07.23 다국어 적용"
+      },
+      "conversion": {
+        "ko": "전이",
+        "ja": "遷移",
+        "en": "Conversion",
+        "comment": "241015 전환 -> 전이"
+      },
+      "mptiLabel": {
+        "ko": "MPTI 레이블",
+        "ja": "MPTI タグ",
+        "en": "MPTI Tag"
+      },
+      "asc": {
+        "en": "Ascending",
+        "ko": "오름차순",
+        "ja": "昇順"
+      },
+      "desc": {
+        "en": "Descending",
+        "ko": "내림차순",
+        "ja": "降順"
+      },
+      "noData": {
+        "en": "No Data",
+        "ja": "データなし",
+        "ko": "데이터 없음"
+      },
+      "noRecord": {
+        "en": "No records found",
+        "ko": "조회된 내역이 없습니다.",
+        "ja": "照会された内訳が存在しません。"
+      },
+      "noResult": {
+        "en": "No Result Found",
+        "ko": "결과를 찾을 수 없습니다.",
+        "ja": "結果が見つかりません。",
+        "comment": "210824 다국어적용"
+      },
+      "noHeatmapResult": {
+        "en": "No registered heatmaps found.",
+        "ko": "등록된 히트맵이 존재하지 않습니다.",
+        "ja": "登録したヒートマップが存在しません。",
+        "comment": "210824 다국어적용"
+      },
+      "noResultSearch": {
+        "en": "Please enter another search term.",
+        "ko": "다른 검색어를 입력해 주세요.",
+        "ja": "他のキーワードで検察してください。"
+      },
+      "noResultSearch2": {
+        "en": "We could not find results to match your search.",
+        "ko": "검색에 맞는 결과를 찾을 수 없습니다.",
+        "ja": "該当する検索結果がみつかりませんでした。",
+        "comment": "[다국어 필요]"
+      },
+      "noCollectedData": {
+        "en": "No data has been collected.",
+        "ko": "수집된 데이터가 존재하지 않습니다.",
+        "ja": "収集されたデータがありません。",
+        "comment": "210824 다국어적용"
+      },
+      "noCollectedSurvey": {
+        "en": "No surveys took place during the set analysis period.",
+        "ko": "사용자가 설정한 기간에 진행된 설문이 없습니다.",
+        "ja": "ユーザーが設定した期間に行われたアンケートがありません。",
+        "comment": "[다국어 필요]"
+      },
+      "loading": {
+        "ko": "데이터를 불러오는 중입니다.",
+        "ja": "データを読み込み中です。",
+        "en": "Loading Data"
+      },
+      "loadingDot": {
+        "en": "Loading...",
+        "ja": "読み込み中...",
+        "ko": "로딩 중..."
+      },
+      "downloadingDot": {
+        "en": "Downloading...",
+        "ja": "ダウンロード中...",
+        "ko": "다운로드 중..."
+      },
+      "downloadFailed": {
+        "title": {
+          "en": "Download Failed",
+          "ja": "ダウンロード失敗",
+          "ko": "다운로드 실패"
+        },
+        "desc": {
+          "en": "Please try again later.",
+          "ko": "잠시 후에 다시 시도해 주세요.",
+          "ja": "しばらくしてからもう一度お試しください。"
+        }
+      },
+      "copied": {
+        "ko": "클립보드에 복사되었습니다.",
+        "ja": "クリップボードにコピーされました。",
+        "en": "Copied to clipboard."
+      },
+      "browserNotSupported": {
+        "title": {
+          "en": "Browser Not Supported",
+          "ja": "サポートされていないブラウザ",
+          "ko": "지원하지 않는 브라우저"
+        },
+        "desc": {
+          "en": "Please use Google Chrome.",
+          "ko": "Chrome 브라우저를 통해 이용해 주세요.",
+          "ja": "Chromeブラウザをご利用ください。"
+        }
+      },
+      "lastDay": {
+        "ko": "Last Day",
+        "en": "Last Day",
+        "ja": "Last Day",
+        "comment": "[BA] 지표타이틀 영문통일SH"
+      },
+      "today": {
+        "ko": "Today",
+        "en": "Today",
+        "ja": "Today",
+        "comment": "[BA] 지표타이틀 영문통일SH"
+      },
+      "weekly": {
+        "ko": "Weekly",
+        "en": "Weekly",
+        "ja": "Weekly",
+        "comment": "[BA] 지표타이틀 영문통일SH"
+      },
+      "lastWeek": {
+        "ko": "지난 주",
+        "en": "Last Week",
+        "ja": "先週",
+        "comment": "210723 다국어 적용"
+      },
+      "thisWeek": {
+        "ko": "이번 주",
+        "en": "This Week",
+        "ja": "今週",
+        "comment": "210723 다국어 적용"
+      },
+      "rank": {
+        "ko": "순위",
+        "en": "Rank",
+        "ja": "順位"
+      },
+      "new": {
+        "ko": "신규",
+        "en": "New",
+        "ja": "新規"
+      },
+      "new2": {
+        "ko": "New",
+        "en": "New",
+        "ja": "新規"
+      },
+      "return": {
+        "en": "Returning",
+        "ja": "再訪問",
+        "ko": "재방문"
+      },
+      "device": {
+        "en": "Device",
+        "ja": "デバイス",
+        "ko": "기기"
+      },
+      "period": {
+        "en": "Period",
+        "ja": "期間",
+        "ko": "기간"
+      },
+      "device2": {
+        "en": "Device",
+        "ja": "デバイス",
+        "ko": "디바이스"
+      },
+      "os": {
+        "en": "OS",
+        "ko": "OS",
+        "ja": "OS"
+      },
+      "browser": {
+        "en": "Browser",
+        "ja": "ブラウザ",
+        "ko": "브라우저"
+      },
+      "avg": {
+        "en": "Avg.",
+        "ja": "Avg.",
+        "ko": "Avg."
+      },
+      "min": {
+        "en": "Min",
+        "ja": "Min",
+        "ko": "Min"
+      },
+      "mid": {
+        "en": "Mid",
+        "ja": "Mid",
+        "ko": "Mid"
+      },
+      "max": {
+        "en": "Max",
+        "ja": "Max",
+        "ko": "Max"
+      },
+      "holding": {
+        "en": "Holding",
+        "ja": "保有",
+        "ko": "보유"
+      },
+      "spending": {
+        "en": "Spending",
+        "ja": "使用",
+        "ko": "사용"
+      },
+      "remaining": {
+        "en": "Remaining",
+        "ja": "残余",
+        "ko": "잔여"
+      },
+      "jamCharging": {
+        "ko": "JAM 결제를 위해 충전이 필요합니다.",
+        "ja": "JAM決済のためにチャージが必要です。",
+        "en": "You need to top up for JAM payment."
+      },
+      "noJam": {
+        "ko": "보유하신 JAM이 없습니다.<br>JAM으로 더 많은 기능과 혜택을 손쉽게 누려보세요!",
+        "ja": "保有しているJAMがありません。<br>JAMでより多くの機能と特典を簡単に楽しんでください！",
+        "en": "You have no JAM.<br> Enjoy more features and benefits easily with JAM!"
+      },
+      "invalidValue": {
+        "ko": "무효 수치",
+        "en": "Invalid Value",
+        "ja": "無効値"
+      },
+      "invalidValueDesc": {
+        "ko": "수집된 샘플 데이터가 적으므로 결과를<br> 표시할 수 없습니다.",
+        "en": "The collected sample data<br> is too small, so the results<br> cannot be displayed.",
+        "ja": "収集されたサンプルデータが<br>少ないため、結果を表示できません。"
+      },
+      "samplingReliability": {
+        "reliabilityRateText": {
+          "ko": "리포트는 리샘플링된 데이터로, {data}%의 신뢰도를 갖습니다.",
+          "en": "The report is based on resampled data and has {data}% credibility.",
+          "ja": "レポートはリサンプリングされたデータで、{data}% の信頼度を持ちます。"
+        },
+        "samplingRateText": {
+          "ko": "리포트는 {data}%로 샘플링된 데이터입니다.",
+          "en": "The report is based on data sampled at {data}%.",
+          "ja": "レポートは{data}% でサンプリングされたデータです。"
+        },
+        "reliabilityRateException": {
+          "ko": "샘플링 비율이 변경된 기간이므로 신뢰도가 제공되지 않습니다.",
+          "en": "Sampling rate changed during this period, so reliability data is unavailable.",
+          "ja": "この期間はサンプリング比率が変更されたため、信頼性データは提供されません。"
+        }
+      },
+      "reportIndicator": {
+        "pageViews": {
+          "label": {
+            "en": "Page Views",
+            "ja": "Page Views",
+            "ko": "Page Views"
+          },
+          "tooltip": {
+            "ko": "페이지의 방문 조회 수",
+            "ja": "ページの訪問数",
+            "en": "The number of page visits",
+            "comment": "!!영어 수정"
+          }
+        },
+        "conversionRate": {
+          "label": {
+            "en": "Conversion Rate",
+            "ja": "Conversion Rate",
+            "ko": "Conversion Rate"
+          },
+          "tooltip": {
+            "ko": "현 페이지 링크/버튼으로 다른 페이지로 이동한 PV 비율",
+            "ja": "現在ページ内のリンク/ボタンで他のページに移動したPV率",
+            "en": "The percentage of PV converted to other pages<br>via a link/button in the current page",
+            "comment": "!!줄바꿈 "
+          }
+        },
+        "clicksPerPv": {
+          "label": {
+            "en": "Clicks per PV",
+            "ja": "Clicks per PV",
+            "ko": "Clicks per PV",
+            "comment": "before: 1PV당 클 / 영어로 통일"
+          },
+          "tooltip": {
+            "ko": "1 PV가 콘텐츠를 클릭한 횟수",
+            "ja": "1PVがコンテンツをクリック(タップ)した回数",
+            "en": "The number of times that PV clicked(tapped) contents",
+            "comment": "!!영어 수정!!20201013　일어 수정 확인필요kjy"
+          }
+        },
+        "clickPvRate": {
+          "label": {
+            "en": "Click PV Rate",
+            "ja": "Click PV Rate",
+            "ko": "Click PV Rate"
+          },
+          "tooltip": {
+            "ko": "전체 PV 중 클릭한 PV 비율",
+            "ja": "全体のPV数から<br>クリックしたPVの割合",
+            "en": "Percentage of the clicked PV<br> to total PV counts"
+          }
+        },
+        "tapsPerPv": {
+          "label": {
+            "en": "Taps per PV",
+            "ja": "Taps per PV",
+            "ko": "Taps per PV",
+            "comment": "[mobile gesture]"
+          },
+          "tooltip": {
+            "ko": "1 PV가 콘텐츠를 Tap한 횟수",
+            "ja": "1PVがコンテンツをタップした回数",
+            "en": "The number of times that PV tapped contents",
+            "comment": "[20201012+mobile gesture 일어번역필요]!!20201013　일어 수정 확인필요kjy"
+          }
+        },
+        "tapPvRate": {
+          "label": {
+            "en": "Tap PV Rate",
+            "ja": "Tap PV Rate",
+            "ko": "Tap PV Rate",
+            "comment": "[mobile gesture]"
+          },
+          "tooltip": {
+            "ko": "전체 PV 중 Tap한 PV 비율",
+            "ja": "全体のPV数から<br>タップしたPVの割合",
+            "en": "Percentage of the tapped PV<br> to total PV counts",
+            "comment": "[20201012+mobile gesture 일어번역필요]!!20201013　일어 수정 확인필요kjy"
+          }
+        },
+        "exitRate": {
+          "label": {
+            "en": "Exit Rate",
+            "ja": "Exit Rate",
+            "ko": "Exit Rate"
+          },
+          "tooltip": {
+            "ko": "링크/버튼을 Click/Tap해서<br> 다른 페이지로 이동하지 않고<br> 종료한 PV 비율",
+            "ja": "リンク/ボタンをクリック(タップ)した後、<br>他のページへ移動せずに終了したPV率",
+            "en": "Percentage of PV that have exited <br>without having to click links/buttons <br>to move to other pages",
+            "comment": "0916 - 영문 수정[edit_mobile gesture]!!20201013　일어 수정 확인필요kjy"
+          }
+        },
+        "avgDuration": {
+          "label": {
+            "en": "Avg. Duration",
+            "ja": "Avg. Duration",
+            "ko": "Avg. Duration",
+            "comment": "before: 평균 체류시간 / 영어로 통일"
+          },
+          "tooltip": {
+            "ko": "페이지에 방문한 뒤<br> 전환 또는 종료하기까지<br> 소요된 평균 시간",
+            "ja": "ページに訪問した上で移動、<br>または終了までかかる平均時間",
+            "en": "The average amount of time it took<br>for users to convert or exit",
+            "comment": "todo: 줄바꿈 필요"
+          }
+        },
+        "meanResidenceTime": {
+          "label": {
+            "en": "Mean Duration Time",
+            "ko": "평균 체류 시간",
+            "ja": "平均滞在時間"
+          }
+        },
+        "clickRate": {
+          "label": {
+            "en": "Click Rate",
+            "ja": "Click Rate",
+            "ko": "Click Rate"
+          },
+          "tooltip": {
+            "ko": "All click count 대비 Click Count 비율",
+            "ja": "すべてのクリック数に占める<br>クリック数の割合",
+            "en": "Percentage of click count<br>of an element to total clicks",
+            "comment": "0919 영어 <br>수정"
+          }
+        },
+        "tapRate": {
+          "label": {
+            "en": "Tap Rate",
+            "ja": "Tap Rate",
+            "ko": "Tap Rate",
+            "comment": "[mobile gesture]"
+          },
+          "tooltip": {
+            "ko": "All tap count 대비 Tap Count 비율",
+            "ja": "すべてのタップ数に占める<br>タップ数の割合",
+            "en": "Percentage of tap count<br>of an element to total taps",
+            "comment": "[20201012+mobile gesture 일어번역필요]!!20201013　일어 수정 확인필요kjy"
+          }
+        },
+        "dblTapRate": {
+          "label": {
+            "en": "Dbl. Tap Rate",
+            "ja": "Dbl. Tap Rate",
+            "ko": "Dbl. Tap Rate",
+            "comment": "[mobile gesture]"
+          },
+          "tooltip": {
+            "ko": "All double tap count 대비 Double Tap Count 비율",
+            "ja": "すべてのダブルタップ数に占める<br>ダブルタップ数の割合",
+            "en": "Percentage of double tap count<br>of an element to total double taps",
+            "comment": "[20201012+mobile gesture 일어번역필요]!!20201013　일어 수정 확인필요kjy"
+          }
+        },
+        "zoominRate": {
+          "label": {
+            "en": "Zoom In Rate",
+            "ja": "Zoom In Rate",
+            "ko": "Zoom In Rate",
+            "comment": "[mobile gesture]"
+          },
+          "tooltip": {
+            "ko": "All zoom in count 대비 Zoom In Count 비율",
+            "ja": "すべてのズーム・イン数に占める<br>ズーム・イン数の割合",
+            "en": "Percentage of zoom in count<br>of an element to total zoom in",
+            "comment": "[20201012+mobile gesture 일어번역필요]!!20201013　일어 수정 확인필요kjy"
+          }
+        },
+        "zoomoutRate": {
+          "label": {
+            "en": "Zoom Out Rate",
+            "ja": "Zoom Out Rate",
+            "ko": "Zoom Out Rate",
+            "comment": "[mobile gesture]"
+          },
+          "tooltip": {
+            "ko": "All zoom out count 대비 Zoom Out Count 비율",
+            "ja": "すべてのズーム・アウト数に占める<br>ズーム・アウト数の割合",
+            "en": "Percentage of zoom out count<br>of an element to total zoom out",
+            "comment": "[20201012+mobile gesture 일어번역필요]!!20201013　일어 수정 확인필요kjy"
+          }
+        },
+        "swipeUpRate": {
+          "label": {
+            "en": "Swipe Up Rate",
+            "ja": "Swipe Up Rate",
+            "ko": "Swipe Up Rate",
+            "comment": "[mobile gesture]"
+          },
+          "tooltip": {
+            "ko": "All swipe up count 대비 Swipe Up Count 비율",
+            "ja": "すべてのスワイプ・アップ数に占める<br>スワイプ・アップ数の割合",
+            "en": "Percentage of zoom out count<br>of an element to total zoom out",
+            "comment": "[20201012+mobile gesture 일어번역필요] !!20201013　일어 수정 확인필요kjy"
+          }
+        },
+        "swipeDownRate": {
+          "label": {
+            "en": "Swipe Down Rate",
+            "ja": "Swipe Down Rate",
+            "ko": "Swipe Down Rate",
+            "comment": "[mobile gesture]"
+          },
+          "tooltip": {
+            "ko": "All swipe down count 대비 Swipe Down Count 비율",
+            "ja": "すべてのスワイプ・ダウン数に占める<br>スワイプ・ダウン数の割合",
+            "en": "Percentage of zoom out count<br>of an element to total zoom out",
+            "comment": "[20201012+mobile gesture 일어번역필요] !!20201013　일어 수정 확인필요kjy"
+          }
+        },
+        "swipeLeftRate": {
+          "label": {
+            "en": "Swipe Left Rate",
+            "ja": "Swipe Left Rate",
+            "ko": "Swipe Left Rate",
+            "comment": "[mobile gesture]"
+          },
+          "tooltip": {
+            "ko": "All swipe left count 대비 Swipe Left Count 비율",
+            "ja": "すべてのスワイプ・レフト数に占める<br>スワイプ・レフト数の割合",
+            "en": "Percentage of zoom out count<br>of an element to total zoom out",
+            "comment": "[20201012+mobile gesture 일어번역필요] !!20201013　일어 수정 확인필요kjy"
+          }
+        },
+        "swipeRightRate": {
+          "label": {
+            "en": "Swipe Right Rate",
+            "ja": "Swipe Right Rate",
+            "ko": "Swipe Right Rate",
+            "comment": "[mobile gesture]"
+          },
+          "tooltip": {
+            "ko": "All swipe right count 대비 Swipe Right Count 비율",
+            "ja": "すべてのスワイプ・ライト数に占める<br>スワイプ・ライト数の割合",
+            "en": "Percentage of zoom out count<br>of an element to total zoom out",
+            "comment": "[20201012+mobile gesture 일어번역필요] !!20201013　일어 수정 확인필요kjy"
+          }
+        },
+        "hoverToClick": {
+          "label": {
+            "en": "Hover to Click",
+            "ja": "Hover to Click",
+            "ko": "Hover to Click"
+          },
+          "tooltip": {
+            "ko": "Hover Count 대비 Click Count 비율",
+            "ja": "ホバー数に占めるクリック数の割合",
+            "en": "Percentage of click count<br>to hover count of an element",
+            "comment": "!! 줄바꿈 필요"
+          }
+        },
+        "scrollToClick": {
+          "label": {
+            "en": "Scroll to Click",
+            "ja": "Scroll to Click",
+            "ko": "Scroll to Click"
+          },
+          "tooltip": {
+            "ko": "Scroll이 도달한 PV 대비<br> Click한 PV 비율",
+            "ja": "スクロールにより到達したPVに占める<br>クリックしたPVの割合",
+            "en": "Percentage of the scroll-reached PV<br>to the PV that clicked the element"
+          }
+        },
+        "scrollToTap": {
+          "label": {
+            "en": "Scroll to Tap",
+            "ja": "Scroll to Tap",
+            "ko": "Scroll to Tap",
+            "comment": "[mobile gesture]"
+          },
+          "tooltip": {
+            "ko": "Scroll이 도달한 PV 대비<br> Tap한 PV 비율",
+            "ja": "スクロールにより到達したPVに占める<br>タップしたPVの割合",
+            "en": "Percentage of the scroll-reached PV<br>to the PV that clicked the element",
+            "comment": "[20201012+mobile gesture 일어번역필요] !!20201013　일어 수정 확인필요kjy"
+          }
+        },
+        "hoverClickTime": {
+          "label": {
+            "en": "Hover<i class='icon icon--arrow-gray-size11'></i>Click",
+            "ja": "Hover<i class='icon icon--arrow-gray-size11'></i>Click",
+            "ko": "Hover<i class='icon icon--arrow-gray-size11'></i>Click"
+          },
+          "tooltip": {
+            "ko": "Hover 후 클릭하기까지의 평균 시간",
+            "en": "Average time user took<br>to click after hovering",
+            "ja": "ホバーした後、<br>クリックまでかかる平均時間",
+            "comment": "before: Hover 후 클릭<br>되기 까지의 평균시간/일본어 수정"
+          }
+        },
+        "hovers": {
+          "label": {
+            "en": "Hovers",
+            "ja": "Hovers",
+            "ko": "Hovers",
+            "comment": "before: 호버"
+          },
+          "tooltip": {
+            "en": "The number of mouse hovers",
+            "ja": "マウスホバーした数",
+            "ko": "마우스 호버 수",
+            "comment": "before: 호버한<br>마우스수 / !!영어 수정 !!20201013　일어 수정 확인필요kjy"
+          }
+        }
+      },
+      "unit": {
+        "pv": {
+          "en": "PV",
+          "ja": "PV",
+          "ko": "PV"
+        },
+        "uv": {
+          "en": "UV",
+          "ja": "UV",
+          "ko": "UV"
+        },
+        "session": {
+          "en": "Sessions",
+          "ja": "Sessions",
+          "ko": "Sessions",
+          "comment": "[BA] 지표타이틀 영문통일"
+        },
+        "perSession": {
+          "ko": "세션당",
+          "ja": "セッション",
+          "en": "Per Sessions",
+          "comment": "[BA] 지표타이틀 영문통일"
+        },
+        "perPage": {
+          "ko": "1페이지당",
+          "ja": "Per Page",
+          "en": "Per Page",
+          "comment": "[BA] 지표타이틀 영문통일"
+        },
+        "day": {
+          "en": "D",
+          "ja": "D",
+          "ko": "D"
+        },
+        "hour": {
+          "en": "H",
+          "ja": "H",
+          "ko": "H"
+        },
+        "week": {
+          "en": "W",
+          "ja": "W",
+          "ko": "W"
+        },
+        "month": {
+          "en": "M",
+          "ja": "M",
+          "ko": "M"
+        },
+        "count": {
+          "ko": "count",
+          "ja": "count",
+          "en": "count"
+        },
+        "counts": {
+          "ko": "counts",
+          "ja": "counts",
+          "en": "counts"
+        },
+        "gae": {
+          "ko": "개",
+          "ja": "個",
+          "en": ""
+        },
+        "people": {
+          "ko": "명",
+          "ja": "人",
+          "en": ""
+        },
+        "tag": {
+          "ko": "Tag",
+          "ja": "Tag",
+          "en": "Tag"
+        },
+        "page": {
+          "ko": "Page",
+          "ja": "Page",
+          "en": "Page"
+        },
+        "pages": {
+          "ko": "Pages",
+          "ja": "Pages",
+          "en": "Pages"
+        },
+        "click": {
+          "en": "Click",
+          "ko": "Click",
+          "ja": "Click",
+          "comment": "한, 일어 영문으로 통일 / 0916 - 대문자화"
+        },
+        "clicks": {
+          "en": "Clicks",
+          "ko": "Clicks",
+          "ja": "Clicks",
+          "comment": "한, 일어 영문으로 통일 / 0916 - 대문자화"
+        },
+        "tap": {
+          "en": "Tap",
+          "ko": "Tap",
+          "ja": "Tap",
+          "comment": "[mobile gesture]"
+        },
+        "doubleTap": {
+          "en": "Double Tap",
+          "ko": "Double Tap",
+          "ja": "Double Tap",
+          "comment": "[mobile gesture]"
+        },
+        "zoomin": {
+          "en": "Zoom In",
+          "ko": "Zoom In",
+          "ja": "Zoom In",
+          "comment": "[mobile gesture]"
+        },
+        "zoomout": {
+          "en": "Zoom Out",
+          "ko": "Zoom Out",
+          "ja": "Zoom Out",
+          "comment": "[mobile gesture]"
+        },
+        "swipeVertical": {
+          "en": "Vertical Swipe",
+          "ko": "Vertical Swipe",
+          "ja": "Vertical Swipe",
+          "comment": "[mobile gesture]"
+        },
+        "swipeHorizontal": {
+          "en": "Horizontal Swipe",
+          "ko": "Horizontal Swipe",
+          "ja": "Horizontal Swipe",
+          "comment": "[mobile gesture]"
+        },
+        "swipeUp": {
+          "en": "Swipe Up",
+          "ko": "Swipe Up",
+          "ja": "Swipe Up",
+          "comment": "[mobile gesture]"
+        },
+        "swipeDown": {
+          "en": "Swipe Down",
+          "ko": "Swipe Down",
+          "ja": "Swipe Down",
+          "comment": "[mobile gesture]"
+        },
+        "swipeLeft": {
+          "en": "Swipe Left",
+          "ko": "Swipe Left",
+          "ja": "Swipe Left",
+          "comment": "[mobile gesture]"
+        },
+        "swipeRight": {
+          "en": "Swipe Right",
+          "ko": "Swipe Right",
+          "ja": "Swipe Right",
+          "comment": "[mobile gesture]"
+        },
+        "horizontal": {
+          "en": "Horizontal",
+          "ko": "Horizontal",
+          "ja": "Horizontal",
+          "comment": "[mobile gesture]"
+        },
+        "vertical": {
+          "en": "Vertical",
+          "ko": "Vertical",
+          "ja": "Vertical",
+          "comment": "[mobile gesture]"
+        },
+        "clicked": {
+          "en": "Clicked",
+          "ja": "Clicked",
+          "ko": "Clicked",
+          "comment": "일어 영문으로 통일"
+        },
+        "unClicked": {
+          "en": "Unclicked",
+          "ja": "Unclicked",
+          "ko": "Unclicked",
+          "comment": "일어 영문으로 통일"
+        },
+        "allClick": {
+          "en": "All clicks",
+          "ja": "すべてのクリック",
+          "ko": "모든 클릭",
+          "comment": "todo: only EN? ___20201012 안쓰임"
+        },
+        "sale": {
+          "ko": "{data}% 할인",
+          "en": "{data}% off",
+          "ja": "{data}%割引 "
+        }
+      },
+      "pagination": {
+        "first": {
+          "ko": "맨 처음 페이지로 이동",
+          "ja": "最初のページに戻る",
+          "en": "Jump to the first page"
+        },
+        "prev": {
+          "ko": "이전 페이지로 이동",
+          "ja": "前のページに戻る",
+          "en": "Go back to previous page"
+        },
+        "next": {
+          "ko": "다음 페이지로 이동",
+          "ja": "次のページへ移動する",
+          "en": "Move to next page"
+        },
+        "last": {
+          "ko": "맨 끝 페이지로 이동",
+          "ja": "最後のページへ移動する",
+          "en": "Jump to the last page"
+        },
+        "viewPerPage": {
+          "en": "Items Per Page",
+          "ja": "ページ別表示",
+          "ko": "표시 항목 수"
+        }
+      },
+      "month": {
+        "jan": {
+          "en": "Jan",
+          "ja": "1月",
+          "ko": "1월"
+        },
+        "feb": {
+          "en": "Feb",
+          "ja": "2月",
+          "ko": "2월"
+        },
+        "mar": {
+          "en": "Mar",
+          "ja": "3月",
+          "ko": "3월"
+        },
+        "apr": {
+          "en": "Apr",
+          "ja": "4月",
+          "ko": "4월"
+        },
+        "may": {
+          "en": "May",
+          "ja": "5月",
+          "ko": "5월"
+        },
+        "june": {
+          "en": "Jun",
+          "ja": "6月",
+          "ko": "6월"
+        },
+        "july": {
+          "en": "Jul",
+          "ja": "7月",
+          "ko": "7월"
+        },
+        "aug": {
+          "en": "Aug",
+          "ja": "8月",
+          "ko": "8월"
+        },
+        "sep": {
+          "en": "Sep",
+          "ja": "9月",
+          "ko": "9월"
+        },
+        "oct": {
+          "en": "Oct",
+          "ja": "10月",
+          "ko": "10월"
+        },
+        "nov": {
+          "en": "Nov",
+          "ja": "11月",
+          "ko": "11월"
+        },
+        "dec": {
+          "en": "Dec",
+          "ja": "12月",
+          "ko": "12월"
+        }
+      },
+      "left": {
+        "en": "Left",
+        "ja": "左側",
+        "ko": "왼쪽",
+        "comment": "220822 다국어 적용"
+      },
+      "right": {
+        "en": "Right",
+        "ja": "右側",
+        "ko": "오른쪽",
+        "comment": "220822 다국어 적용"
+      },
+      "deviceType": {
+        "desktop": {
+          "ko": "Desktop",
+          "ja": "Desktop",
+          "en": "Desktop"
+        },
+        "tablet": {
+          "ko": "Tablet",
+          "ja": "Tablet",
+          "en": "Tablet"
+        },
+        "phone": {
+          "ko": "Phone",
+          "ja": "Phone",
+          "en": "Phone"
+        },
+        "desktop2": {
+          "ko": "데스크탑",
+          "ja": "デスクトップ",
+          "en": "Desktop",
+          "comment": "220822 다국어 적용"
+        },
+        "tablet2": {
+          "ko": "태블릿",
+          "ja": "タブレット",
+          "en": "Tablet",
+          "comment": "220822 다국어 적용"
+        },
+        "phone2": {
+          "ko": "모바일",
+          "ja": "モバイル",
+          "en": "Mobile",
+          "comment": "220822 다국어 적용"
+        },
+        "mobile2": {
+          "ko": "모바일",
+          "ja": "モバイル",
+          "en": "Mobile",
+          "comment": "220822 다국어 적용"
+        }
+      },
+      "matchType": {
+        "simple": {
+          "ko": "Simple",
+          "ja": "Simple",
+          "en": "Simple"
+        },
+        "exact": {
+          "ko": "Exact",
+          "ja": "Exact",
+          "en": "Exact"
+        },
+        "starts": {
+          "ko": "Starts",
+          "ja": "Starts",
+          "en": "Starts"
+        },
+        "start": {
+          "ko": "Starts",
+          "ja": "Starts",
+          "en": "Starts"
+        },
+        "ends": {
+          "ko": "Ends",
+          "ja": "Ends",
+          "en": "Ends"
+        },
+        "end": {
+          "ko": "Ends",
+          "ja": "Ends",
+          "en": "Ends"
+        },
+        "contains": {
+          "ko": "Contains",
+          "ja": "Contains",
+          "en": "Contains"
+        },
+        "contain": {
+          "ko": "Contains",
+          "ja": "Contains",
+          "en": "Contains"
+        },
+        "regExp": {
+          "ko": "Regular Expression",
+          "ja": "Regular Expression",
+          "en": "Regular Expression"
+        },
+        "regexp": {
+          "ko": "Regular Expression",
+          "ja": "Regular Expression",
+          "en": "Regular Expression"
+        },
+        "urlLabel": {
+          "ko": "분석할 URL",
+          "ja": "分析対象のURL",
+          "en": "URL to Analyze"
+        },
+        "endsMatchStringLabel": {
+          "en": "Ends Text",
+          "ko": "Ends Text",
+          "ja": "Ends Text"
+        },
+        "containsMatchStringLabel": {
+          "en": "Contains Text",
+          "ko": "Contains Text",
+          "ja": "Contains Text"
+        },
+        "regExpMatchStringLabel": {
+          "en": "Regular Expression",
+          "ko": "Regular Expression",
+          "ja": "Regular Expression"
+        }
+      },
+      "datePeriodNotice": {
+        "ko": "최대 조회 기간은 <span class='emphasis_red'>6개월</span>입니다.",
+        "en": "The maximum inquiry period is <span class='emphasis_red'>6 months</span>.",
+        "ja": "最大照会期間は、<span class='emphasis_red'>6ヶ月</span>です。",
+        "comment": "210813 다국어적용"
+      },
+      "placeHolder": {
+        "enterEmail": {
+          "en": "Please enter your email address.",
+          "ja": "メールアドレスを入力してください。",
+          "ko": "이메일을 입력해 주세요."
+        },
+        "enterCompany": {
+          "en": "Please enter the name of your company.",
+          "ja": "会社名を入力してください。",
+          "ko": "회사명을 입력해 주세요."
+        },
+        "enterPhoneNumber": {
+          "en": "Please enter your contact number.",
+          "ja": "電話番号を入力してください。",
+          "ko": "전화번호를 입력해 주세요."
+        },
+        "enterPassword": {
+          "ko": "비밀번호를 입력해 주세요.",
+          "en": "Please enter your password.",
+          "ja": "パスワードを入力してください。"
+        },
+        "enter6char": {
+          "en": "Please enter a minimum of 6 characters.",
+          "ja": "パスワードは６文字以上です。",
+          "ko": "비밀번호는 6자 이상이어야 합니다."
+        },
+        "startDate": {
+          "en": "Start date",
+          "ko": "시작일",
+          "ja": "開始日"
+        },
+        "endDate": {
+          "en": "End date",
+          "ko": "종료일",
+          "ja": "終了日"
+        },
+        "periodStart": {
+          "en": "Please select the start date.",
+          "ko": "시작일을 설정해 주세요.",
+          "ja": "開始日を設定してください。"
+        },
+        "periodEnd": {
+          "en": "Please select the end date.",
+          "ko": "종료일을 설정해 주세요.",
+          "ja": "終了日を設定してください。"
+        },
+        "enterIpName": {
+          "en": "IP Name",
+          "ja": "IP名",
+          "ko": "IP명",
+          "comment": "일본어 수정"
+        },
+        "ipAddress": {
+          "en": "183.100.246.74",
+          "ja": "183.100.246.74",
+          "ko": "183.100.246.74"
+        },
+        "within": {
+          "ko": "{count}자 이하로 입력해 주세요.",
+          "ja": "{count}字以内で入力してください。",
+          "en": "Enter within {count} characters."
+        }
+      },
+      "validationErrorText": {
+        "invalidParams": {
+          "ko": "잘못된 요청입니다.",
+          "ja": "不正なリクエストです。",
+          "en": "Invalid Request"
+        },
+        "userNotFound": {
+          "ko": "사용자 정보를 찾을 수 없습니다.",
+          "ja": "ユーザーの情報が見つかりません。",
+          "en": "No users found."
+        },
+        "resetPasswordKeyExpired": {
+          "ko": "비밀번호 재설정 기간이 만료되었습니다.",
+          "ja": "パスワード再確認の有効期間が経過しました。",
+          "en": "Password reset period has expired."
+        },
+        "requiredId": {
+          "ko": "아이디를 입력해 주세요.",
+          "ja": "IDを入力してください。",
+          "en": "Please enter your ID."
+        },
+        "notFoundId": {
+          "ko": "가입되지 않은 아이디입니다.",
+          "ja": "このIDは登録されていません。",
+          "en": "Couldn't find your ID."
+        },
+        "unActivatedId": {
+          "ko": "이메일 인증 요청 중인 아이디입니다.",
+          "ja": "このIDはメール認証の手続きを行っています。",
+          "en": "This ID is waiting to be confirmed."
+        },
+        "unAbleId": {
+          "ko": "사용할 수 없는 아이디입니다.",
+          "ja": "このIDは使用できません。",
+          "en": "This ID is not available."
+        },
+        "requiredEmail": {
+          "ko": "이메일을 입력해 주세요.",
+          "ja": "メールアドレスを入力してください。",
+          "en": "Please enter your email address."
+        },
+        "notFoundEmail": {
+          "ko": "가입되지 않은 아이디입니다.",
+          "ja": "登録されていないIDです。",
+          "en": "Couldn't find your ID."
+        },
+        "unActivatedEmail": {
+          "ko": "인증이 완료되지 않은 아이디입니다.",
+          "ja": "認証が完了していないIDです",
+          "en": "Please complete the verification process."
+        },
+        "diffFormatEmail": {
+          "ko": "이메일 형식에 맞게 입력해 주세요.",
+          "ja": "メールアドレス形式に従って正しく入力してください。",
+          "en": "Please enter a valid email address."
+        },
+        "alreadyUsingId": {
+          "ko": "이미 사용 중인 이메일입니다.",
+          "ja": "このIDは既に使われています。",
+          "en": "This email is already in use."
+        },
+        "requiredCompany": {
+          "ko": "회사명을 입력해 주세요.",
+          "en": "Please enter the name of your company.",
+          "ja": "会社名を入力してください。"
+        },
+        "requiredUserTel": {
+          "ko": "전화번호를 입력해 주세요.",
+          "ja": "電話番号を入力してください。",
+          "en": "Please enter your phone number."
+        },
+        "requiredTel": {
+          "ko": "연락 가능한 전화번호를 입력해 주세요.",
+          "en": "Please enter your phone number.",
+          "ja": "ご連絡が可能な電話番号を入力してください。"
+        },
+        "diffFormatTel": {
+          "ko": "전화번호 형식에 맞게 입력해 주세요.",
+          "ja": "電話番号の形式に従って正しく入力してください。",
+          "en": "please enter a valid phone number."
+        },
+        "requiredPassword": {
+          "ko": "비밀번호를 입력해 주세요.",
+          "ja": "パスワードを入力してください。",
+          "en": "Please enter your password."
+        },
+        "requireQueueName": {
+          "ko": "Queue 이름을 입력해주세요.",
+          "ja": "キュー名を入力してください。",
+          "en": "Please enter the queue name.",
+          "comment": "#20221213-queue/done"
+        },
+        "maxQueueName": {
+          "ko": "200자 이내로 작성해주세요.",
+          "ja": "200字以内で作成してください。",
+          "en": "No more than 200 characters allowed.",
+          "comment": "#20221213-queue/@일어확인필요"
+        },
+        "duplicateQueueName": {
+          "ko": "다른 Queue와 중복되지 않도록 설정해주세요.",
+          "ja": "他のキューと重複しないように設定してください。",
+          "en": "Please do not set duplicate queues.",
+          "comment": "#20221213-queue/done"
+        },
+        "retryQueue": {
+          "ko": "Queue를 다시 등록해 주세요.",
+          "ja": "キューを再登録してください。",
+          "en": "Please reregister queue.",
+          "comment": "#20221213-queue/done"
+        },
+        "wrongPassword": {
+          "ko": "비밀번호를 다시 확인해 주세요.",
+          "en": "Please check your password again.",
+          "ja": "パスワードをもう一度確認してください。"
+        },
+        "passwordInsufficient": {
+          "ko": "비밀번호는 6자 이상이어야 합니다.",
+          "en": "Please enter a minimum of 6 characters.",
+          "ja": "パスワードは６文字以上です。"
+        },
+        "requiredAgree": {
+          "en": "Please agree to the Terms of Service to proceed.",
+          "ja": "次の段階に移行するには、利用規約に同意する必要があります。",
+          "ko": "다음 단계로 진행하기 위해 이용약관에 동의해 주세요."
+        },
+        "requiredAgreeBeusableTerms": {
+          "ko": "뷰저블 이용약관과 개인정보취급방침에 동의해 주세요.",
+          "ja": "利用約款とプライバシーポリシーに同意してください。",
+          "en": "Please agree to the Terms of Service and Privacy Policy.",
+          "commnet": "210813 다국어적용, 210907 영문/일문 서비스명 삭제"
+        },
+        "requiredReasonText": {
+          "en": "Please explain futher.",
+          "ja": "もっと詳しく教えてください。",
+          "ko": "자세히 설명해 주세요."
+        },
+        "deactivateConfirm": {
+          "en": "Please agree to the terms above to proceed.",
+          "ja": "IDを退会するために、上記内容に同意してください。",
+          "ko": "회원 탈퇴를 위해 위 내용에 동의해 주세요."
+        },
+        "unAbleDomain": {
+          "ko": "올바른 도메인을 입력해 주세요.",
+          "ja": "正しいドメインを入力してください。",
+          "en": "Please enter a valid domain.",
+          "comment": "210813 다국어적용"
+        },
+        "unAbleEmail": {
+          "ko": "올바른 이메일을 입력해 주세요.",
+          "ja": "正しいメールアドレスを入力してください。",
+          "en": "Please enter a valid email.",
+          "comment": "210813 다국어적용"
+        },
+        "existDomain": {
+          "ko": "이미 등록된 도메인입니다.",
+          "ja": "このドメインは既に登録されています。",
+          "en": "This domain is already registered.",
+          "comment": "210723 다국어 적용"
+        },
+        "requiredUrl": {
+          "en": "Please enter the URL.",
+          "ko": "URL을 입력해 주세요.",
+          "ja": "URLを入力してください。 ",
+          "comment": "210813 다국어적용"
+        },
+        "diffFormatUrl": {
+          "ko": "URL 형식에 맞게 입력해 주세요.",
+          "ja": "URL 形式に合わせて入力してください。",
+          "en": "Please enter a valid URL.",
+          "comment": "220822 다국어 적용"
+        },
+        "diffDomainUrl": {
+          "ko": "등록할 도메인과 같은 도메인을 가진 URL을 입력하세요.",
+          "ja": "登録するドメインと同じドメインのURLを入力してください。",
+          "en": "Please enter a URL with the same domain as the domain intended for registration.",
+          "comment": "220822 다국어 적용"
+        },
+        "lessCharacter": {
+          "ko": "{length}자 이내로 입력하세요.",
+          "ja": "{length}文字以内で入力してください。",
+          "en": "Please enter no more than {length} characters.",
+          "comment": "220822 다국어 적용"
+        },
+        "notValidUrl": {
+          "en": "The URL entered is not valid.",
+          "ko": "입력하신 URL이 유효하지 않습니다.",
+          "ja": "有効なURLを入力してください。",
+          "comment": "210813 다국어적용"
+        },
+        "ipBlock": {
+          "requiredIpName": {
+            "ko": "IP명을 입력해 주세요.",
+            "en": "Please enter an IP name.",
+            "ja": "IP名を入力してください。"
+          },
+          "requiredIpAddress": {
+            "ko": "IP 주소를 입력해 주세요.",
+            "ja": "IPアドレスを入力してください。",
+            "en": "Please enter an IP address."
+          },
+          "existName": {
+            "ko": "이미 등록된 IP명 입니다.",
+            "ja": "既に登録されたIP名です。",
+            "en": "This IP name has already been used."
+          },
+          "existIp": {
+            "ko": "등록된 IP 주소입니다.",
+            "ja": "既に登録されたIPアドレスです。",
+            "en": "Already registered IP address."
+          },
+          "diffFormat": {
+            "ko": "유효하지 않은 IP 주소입니다.",
+            "ja": "このIPアドレスは正しくありません。",
+            "en": "Invalid IP address."
+          }
+        },
+        "pluck": {
+          "maximum25": {
+            "ko": "시퀀스는 최대 25개까지 입력할 수 있습니다.",
+            "ja": "シークエンスは最大25個まで入力できます。",
+            "en": "You can enter up to 25 sequences.",
+            "comment": "210824 다국어반영"
+          },
+          "changeFrom1": {
+            "ko": "1번째 순위부터 수정해 주세요.",
+            "ja": "初めのランキングから修正してください。",
+            "en": "Please modify from the first ranking.",
+            "comment": "210824 다국어적용"
+          }
+        }
+      },
+      "pageNotFound": {
+        "en": "Page not found",
+        "ko": "요청하신 페이지를 찾을 수 없습니다.",
+        "ja": "お探しのページが見つかりません。"
+      },
+      "category1": {
+        "ecommerce": {
+          "ko": "이커머스&리테일테크",
+          "en": "Ecommerce",
+          "ja": "ECサイト"
+        },
+        "finance": {
+          "ko": "핀테크&디지털금융",
+          "en": "Finance",
+          "ja": "金融・ファイナンス"
+        },
+        "entertainment": {
+          "ko": "미디어&엔터테인먼트테크",
+          "en": "Entertainment",
+          "ja": "エンタメ・メディア"
+        },
+        "mobility": {
+          "ko": "온디맨드&모빌리티",
+          "en": "Mobility",
+          "ja": "動画配信&モビリティサービス"
+        },
+        "health": {
+          "ko": "디지털헬스케어",
+          "en": "Health",
+          "ja": "デジタルヘルスケア"
+        },
+        "education": {
+          "ko": "에듀테크",
+          "en": "Education",
+          "ja": "Eラーニング"
+        },
+        "agency": {
+          "ko": "디지털에이전시&laas",
+          "en": "Agency",
+          "ja": "広告・マーケティング代理店"
+        },
+        "government": {
+          "ko": "공공복지&행정서비스",
+          "en": "Government",
+          "ja": "行政サービス"
+        },
+        "etc": {
+          "ko": "ETC",
+          "en": "ETC",
+          "ja": "ETC"
+        }
+      },
+      "category2": {
+        "main": {
+          "ko": "메인",
+          "en": "Main",
+          "ja": "トップページ"
+        },
+        "list": {
+          "ko": "정보 목록/분류",
+          "en": "List",
+          "ja": "リストページ"
+        },
+        "detail": {
+          "ko": "정보 상세",
+          "en": "Detail",
+          "ja": "詳細ページ"
+        },
+        "signin": {
+          "ko": "로그인/회원가입",
+          "en": "Sign In",
+          "ja": "ログインページ"
+        },
+        "mypage": {
+          "ko": "내 정보 확인/관리",
+          "en": "My Page",
+          "ja": "マイページ"
+        },
+        "support": {
+          "ko": "고객센터/문의",
+          "en": "Support",
+          "ja": "お問い合わせページ"
+        },
+        "cart": {
+          "ko": "장바구니",
+          "en": "Cart",
+          "ja": "カートページ"
+        },
+        "payment": {
+          "ko": "주문/결제 관련",
+          "en": "Payment",
+          "ja": "決済ページ"
+        },
+        "event": {
+          "ko": "이벤트",
+          "en": "Event",
+          "ja": "イベントページ"
+        },
+        "order": {
+          "ko": "주문 관련 정보",
+          "en": "Order",
+          "ja": "注文ページ"
+        },
+        "pricing": {
+          "ko": "상품(요금제)안내/가입",
+          "en": "Pricing",
+          "ja": "料金ページ"
+        },
+        "purchase": {
+          "ko": "서비스 신청",
+          "en": "Purchase",
+          "ja": "お申し込みページ"
+        },
+        "recruit": {
+          "ko": "채용",
+          "en": "Job Search",
+          "ja": "採用ページ"
+        },
+        "loginpage": {
+          "ko": "로그인 이후",
+          "en": "Personalization",
+          "ja": "ログイン後のページ"
+        },
+        "etc": {
+          "ko": "미분류",
+          "en": "Still in progress",
+          "ja": "分類進行中"
+        }
+      },
+      "category3": {
+        "main": {
+          "ko": "메인/브랜딩",
+          "en": "Main",
+          "ja": "トップ"
+        },
+        "list": {
+          "ko": "목록",
+          "en": "List",
+          "ja": "リスト"
+        },
+        "detail": {
+          "ko": "정보 상세 안내",
+          "en": "Detail",
+          "ja": "詳細"
+        },
+        "cta": {
+          "ko": "CTA 유도",
+          "en": "CTA",
+          "ja": "CTA誘導"
+        },
+        "form": {
+          "ko": "사용자 입력",
+          "en": "Form",
+          "ja": "入力フォーム"
+        },
+        "info": {
+          "ko": "정보 확인",
+          "en": "Info",
+          "ja": "情報"
+        },
+        "etc": {
+          "ko": "미분류",
+          "en": "Still in progress",
+          "ja": "分類進行中"
+        },
+        "noData": {
+          "ko": "분류 기준에 속하지 않거나 분석 중인 페이지입니다.",
+          "en": "A page that does not belong to the classification criteria or is being analyzed.",
+          "ja": "分類する基準に該当しない、もしくは、分析中のページです。"
+        }
+      },
+      "mostViews": {
+        "ko": "가장 많은 페이지 구성 TOP 3",
+        "en": "TOP 3 Pages with the Most Views",
+        "ja": "最も多くのページビューを持つトップ3のページ"
+      },
+      "analysisPurpose": {
+        "ko": "분석 목적 CHECKLIST",
+        "en": "Analysis Purpose CHECKLIST",
+        "ja": "分析目的チェックリスト"
+      },
+      "uxGuide": {
+        "category1": {
+          "ecommerce": {
+            "ko": "구매와 관련된 여정과 페이지들을 중점으로 분석해볼 수 있습니다.",
+            "en": "It is necessary to focus on analyzing the purchase journey and pages related to the purchase.",
+            "ja": "購入カスタマージャーニーと関連あるページを分析できます。"
+          },
+          "finance": {
+            "ko": "서비스의 정확한 정보를 쉽게 얻을 수 있어야 합니다.",
+            "en": "It should be easy to obtain accurate information about the service.",
+            "ja": "サービスの正確な情報を取得できるようにしましょう。"
+          },
+          "entertainment": {
+            "ko": "사용자들이 관심있는 정보를 다양하게 탐색하고 흥미를 느낄 수 있어야 합니다.",
+            "en": "Users should be able to explore a variety of information of interest and find interest in it.",
+            "ja": "カスタマーが興味・関心を持つ情報を検索できるようにしましょう。"
+          },
+          "mobility": {
+            "ko": "사용자들이 관심있는 정보를 다양하게 탐색하고 원하는 정보를 얻을 수 있어야 합니다.",
+            "en": "Users should be able to explore a variety of information of interest and obtain the information they want.",
+            "ja": "カスタマーが興味・関心を持つ情報を検索できるようにしましょう。"
+          },
+          "health": {
+            "ko": "사용자들이 관심있는 정보를 다양하게 탐색하고 원하는 정보를 얻을 수 있어야 합니다.",
+            "en": "Users should be able to explore a variety of information of interest and obtain the information they want.",
+            "ja": "カスタマーが興味・関心を持つ情報を検索できるようにしましょう。"
+          },
+          "education": {
+            "ko": "사용자들이 다양한 정보들을 쉽게 탐색해서 관심있는 콘텐츠까지 도달할 수 있어야 합니다.",
+            "en": "Users should be able to easily navigate through various information and reach content of interest.",
+            "ja": "カスタマーが多様な情報を検索し、興味あるコンテンツにたどり着けるようにしましょう。"
+          },
+          "agency": {
+            "ko": "서비스의 브랜딩이 잘 전달되고, 다양한 정보들을 쉽게 탐색할 수 있어야 합니다.",
+            "en": "The branding of the service should be clearly visible, and various information should be easily navigable.",
+            "ja": "サービスブランディングが正確に認知され、多様な情報を検索できるようにしましょう。"
+          },
+          "government": {
+            "ko": "사용자들이 원하는 목표를 쉽고 빠르게 달성할 수 있어야 합니다. ",
+            "en": "Users should be able to achieve their desired goals easily and quickly.",
+            "ja": "簡単にわかりやすく、カスタマーが訪問した目的を達成できるようにしましょう。"
+          },
+          "etc": {
+            "ko": "등록하신 도메인은 신규 산업군에 해당돼요! 곧 해당 도메인의 UX 가이드를 제공해 드릴게요.",
+            "en": "Users should be able to achieve their desired goals easily and quickly.",
+            "ja": "ご登録のドメインは新しい業界です！UXガイドは近日中にお届けします。"
+          }
+        },
+        "category1Textosphere": {
+          "ecommerce": {
+            "ko": "사용자가 쉽게 탐색하고 구매할 수 있도록 직관적이고 간편한 단어를 사용해야 합니다.",
+            "en": "Use intuitive and simple words to make it easy for users to navigate and purchase.",
+            "ja": "カスタマーが簡単に情報を検索し、購入できるように、わかりやすく、シンプルなキーワードを使いましょう。"
+          },
+          "finance": {
+            "ko": "안전하고 신뢰할 수 있는 금융 거래를 위해 명확하고 안심할 수 있는 단어를 사용해야 합니다.",
+            "en": "Use clear and reassuring words to ensure safe and reliable financial transactions.",
+            "ja": "カスタマーが信頼できる安全な取引をできるように、明確な表現とキーワードを使いましょう。"
+          },
+          "entertainment": {
+            "ko": "사용자가 쉽게 발견하고 즐길 수 있도록 흥미롭고 직관적인 단어를 사용하세요.",
+            "en": "Use engaging and intuitive words to help users easily discover and enjoy..",
+            "ja": "カスタマーが手軽に検索でき、楽しめる表現やキーワードを使いましょう。"
+          },
+          "mobility": {
+            "ko": "사용자가 필요한 서비스를 즉시 이용할 수 있도록 명확한 단어를 사용해야 합니다.",
+            "en": "Use clear words to allow users to access the services they need immediately.",
+            "ja": "カスタマーが使いたいサービスをすぐ利用できる、明確なキーワードを使いましょう。"
+          },
+          "health": {
+            "ko": "사용자에게 건강 정보를 쉽고 명확하게 전달하는 단어를 사용해야 합니다.",
+            "en": "Use simple and clear words to convey health information to users.",
+            "ja": "カスタマーに健康に関する情報を、シンプルで、わかりやすく、伝わりやすい表現を使いましょう。"
+          },
+          "education": {
+            "ko": "사용자가 쉽게 접근하고 정보를 탐색할 수 있도록 명확하고 친근한 단어를 사용해야 합니다.",
+            "en": "Use clear and friendly words to make it easy for users to access and navigate information.",
+            "ja": "カスタマーが、簡単にアクセスし、情報を検索できるように明確で親しみやすいキーワードを使いましょう。"
+          },
+          "agency": {
+            "ko": "사용자에게 서비스의 목표와 효율성을 강조하는 단어를 사용해야 합니다.",
+            "en": "Use words that emphasize the goals and efficiency of the service to users.",
+            "ja": "カスタマーにサービスのブランドメッセージを強調できるキーワードを使いましょう。"
+          },
+          "government": {
+            "ko": "서비스를 명확하고 친근하게 제공하기 위해 접근성과 이해를 돕는 단어를 사용해야 합니다.",
+            "en": "Use accessible and understandable words to provide the service clearly and in a friendly manner.",
+            "ja": "提供するサービスを理解してもらうために、幅広い年齢層の方に、アクセスしやすく、わかりやすいキーワードを使いましょう。"
+          },
+          "rankingTitle": {
+            "ko": "서비스 핵심 키워드 TOP 10",
+            "ja": "サービスの主要キーワードTOP 10",
+            "en": "TOP 10 Service Keywords"
+          },
+          "etc": {
+            "ko": "등록하신 도메인은 신규 산업군에 해당돼요! 곧 해당 도메인의 UX 가이드를 제공해 드릴게요.",
+            "en": "Users should be able to achieve their desired goals easily and quickly.",
+            "ja": "ご登録のドメインは新しい業界です！UXガイドは近日中にお届けします。"
+          }
+        },
+        "category2": {
+          "main": {
+            "ko": "사이트를 대표할 수 있는 첫 페이지로, 콘텐츠와 브랜딩이 잘 전달되고 내비게이션이 잘 활용되어 전환하는 것을 목표로 합니다.",
+            "en": "The first page should represent the site, deliver content and branding well, and use navigation well to switch between them.",
+            "ja": "サイトを代表する、トップページです。カスタマーに、コンテンツやサービスブランディングが、わかりやすく、他のページへ遷移しやすい、ナビゲーションが十分に活用されるページにしましょう。"
+          },
+          "list": {
+            "ko": "목록으로 구성된 페이지에서는 사용자가 많은 정보들 중 원하는 목적지를 잘 찾을 수 있어야 합니다.",
+            "en": "A list page should allow users to find their destination among many pieces of information.",
+            "ja": "リスト形式のページでは、カスタマーが数多くの情報の中で、求めている情報をわかりやすく見つけられるページにしましょう。"
+          },
+          "detail": {
+            "ko": "상세 페이지에는 자세한 정보를 포함하고 있어, 사용자들의 적극적인 탐색을 필요로 합니다.",
+            "en": "The detail page contains a lot of information and requires active navigation from users.",
+            "ja": "詳細ページは、カスタマーが積極的に情報を収集し、より細かい情報を検索できるようにしましょう。"
+          },
+          "signin": {
+            "ko": "개인화 콘텐츠로 전환하기 위한 로그인 페이지에서는 회원가입 또는 로그인을 쉽게 성공할 수 있어야 합니다.",
+            "en": "The login page for accessing personalized content should make it easy to sign up or log in.",
+            "ja": "ログインページは、パーソナライズコンテンツを提供するために、会員登録およびログインしやすいページにしましょう。"
+          },
+          "mypage": {
+            "ko": "정확한 내 정보를 쉽고 빠르게 확인하고 관리할 수 있어야 합니다.",
+            "en": "Users should be able to quickly and easily check and manage their accurate information.",
+            "ja": "マイページでは、カスタマーの正確な情報を確認し、管理できるようにしましょう。"
+          },
+          "support": {
+            "ko": "사용자의 문제를 해결하기 위해 정보를 쉽고 빠르게 찾을 수 있어야 합니다.",
+            "en": "To solve users' problems, information must be designed so that they can find it easily and quickly.",
+            "ja": "お問い合わせページは、カスタマーが抱えている問題を、簡単に解決できるようにしましょう。"
+          },
+          "cart": {
+            "ko": "구매를 원하는 상품들을 정확하게 확인하고, 구매 결정을 내리는데 도움을 얻을 수 있어야 합니다.",
+            "en": "Users should be able to accurately identify the products they want to purchase and receive help in making a purchasing decision.",
+            "ja": "カートページでは、購入したい商品を確認し、スムーズに購入できるようにしましょう。"
+          },
+          "payment": {
+            "ko": "원활한 구매 진행을 위해 필요한 서식 활용과 전환을 쉽게 할 수 있어야 합니다.",
+            "en": "In order to proceed smoothly with a purchase, users must be able to easily utilize and convert necessary forms.",
+            "ja": "決済ページでは、必要な情報を正確に記入し、スムーズに決済手続きできるようにしましょう。"
+          },
+          "event": {
+            "ko": "이벤트 페이지는 사용자들이 랜딩해서 흥미로운 정보들을 탐색하고, 추가 페이지 전환을 통해 서비스 이용을 지속할 수 있도록 합니다.",
+            "en": "On the event page, users can explore interesting information after landing and continue using the service by exploring additional pages.",
+            "ja": "イベントページは、カスタマーが遷移後、興味深い情報を提供することで、カスタマーが引き続きページを利用してもらえるようにしましょう。"
+          },
+          "order": {
+            "ko": "정확한 주문 정보를 쉽고 빠르게 확인하고 관리할 수 있어야 합니다.",
+            "en": "Users should be able to quickly and easily check and manage accurate order information.",
+            "ja": "注文ページでは、正しい注文情報を、わかりやすく確認し、管理できるようにしましょう。"
+          },
+          "pricing": {
+            "ko": "다양한 상품이나 요금제가 안내되는 페이지에서는, 사용자들이 정보에 흥미를 갖고 잘 인지할 수 있어야 합니다.",
+            "en": "A page introducing various products and plans should make users interested in the information and allow them to learn more.",
+            "ja": "料金ページでは、カスタマーが料金体系に関して、シンプルで、認知しやすいページを心がけましょう。"
+          },
+          "purchase": {
+            "ko": "서비스를 신청하기 위해 요구하는 정보들을 간편하게 입력하고 확인할 수 있어야 합니다.",
+            "en": "Users must be able to easily enter and confirm the information required to apply for a service.",
+            "ja": "お申し込みページは、必要な情報を簡単に入力できるようにしましょう。"
+          },
+          "recruit": {
+            "ko": "목록으로 구성된 페이지에서는 사용자가 많은 정보들 중 원하는 목적지를 잘 찾을 수 있어야 합니다. ",
+            "en": "A list page should allow users to find their destination among many pieces of information.",
+            "ja": "リスト形式のページでは、カスタマーが数多くの情報の中で、求めている情報をわかりやすく見つけられるページにしましょう。"
+          },
+          "loginpage": {
+            "ko": "고객에게 맞춤화 된 정보들을 정확하게 확인할 수 있어야 합니다.",
+            "en": "It is important to be able to accurately view information tailored to customers.",
+            "ja": "ログイン後のページは、カスタマーの情報を、正確に確認できるようにしましょう。"
+          },
+          "etc": {
+            "ko": "미분류",
+            "en": "Still in progress",
+            "ja": "分類進行中"
+          }
+        },
+        "category3": {
+          "main": {
+            "ko": "<li>체류시간이 콘텐츠와 브랜딩을 전달받기에 충분한지 검토해보세요.</li> <li>마우스오버와 스크롤 탐색이 높고 활발하게 나타나면서 메인의 주요 콘텐츠와 탐색 메뉴를 잘 활용했는지 검토해보세요.</li><li>페이지의 탐색도 중요하지만, 페이지의 대표 콘텐츠로 많은 사용자들이 전환하는것이 가장 최우선의 목표입니다. 전이율과 실제 전환한 페이지들을 검토해보세요.</li>",
+            "en": "<li>Check if the dwell time is sufficient for delivering the content and branding.</li><li>Check if the mouseover and scroll interactions are high and active, and if the main content and navigation menu are being effectively utilized.</li><li>While page navigation is important, the primary goal is for many users to convert to the main content of the page. Review the conversion rate and the actual pages where conversions occur.</li>",
+            "ja": "<li>カスタマーの滞在時間が、コンテンツ閲覧やブランディングイメージを伝えるのに十分な時間なのか、確認してみましょう。</li><li>マウスの動きやスクロールアクションが数多く発生しつつ、主なコンテンツが消費されているか、確認してみましょう。</li><li>ページ内の情報収集も重要ですが、ページの代表的なコンテンツへ多くのユーザーがコンバージョンすることが最も重要な目標になります。コンバージョン率と実際、コンバージョンしたページを、確認してみましょう。</li>"
+          },
+          "list": {
+            "ko": "<li>상세 페이지로 잘 전환했는지 확인해보세요.</li><li>여정 관점에서, 롤백률 수치가 높을 수 있습니다. 롤백률이 높다면 연관된 다음 페이지들로 다양한 상세 페이지로 많이 전환되는지 확인해보세요.</li><li>짧은 체류시간으로 전환 결정을 빨리 내렸는지, 아니면 여러 콘텐츠를 다양하게 탐색하고 고민하면서 오래 체류하다 전환 결정을 내렸을 지 확인해보세요.</li>",
+            "en": "<li>Check if users are successfully transitioning to detailed pages.</li><li>From a journey perspective, the rollback rate might be high. If so, check if users are transitioning to various detailed pages related to the subsequent pages.</li><li>Determine if users made conversion decisions quickly due to short dwell times, or if they explored various content thoroughly before deciding to convert.</li>",
+            "ja": "<li>カスタマーが詳細ページへ、スムーズに遷移しているか、、確認してみましょう。</li><li>カスタマージャーニーのロールバック指標が高い場合、関連ページの詳細ページへ、カスタマーが遷移しているか、確認してみましょう。</li><li>カスタマーが短い滞在時間の中で、すぐコンバージョンしたケースと、複数のコンテンツの情報収集し、長い滞在時間をかけてコンバージョンしたケースか、確認してみましょう。</li>"
+          },
+          "detail": {
+            "ko": "<li>체류시간이 콘텐츠를 잘 살펴볼 수 있을만큼 충분히 긴지 검토해보세요.</li><li>여러 콘텐츠를 잘 살펴보기 위해 Mouseover가 충분히 분포되었을 지 확인해보세요.  만약 Mouseover가 적다면 체류시간 또는 Attention 등을 함께 검토해보고 혹시 특정 콘텐츠가 탐색에 집중되었을 지 추가적으로 확인해볼 수 있습니다.</li><li>콘텐츠를 끝까지 잘 살펴봤을 지 스크롤 도달율을 검토해보세요. 스크롤 도달율과 체류시간을 함께 분석해보면, 많은 콘텐츠를 꼼꼼하게 살펴봤을 지, 아니면 빠르게 훑어봤을 지를 이해해볼 수 있습니다.</li>",
+            "en": "<li>Check if the dwell time is long enough for users to thoroughly review the content.</li><li>Ensure there is sufficient distribution of mouseovers to thoroughly review various content. If mouseovers are low, review dwell time or attention metrics, and check if specific content is overly focused on.</li><li>Evaluate the scroll reach rate to determine if users reviewed the content thoroughly. Analyzing scroll reach rate alongside dwell time can help understand if users meticulously reviewed the content or skimmed through it quickly.</li>",
+            "ja": "<liカスタマーの滞在時間が、コンテンツを熟読し、情報収集をするのに十分な時間だったのか、確認してみましょう。</li><li>色んなコンテンツを閲覧するために、コンテンツの Mouseoverデータをチェックしてみましょう。もし、Mouseoverデータが少ない場合、滞在時間もしくは Attentionデータを一緒に確認し、特定のコンテンツだけに、カスタマーの情報収集が偏っていないか、確認してみましょう。</li><li>カスタマーがコンテンツを最後まで閲覧しているか、スクロール到達率をチェックしてみましょう。スクロール到達率と滞在時間を合わせて分析すると、カスタマーが細かくコンテンツを閲覧しているのか、もしくは流し読みをしているのか把握できます。</li>"
+          },
+          "cta": {
+            "ko": "<li>사용자들이 CTA 링크에 도달하기에 충분한 스크롤 도달율인지 검토해보세요.</li><li>중요한 CTA 링크가 위치한 곳에 사용자가 주목하는지 Attention을 살펴보세요.</li><li>페이지의 전이율이 낮지 않은지, 전이율에 문제가 없다면 페이지의 전이율 중 중요한 CTA 링크로의 전환이 큰 비중을 차지하고 있는지 검토해보세요.</li><li>Segmenting CTA를 통해서, CTA 전환과 관련된 Click, Move, Scroll, Attention을 분석하면 전환의 시너지가 되는 콘텐츠, 혹은 장애물이 되는 콘텐츠를 예측해볼 수 있습니다.</li>",
+            "en": "<li>Check if the scroll reach rate is sufficient for users to reach the CTA links.</li><li>Examine if users' attention is focused on the areas where important CTA links are located.</li><li>Ensure that the page conversion rate is not low, and if there are no issues with the conversion rate, check if a significant portion of the page conversions are to important CTA links.</li><li>By segmenting CTAs, analyze Click, Move, Scroll, and Attention metrics related to CTA conversions to predict content that synergizes or obstructs conversions.</li>",
+            "ja": "<li>カスタマーが、CTAリンクに辿り着くスクロール到達率を、チェックしてみましょう。</li><li>重要なCTAリンクに、カスタマーが注目しているのか、 Attentionデータを確認してみましょう。</li><li>ページのコンバージョン率が低くないか、チェックしてみましょう。もし、コンバージョン率に問題がない場合、ページのコンバージョン率の中で、CTAリンクのコンバージョンの割合をチェックしてみましょう。</li><li>Segmenting CTA機能を使って、 CTA コンバージョンと関連するClick, Move, Scroll, Attentionを分析すると、コンバージョンの相乗効果のあるコンテンツは何か、もしくはボトルネックになっているコンテンツを把握できます。 </li>"
+          },
+          "form": {
+            "ko": "<li>입력 서식이 순차적으로 끝까지 잘 활용되고 있을 지, 각 서식들의 Unique Click과 Mouseover가 충분한 지 검토해보세요. 수치가 낮은 서식의 활용성을 개선해볼 수 있습니다.</li><li>특정 서식 활용에 어려움이 발생할 수 있으니, Attention이 불필요하게 높은 구간이 있는지 검토해보세요.</li><li>제공된 항목들을 사용자들이 입력하기에 페이지 체류시간이 충분했을지도 함께 검토해보세요. </li>",
+            "en": "<li>Check if the input forms are being used sequentially and completely, and if each form has sufficient unique clicks and mouseovers. Improve the usability of forms with low metrics.</li><li>Since difficulties may arise with specific form usage, check if there are sections with unnecessarily high attention.</li><li>Additionally, review if the page dwell time was sufficient for users to complete the provided fields.</li>",
+            "ja": "<li>入力フォームが活用されているのか、カスタマーの入力項目のUnique Clickと Mouseoverデータを確認してみましょう。これらのデータが少ない場合、入力フォームを改善してみましょう。</li><li>特定の入力項目のAttentionが高い場合、カスタマーが入力する際に、不便さや戸惑いを感じている可能性があるため、確認してみましょう。</li><li>ページの滞在時間が、カスタマーがデータ入力するのに十分な滞在時間だったか、チェックしてみましょう。</li>"
+          },
+          "info": {
+            "ko": "<li>중요한 콘텐츠가 많은 사용자들에게 노출될 수 있을 지, 검토해보아야 합니다. 해당 콘텐츠가 배치된 위치의 스크롤 도달율이 충분한지 확인해보세요.</li><li>중요한 콘텐츠가 위치한 영역의 Attention을 살펴보고, 그 정도가 콘텐츠의 정보를 인지하기에 충분한지 확인해보세요.</li>",
+            "en": "<li>Check if important content is likely to be exposed to a large number of users. Confirm that the scroll reach rate for the position where the content is placed is sufficient.</li><li>Check the attention level in the area where important content is located, and ensure it is sufficient for users to recognize the information.</li>",
+            "ja": "<li>重要なコンテンツが数多くのユーザーに露出さレているのか、チェックしてみましょう。該当するコンテンツのスクロール到達率をチェックし、適切な場所にコンテンツが配置されているか、確認してみましょう。</li><li>重要なコンテンツのAttentionデータを確認し、カスタマーが十分にコンテンツ情報を認知しているのか、確認してみましょう。 </li>"
+          },
+          "etc": {
+            "ko": "미분류",
+            "en": "Still in progress",
+            "ja": "分類進行中"
+          },
+          "noData": {
+            "ko": "분류 기준에 속하지 않거나 분석 중인 페이지입니다.",
+            "en": "A page that does not belong to the classification criteria or is being analyzed.",
+            "ja": "分類する基準に該当しない、もしくは、分析中のページです。"
+          }
+        }
+      },
+      "sunburstChart": {
+        "title": {
+          "ko": "주요 페이지 유형 분류",
+          "en": "Classification of Main Page Types",
+          "ja": "主要ページタイプ分類"
+        },
+        "industrySubTitle": {
+          "ko": "Preview",
+          "en": "Preview",
+          "ja": "Preview"
+        },
+        "categorySubTitle": {
+          "ko": "Main Page Type Indicator",
+          "en": "Main Page Type Indicator",
+          "ja": "Main Page Type Indicator"
+        },
+        "industryAverage": {
+          "ko": "업계 평균 데이터",
+          "en": "Industry Average Data",
+          "ja": "業界平均データ"
+        },
+        "banner": {
+          "ko": "<span class='yellow'>총 {totalPageCnt}개 페이지, {totalPvCnt}억 PV를 기반으로 학습된 뷰저블 AI</span>가 페이지를 자동으로 분류 중이에요. <span class='d-day'>(D-{dDayCount}) <i class='arrow-down'></i></span>",
+          "en": "<span class='yellow'>In total, {totalPageCnt} pages, {totalPvCnt} PV-based learned Beusable AI</span> is automatically sorting pages. <span class='d-day'>(D-{dDayCount}) <i class='arrow-down'></i></span>",
+          "ja": "<span class='yellow'>計 {totalPageCnt} ページ、{totalPvCnt} PVをベースに学習されたBeusable AI</span>がページを自動で分類しています。 <span class='d-day'>(D-{dDayCount}) <i class='arrow-down'></i></span>"
+        },
+        "guide": {
+          "ko": "뷰저블 AI가 더 많은 페이지를 분류하길 원하신다면 문의주세요!",
+          "en": "If you want Beusable AI to sort out more pages, please contact us!",
+          "ja": "Beusable AIを活用し、より多くのURLページの分類をご希望の方は、お問い合わせください！"
+        },
+        "comingSoon": {
+          "ko": "페이지 분류가 완료될 때까지 동종 업계 평균 데이터를 보여드릴게요!",
+          "en": "We'll show you the same industry average data until the page classification is complete!",
+          "ja": "ページ分類が完了するまで、同じ業界・業種の平均データをご確認ください！"
+        },
+        "chartSoon": {
+          "ko": "곧 확인하실 수 있어요.",
+          "en": "You'll be able to check it out soon.",
+          "ja": "まもなくご確認いただけます。"
+        },
+        "mainPurpose": {
+          "ko": "주요 목적",
+          "en": "Main purpose",
+          "ja": "主な目的"
+        },
+        "uxGuide": {
+          "category1": {
+            "ko": "산업군",
+            "en": "Industry Classification",
+            "ja": "業界・業種 カテゴリー"
+          },
+          "category2": {
+            "ko": "가장 많은 페이지 유형",
+            "en": "Most Common Page Types",
+            "ja": "最も多いページタイプ"
+          },
+          "category3": {
+            "ko": "가장 많은 페이지 목적",
+            "en": "Most Common Page Purposes",
+            "ja": "最も多いページ目的"
+          },
+          "comingSoon": {
+            "ko": "분류 중입니다!",
+            "en": "Under classification!",
+            "ja": "ただいま、分類中です！"
+          },
+          "comingSoonDesc": {
+            "ko": "곧 등록하신 도메인의 산업군 분류에 따른 UX 가이드를 제공해 드릴게요.",
+            "en": "We'll provide UX guidelines based on the industry classification of the domain you're about to register",
+            "ja": "登録したドメインの業界・業種別のUXガイドを準備中です。"
+          },
+          "classifying": {
+            "ko": "분류 중",
+            "en": "Classifying",
+            "ja": "分類中"
+          }
+        }
+      },
+      "textosphere": {
+        "title": {
+          "ko": "TEXTOSPHERE",
+          "en": "TEXTOSPHERE",
+          "ja": "TEXTOSPHERE"
+        },
+        "industryAverage": {
+          "ko": "업계 평균 데이터",
+          "en": "Industry Average Data",
+          "ja": "業界平均データ"
+        }
+      }
+    },
+    "dialog": {
+      "common": {
+        "title": {
+          "ko": "오류 발생",
+          "en": "Something Went Wrong",
+          "ja": "エラー発生"
+        },
+        "desc": {
+          "ko": "오류가 발생하였습니다. 잠시 후 다시 시도해 주세요.<br>계속해서 오류가 발생할 경우 문의주시기 바랍니다.",
+          "en": "An unexpected error has occured. Please try again later.<br>Contact support if the error persists.",
+          "ja": "エラーが発生しました。<br>しばらくしてからもう一度確認してください。<br>もしエラーが続けて発生すると、<br>弊社までお問い合わせください。"
+        }
+      },
+      "report": {
+        "paymentFailed": {
+          "title": {
+            "ko": "결제 실패",
+            "en": "결제 실패",
+            "ja": "결제 실패"
+          }
+        },
+        "reportRequested": {
+          "title": {
+            "ko": "CX Report 요청 완료",
+            "en": "CX Report Request Completed",
+            "ja": "CX Reportリクエスト完了"
+          },
+          "description": {
+            "ko": "요청하신 CX Report를 생성 중입니다.<br>Mine에서 생성한 CX Report를 확인해 보세요.",
+            "en": "Your requested CX Report is being generated.<br> Check the generated CX Report in Mine.",
+            "ja": "リクエストいただいたCX Reportを作成中です。<br>作成したCX ReportをMineでご確認ください。"
+          }
+        },
+        "duplicate": {
+          "title": {
+            "ko": "동일한 조합의 리포트가 존재합니다.",
+            "ja": "すでに、同じ組み合わせのレポートがあります。",
+            "en": "A report with the same combination"
+          },
+          "description": {
+            "ko": "동일한 데이터로 분석 중인 CX Report가 존재합니다.<br>Mine에 보관 중인 리포트를 확인해 보세요.",
+            "en": "An CX Report analyzed with the same data already exists. Check the stored report in Mine.",
+            "ja": "すでに、同じデータでぶんせきずみのCX Reportがあります。<br>Mineにアクセス後、レポートを一度一度ご確認下さい。"
+          }
+        },
+        "changeOnOff": {
+          "on": {
+            "title": {
+              "ko": "리포트를 실행하시겠습니까?",
+              "en": "Do you want to start the report?",
+              "ja": "レポートを実行しますか？"
+            },
+            "description": {
+              "ko": "리포트의 데이터 수집이 즉시 실행됩니다.<br>데이터 수집 이후 리포트 반영까지 <br>최대 2시간 가량 소요될 수 있습니다.",
+              "en": "The data collection for this report will start <br> immediately. It may take up to 2 hours for <br> the report to reflect the collected data.",
+              "ja": "レポートのデータ収集は即時に開始されます。<br>データ収集後、レポートに反映されるまで<br>最大で2時間かかる場合があります。"
+            }
+          },
+          "off": {
+            "title": {
+              "ko": "리포트를 정지하시겠습니까?",
+              "en": "Do you want to stop the report?",
+              "ja": "レポートを停止しますか？"
+            },
+            "description": {
+              "ko": "리포트의 데이터 수집이 즉시 정지됩니다.<br>다시 실행(ON) 상태로 변경하기 전까지<br>데이터는 수집되지 않습니다.",
+              "en": "The data collection for this report will<br> stop immediately. Data will not be<br> collected until it is turned back ON",
+              "ja": "レポートのデータ収集は即時に停止されます。<br>再度ONに変更するまで、<br>データは収集されません。"
+            }
+          }
+        },
+        "changeSuccess": {
+          "on": {
+            "title": {
+              "ko": "리포트가 실행되었습니다.",
+              "en": "The report has been started.",
+              "ja": "レポートが実行されました。"
+            },
+            "description": {
+              "ko": "데이터 수집 이후 리포트 반영까지 <br>최대 2시간 가량 소요될 수 있습니다.",
+              "en": "It may take up to 2 hours for the report to<br> reflect the collected data.",
+              "ja": "データ収集後、レポートに反映されるまで<br>最大で2時間かかる場合があります。"
+            }
+          },
+          "off": {
+            "title": {
+              "ko": "리포트가 정지되었습니다.",
+              "en": "The report has been stopped.",
+              "ja": "レポートが停止されました。"
+            },
+            "description": {
+              "ko": "다시 실행(ON) 상태로 변경하기 전까지 <br>데이터는 수집되지 않습니다.",
+              "en": "Data will not be collected until it is turned back ON.",
+              "ja": "再度ONに変更するまで、<br>データは収集されません。"
+            }
+          }
+        }
+      },
+      "userInfo": {
+        "planUpdatingSignin": {
+          "title": {
+            "ko": "플랜 업데이트 안내",
+            "en": "Plan Update Notice",
+            "ja": "プランアップデートのお知らせ"
+          },
+          "description": {
+            "ko": "다음 플랜을 적용 중입니다.<br><em>플랜 적용 이후, 서비스 사용</em>이 가능합니다.<br><br>( 적용 완료 시각: {today} AM 1:00 KST )",
+            "en": "Applying the next plan.<br><em>When the application is complete,</em> you can use the service.<br><br>( End Time: {today} AM 1:00 KST )",
+            "ja": "次のプランを適用中であります。<br><em>プランの適用が完了されてから、</em>サービスの利用が可能です。<br><br>( 適用完了時間: {today} AM 1:00 KST )"
+          }
+        },
+        "planUpdatingManagePlan": {
+          "title": {
+            "ko": "플랜 업데이트 안내",
+            "en": "Plan Update Notice",
+            "ja": "プランアップデートのお知らせ"
+          },
+          "description": {
+            "ko": "다음 플랜을 적용 중입니다.<br><em>플랜 적용 이후, 정상적인 플랜 확인</em>이 가능합니다.<br><br>( 적용 완료 시각: {today} AM 1:00 KST )",
+            "en": "Applying the next plan.<br><em>When the application is complete,</em> your plan can be confirmed.<br><br>( End Time: {today} AM 1:00 KST )",
+            "ja": "次のプランを適用中であります。<br><em>プラン適用が完了されてから、</em>プランの確認が可能です。<br><br>( 適用完了時間: {today} AM 1:00 KST )"
+          }
+        },
+        "myInformationEditSuccess": {
+          "title": {
+            "ko": "수정 완료",
+            "en": "Successfully Updated",
+            "ja": "変更完了"
+          },
+          "desc": {
+            "ko": "내 정보 수정이 완료되었습니다.",
+            "en": "Your User Info has been updated<br>successfully.",
+            "ja": "マイ情報の変更が完了となりました。"
+          }
+        },
+        "ipBlockItemDelete": {
+          "desc": {
+            "ko": "삭제하시겠습니까?",
+            "en": "Are you sure to delete?",
+            "ja": "削除しますか？"
+          }
+        },
+        "ipBlockConfirmEdit": {
+          "title": {
+            "ko": "저장하시겠습니까?",
+            "en": "Do you want to save changes?",
+            "ja": "保存しますか？"
+          },
+          "desc": {
+            "ko": "모든 수정사항은 저장 후 적용됩니다.",
+            "en": "Modification will be applied<br>after saving.",
+            "ja": "すべての変更内容は保存した後に適用されます。"
+          }
+        },
+        "registerCard": {
+          "title": {
+            "ko": "카드 등록 안내",
+            "ja": "クレジットカード認証を行う",
+            "en": "Register Payment Method"
+          },
+          "desc": {
+            "ko": "<ul><li>체크카드 등록 시, 정기결제 이용이 제한될 수 있습니다.<br>(정기결제 시각: KST 자정)</li></ul><div class='mac-warning'></div>",
+            "ja": "<ul><li>デビットカードを登録する場合、定期的に決済を制限される場合があります。（定期決済時間：JST 0時）</li><li>全てのカードは初回認証のために行う決済を完了後<br>（0円）、プラン決済が行われます</li></ul>",
+            "en": "<ul><li>When you register a debit card, recurring payment may <br>be restricted. (Recurring payment time: midnight KST)</li><li>After completing the initial certification payment <br>(0 KRW), the plan payment will proceed.</li></ul>"
+          }
+        }
+      },
+      "plan": {
+        "registerCardFailed": {
+          "title": {
+            "ko": "카드 등록 실패",
+            "en": "Something Went Wrong",
+            "ja": "登録失敗"
+          },
+          "desc": {
+            "ko": "결제하신 카드 정보를 확인하시거나 <br>다른 카드로 등록을 시도해 주세요.",
+            "en": "Please verify your credit card details <br>or try a different card.",
+            "ja": "クレジットカード情報を再度確認し、<br>または他のクレジットカードを登録してください。"
+          }
+        },
+        "changeCardFailed": {
+          "title": {
+            "ko": "카드 수정 실패",
+            "en": "Something Went Wrong",
+            "ja": "カード修正の失敗"
+          },
+          "desc": {
+            "ko": "결제하신 카드 정보를 확인하시거나 <br>잠시 후 다시 진행해 주세요.",
+            "en": "Please check the card details, <br>or try again after a while.",
+            "ja": "クレジットカード情報を再度確認し、<br>または他のクレジットカードを登録してください。"
+          }
+        },
+        "noCurrentPlanFound": {
+          "title": {
+            "ko": "오류 발생",
+            "en": "Something Went Wrong",
+            "ja": "エラー発生"
+          },
+          "desc": {
+            "ko": "플랜 변경 및 생성에 실패하였습니다.<br>플랜 적용을 위해 문의주시기 바랍니다.",
+            "en": "Failed to apply your plan.<br>Please contact support for help with your account.",
+            "ja": "プラン変更および生成に失敗しました。<br>プラン適用のため、お問い合わせください。"
+          }
+        },
+        "pvEmpty": {
+          "title": {
+            "ko": "분석 일시 정지",
+            "en": "PV Credit Empty",
+            "ja": "分析一時停止"
+          },
+          "desc": {
+            "ko": "PV 소진으로 도메인의 분석이 일시 정지되었습니다.<br>추가 분석을 위해 플랜 업그레이드 또는 PV를 충전해주세요",
+            "en": "All the domain analysis has been paused.<br>Please upgrade your plan or top up PVs for further analysis.",
+            "ja": "PVの上限に達してすべてのページ分析が一時停止<br>されました。追加分析をするためには、<br>プランのアップグレードまたは<br>PVチャージをしてください。",
+            "comment": "toss"
+          }
+        },
+        "pvCompleted": {
+          "title": {
+            "ko": "PV 충전 완료",
+            "en": "PV Charging Complete",
+            "ja": "PVチャージ完了",
+            "comment": "toss"
+          },
+          "desc": {
+            "ko": "요청이 성공적으로 완료되었습니다.",
+            "en": "Your request has been successfully completed.",
+            "ja": "正常にリクエストが完了しました。",
+            "comment": "210813 다국어적용"
+          }
+        },
+        "planScheduleCompleted": {
+          "title": {
+            "ko": "플랜 예약 완료",
+            "en": "Plan reservation complete",
+            "ja": "プランの予約完了",
+            "comment": "210813 다국어적용"
+          },
+          "desc": {
+            "ko": "다음 플랜 시작일부터 요청하신 플랜을<br>이용하실 수 있습니다.",
+            "en": "The plan you requested will be available <br>from the next plan start date.",
+            "ja": "次のプランの開始日から、<br>リクエストされたプランの利用ができます。",
+            "comment": "210813 다국어적용"
+          }
+        },
+        "planCompleted": {
+          "title": {
+            "ko": "플랜 적용 완료",
+            "en": "Plan applied",
+            "ja": "プラン適用完了",
+            "comment": "210813 다국어적용"
+          },
+          "desc": {
+            "ko": "요청이 성공적으로 완료되었습니다.",
+            "en": "Your request has been successfully completed.",
+            "ja": "正常にリクエストが完了しました。",
+            "comment": "210813 다국어적용"
+          }
+        },
+        "planEndInactivate": {
+          "title": {
+            "ko": "휴면 상태 해제 완료",
+            "en": "Dormant account activated",
+            "ja": "休眠状態解除完了",
+            "comment": "210813 다국어적용"
+          },
+          "desc": {
+            "ko": "요청이 성공적으로 완료되었습니다.<br>데이터가 정상적으로 수집될 예정입니다.",
+            "en": "Your request has been successfully completed.<br>Data will be collected normally.",
+            "ja": "正常にリクエストが完了しました。<br>今後データが正常に収集されます。",
+            "comment": "210813 다국어적용"
+          }
+        },
+        "planEndInactivateFailed": {
+          "title": {
+            "ko": "휴면 상태 해제 실패",
+            "en": "Failed to activate dormant account",
+            "ja": "休眠状態解除失敗",
+            "comment": "210813 다국어적용"
+          },
+          "desc": {
+            "ko": "다시 한번 시도해 주세요.<br>문제가 반복될 경우, 뷰저블 운영팀<br>beusable@4grit.com으로 문의 주세요.",
+            "en": "Please try again. <br>If the problem repeats, please contact <br>the Beusable team at beusable@4grit.com.",
+            "ja": "もう一度お試しください。<br>引き続き問題が発生する場合、運営チーム<br>beusable@4grit.comへお問合せ下さい。",
+            "comment": "210813 다국어적용"
+          }
+        },
+        "planDuplicate": {
+          "title": {
+            "ko": "",
+            "ja": "",
+            "en": ""
+          },
+          "desc": {
+            "ko": "동일한 플랜으로 변경 불가능합니다.",
+            "ja": "同じプランに変更はできません。",
+            "en": "Changing to the same plan is not possible."
+          }
+        }
+      },
+      "journey": {
+        "invalidRequest": {
+          "title": {
+            "ko": "비정상적인 접근입니다.",
+            "en": "Invalid Request",
+            "ja": "不正なアクセスです。"
+          },
+          "desc": {
+            "ko": "대시보드 화면으로 이동합니다.",
+            "en": "Redirecting to the Dashboard.",
+            "ja": "ダッシュボードへ移動します。"
+          }
+        },
+        "noAppliedAndGoBack": {
+          "title": {
+            "ko": "선택사항이 적용되지 않았습니다.",
+            "en": "No selection will be applied.",
+            "ja": "選択項目が適用されませんでした。",
+            "comment": "210813 다국어적용"
+          },
+          "desc": {
+            "ko": "정말 이전 화면으로 돌아가시겠습니까?",
+            "en": "Do you really want to go back to <br>the previous screen?",
+            "ja": "前の画面へ戻ってもよろしいでしょうか？",
+            "comment": "210813 다국어적용"
+          }
+        },
+        "noAppliedAndClose": {
+          "title": {
+            "ko": "선택사항이 적용되지 않았습니다.",
+            "en": "No selection will be applied.",
+            "ja": "選択項目が適用されませんでした。",
+            "comment": "210813 다국어적용"
+          },
+          "desc": {
+            "ko": "정말 종료하시겠습니까?",
+            "en": "Do you really want to close it?",
+            "ja": "終了してもよろしいですか？",
+            "comment": "210813 다국어적용"
+          }
+        },
+        "changePeriodResetUtm": {
+          "title": {
+            "ko": "정말 분석 기간을 수정하시겠습니까?",
+            "en": "Do you really want to modify<br> the analysis period?",
+            "ja": "分析期間を修正されますか？",
+            "comment": "210813 다국어적용"
+          },
+          "desc": {
+            "ko": "분석 기간을 수정할 경우 기존에 설정된 <br>Marketing 값이 초기화됩니다.",
+            "en": "If you modify the analysis period, <br>the previously set Marketing value <br>will be initialized.",
+            "ja": "分析期間を修正する場合、既存設定された<br>Marketing値が初期化されます。",
+            "comment": "210813 다국어적용"
+          }
+        }
+      },
+      "survey": {
+        "editCancel": {
+          "title": {
+            "ko": "수정 모드에서 나가시겠습니까?",
+            "en": "Do you want to leave edit mode?",
+            "ja": "変更モードを終了しますか？"
+          },
+          "desc": {
+            "ko": "변경사항이 저장되지 않습니다.",
+            "en": "The changes will be lost if you don't save them.",
+            "ja": "変更内容が保存されません。",
+            "comment": "!!br 삭제"
+          }
+        }
+      }
+    },
+    "error": {
+      "404": {
+        "title": {
+          "ko": "입력한 주소를 다시 한번 <br>검토해 주세요.",
+          "en": "Please check <br>the entered address again.",
+          "ja": "入力したアドレスをもう一度<br>ご検討ください。"
+        },
+        "description": {
+          "ko": "요청한 페이지를 찾을 수 없습니다.<br>입력한 주소가 맞는지 다시 한번 검토해 주세요.<br><br>*뷰저블 운영팀 : beusable@4grit.com",
+          "en": "Oops! Something went wrong. <br>The requested page could not be found. <br> Please check the address you entered is correct. <br><br>*Beusable Operation team: beusable@4grit.com",
+          "ja": "リクエストしたページが見つかりません。 <br>入力したアドレスが正しいかもう一度ご確認お願い致します。<br><br>*ビューザブル運営チーム : beusable@4grit.com"
+        },
+        "button": {
+          "ko": "홈으로 이동",
+          "en": "Home",
+          "ja": "ホームへ移動"
+        }
+      },
+      "500": {
+        "title": {
+          "ko": "작업을 다시 한번 <br>시도해 주세요.",
+          "en": "Please try the <br>operation again.",
+          "ja": "もう一度お試しください。"
+        },
+        "description": {
+          "ko": "작업을 다시 한번 시도해 주세요.<br>만약 문제가 해결되지 않는다면 뷰저블 <br>운영팀으로 문의해 주세요.<br><br>*뷰저블 운영팀 : beusable@4grit.com",
+          "en": "Please try the operation again. <br>If the problem is not resolved, please contact <br>the Beusable Operation Team. <br><br>*Beusable Operation Team: beusable@4grit.com",
+          "ja": "もう一度同じ作業を行なってください。 <br>もし、問題が解決しない場合、お手数をおかけしますが<br>ビューザブル運営チームへお問い合わせして下さい。<br><br>*ビューザブル運営チーム : beusable@4grit.com"
+        },
+        "button": {
+          "ko": "홈으로 이동",
+          "en": "Home",
+          "ja": "ホームへ移動"
+        }
+      },
+      "pluck401": {
+        "title": {
+          "ko": "리포트 접근 권한을 가진<br>계정으로 로그인해주세요.",
+          "en": "Please log in with an account <br>with access rights.",
+          "ja": "レポートのアクセス権限がある<br>アカウントでログインしてください。",
+          "comment": "210824 다국어 적용"
+        },
+        "description": {
+          "ko": "접근 권한이 있는 계정만 공유 링크 이동이 가능합니다.<br>리포트 조회가 가능한 계정으로 접속해 주세요.<br><br><span>*뷰저블 운영팀 : beusable@4grit.com</span>",
+          "en": "Only an account with access rights can move the share link.<br> Please log in with an account that can view reports.<br><br><span>*Beusable Operation Team : beusable@4grit.com</span>",
+          "ja": "アクセス権限があるアカウントのみ共有リンクへ移動することができます。<br>レポート照会できるアカウントでアクセスしてください。<br><br><span>*ビューザブル運営チーム : beusable@4grit.com</span>",
+          "comment": "210824 다국어 적용"
+        },
+        "button": {
+          "ko": "홈으로 이동",
+          "en": "Home",
+          "ja": "ホームへ移動",
+          "comment": "210824 다국어 적용"
+        }
+      },
+      "pluck404": {
+        "title": {
+          "ko": "입력한 공유 링크를 다시 한번<br>검토해 주세요.",
+          "en": "Please check <br>the share link you entered.",
+          "ja": "入力した共有リンクをもう一度<br>ご確認ください。",
+          "comment": "210824 다국어 적용"
+        },
+        "description": {
+          "ko": "요청한 공유 리포트를 찾을 수 없습니다.<br>입력한 주소가 pluck로 발급된 주소가 맞는지 다시 한번 검토해 주세요.<br><br><span>*뷰저블 운영팀 : beusable@4grit.com</span>",
+          "en": "The requested shared report could not be found.<br>Please check the address you entered is the one issued by pluck. <br><br><span>*Beusable Operation Team : beusable@4grit.com</span>",
+          "ja": "リクエストいただいた共有レポートが見つかりませんでした。 <br>入力したアドレスがpluckで発行されたアドレスかもう一度ご確認ください。 <br><br><span>*ビューザブル運営チーム : beusable@4grit.com</span>",
+          "comment": "210824 다국어 적"
+        },
+        "button": {
+          "ko": "홈으로 이동",
+          "en": "Home",
+          "ja": "ホームへ移動",
+          "comment": "210824 다국어 적용"
+        }
+      }
+    },
+    "account": {
+      "signIn": {
+        "slogan": {
+          "en": "Journey Map is already showing user journey",
+          "ja": "Journey Mapはカスタマー ジャーニーを表示します。",
+          "ko": "Journey Map은 이미 고객 여정을 보여주고 있습니다.",
+          "comment": "230515_저니맵으로 변경"
+        },
+        "title": {
+          "en": "Sign In",
+          "ja": "ログイン",
+          "ko": "로그인"
+        },
+        "desc": {
+          "en": "You can use your existing Beusable ID to sign in!",
+          "ja": "既に登録されたビューザブルのIDで<br>ご利用いただけます！",
+          "ko": "이미 가입된 뷰저블 아이디로<br>이용하실 수 있습니다!"
+        },
+        "form": {
+          "button": {
+            "forgotPassword": {
+              "en": "Forgot Password",
+              "ja": "パスワードをお忘れの方へ",
+              "ko": "비밀번호 찾기"
+            }
+          }
+        },
+        "optimized": {
+          "ko": "뷰저블은 크롬에 최적화되어 있습니다.",
+          "ja": "ビューザブルはGoogle Chromeに最適化されてします。",
+          "en": "Beusable is optimized for Chrome.",
+          "comment": "230515_서비스명 변경"
+        },
+        "copyright": {
+          "ko": "Copyright © {thisYear} 4Grit. All rights reserved.",
+          "ja": "Copyright © {thisYear} Beusable. All rights reserved.",
+          "en": "Copyright © {thisYear} 4Grit. All rights reserved."
+        },
+        "privacyPolicy": {
+          "en": "<a href='https://analytics.beusable.net/privacy' target='_blank' style='color: #666;' class='link-text'>Privacy Policy</a> <span class='mid-dot'></span> <a href='https://analytics.beusable.net/term' target='_blank' style='color: #666;' class='link-text'>Terms of Service</a>",
+          "ja": "<a href='https://analytics.beusable.net/privacy' target='_blank' style='color: #666;' class='link-text'>プライバシーポリシー</a> <span class='mid-dot'></span> <a href='https://analytics.beusable.net/term' target='_blank' style='color: #666;' class='link-text'>利用規約</a>",
+          "ko": "<a href='https://analytics.beusable.net/privacy' target='_blank' style='color: #666;' class='link-text'>개인정보취급방침</a> <span class='mid-dot'></span> <a href='https://analytics.beusable.net/term' target='_blank' style='color: #666;' class='link-text'>이용약관</a>"
+        }
+      },
+      "signUp": {
+        "try": {
+          "title": {
+            "en": "Sign Up",
+            "ja": "会員登録",
+            "ko": "회원가입"
+          },
+          "title2": {
+            "en": "Tell Us a Little<br> About You",
+            "ja": "追加情報の記入",
+            "ko": "추가 정보 입력"
+          },
+          "desc": {
+            "en": "Create all-in-one Beusable <br>account. <br>You only need to sign up once to use Journey Map, UX Heatmap<br>altogether!",
+            "ja": "統合IDとしてジャーニマップと<br>ヒートマップを<br>ご利用いただけます！",
+            "ko": "단 하나의 통합 아이디로 <br>Journey Map, UX Heatmap<br>서비스를 모두 이용하실 수 있습니다!",
+            "comment": "230515_서비스명 변경, 그러나 사용되지 않는 문구로 보임"
+          },
+          "form": {
+            "email": {
+              "validation": {
+                "required": {
+                  "ko": "이메일을 입력해 주세요.",
+                  "ja": "メールアドレスを入力してください。",
+                  "en": "Please enter your email address."
+                },
+                "diffFormat": {
+                  "ko": "이메일 형식에 맞게 입력해 주세요.",
+                  "ja": "メールアドレス形式に従って正しく入力してください。",
+                  "en": "Please enter a valid email address."
+                },
+                "alreadyUsing": {
+                  "ko": "이미 사용 중인 이메일입니다.",
+                  "ja": "既にご登録されたメールアドレスです。",
+                  "en": "This email is already in use."
+                },
+                "requestingAuth": {
+                  "ko": "인증 요청 중인 아이디입니다.",
+                  "ja": "このメールアドレスは認証の手続きを行っています。",
+                  "en": "This email is waiting to be confirmed."
+                }
+              }
+            },
+            "password": {
+              "validation": {
+                "required": {
+                  "ko": "비밀번호를 6자 이상 입력해 주세요.",
+                  "ja": "パスワードを6文字以上で入力してください。",
+                  "en": "Please enter a minimum of 6 characters."
+                },
+                "textLengthInsufficient": {
+                  "ko": "비밀번호는 6자 이상이어야 합니다.",
+                  "ja": "パスワードは６文字以上です。",
+                  "en": "Please enter a minimum of 6 characters."
+                }
+              }
+            },
+            "company": {
+              "validation": {
+                "required": {
+                  "ko": "회사명을 입력해 주세요.",
+                  "ja": "会社名を入力してください。",
+                  "en": "Please enter the name of your company."
+                }
+              }
+            },
+            "userTel": {
+              "validation": {
+                "required": {
+                  "ko": "전화번호를 입력해 주세요.",
+                  "ja": "電話番号を入力してください。",
+                  "en": "Please enter your phone number.",
+                  "comment": "before: 휴대폰 번호를 입력해 주세요. - 회사번호일수도 있음"
+                },
+                "diffFormat": {
+                  "ko": "전화번호 형식에 맞게 입력해 주세요.",
+                  "ja": "電話番号形式に従って正しく入力してください。",
+                  "en": "please enter a valid phone number."
+                }
+              }
+            },
+            "terms": {
+              "desc": {
+                "en": "I agree to the Beusable <a href='https://analytics.beusable.net/term' target='_blank' style='color: #666; text-decoration: underline;'>Terms of Service</a> and<br> <a href='https://analytics.beusable.net/privacy' target='_blank' style='color: #666; text-decoration: underline;'>Privacy Policy</a>.",
+                "ja": "ビューザブルの<a href='https://analytics.beusable.net/term' target='_blank' style='color: #666; text-decoration: underline;'>利用約款</a>と<br><a href='https://analytics.beusable.net/privacy' target='_blank' style='color: #666; text-decoration: underline;'>プライバシーポリシー</a>に同意します。",
+                "ko": "뷰저블 <a href='https://analytics.beusable.net/term' target='_blank' style='color: #666; text-decoration: underline;'>이용약관</a> 및 <a href='https://analytics.beusable.net/privacy' target='_blank' style='color: #666; text-decoration: underline;'>개인정보취급방침</a>에 동의합니다.",
+                "comment": "230515_서비스명 변경, 그러나 사용되지 않는 문구로 보임"
+              },
+              "validation": {
+                "required": {
+                  "ko": "뷰저블의 이용약관과 개인정보취급방침에 동의해 주세요.",
+                  "en": "Please agree to the Beusable Terms of Service and Privacy Policy.",
+                  "ja": "ビューザブルの利用規約とプライバシーポリシーに同意して下さい。 ",
+                  "comment": "230515_서비스명 변경, 그러나 사용되지 않는 문구로 보임"
+                }
+              }
+            },
+            "emailLang": {
+              "desc": {
+                "ko": "이메일 언어 설정을 기준으로 이메일이 발송됩니다.",
+                "ja": "受信するメールの言語設定を基準にして、この言語でメールが送信されます。",
+                "en": "Emails are sent based on the language you’ve set."
+              }
+            },
+            "timezone": {
+              "desc": {
+                "ko": "타임존을 기준으로 데이터 수집 및 리포트 조회가 이루어집니다.",
+                "ja": "タイムゾーンを基準として、データの収集およびレポートの照会が行われます。",
+                "en": "Reports are provided based on the timezone you’ve set.",
+                "comment": "210813 다국어적용"
+              }
+            }
+          }
+        },
+        "done": {
+          "title": {
+            "en": "Verify Your Email",
+            "ja": "メールアドレスのご確認",
+            "ko": "인증 메일 발송"
+          },
+          "desc": {
+            "en": "Email verification is required<br> to complete membership registration. <br><br>If you do not receive an email from Beusable, <br>please check your spam folder.",
+            "ja": "会員登録を完了する為には、メール認証の完了が必要です。<br><br>ビューザブルから送信されたメールが<br>受信されない場合は、迷惑メールフォルダーをご確認ください。",
+            "ko": "회원 가입 완료를 위해 이메일 인증을 완료하셔야 합니다.<br><br>뷰저블에서 보낸 메일을 받지 못한 경우,<br> 스팸 메일함을 확인해 주세요.",
+            "comment": "230515_서비스명 변경"
+          }
+        },
+        "auth": {
+          "success": {
+            "title": {
+              "en": "Verification Complete",
+              "ja": "メールアドレス認証の完了",
+              "ko": "이메일 인증 완료"
+            },
+            "desc": {
+              "en": "Your membership registration is complete. <br>You can sign in and use Beusable.",
+              "ja": "会員登録が完了しました。<br>ログインすると、ビューザブルを<br>すぐご利用いただけます。",
+              "ko": "회원가입이 완료되었습니다.<br>로그인하여 뷰저블을 이용하실 수 있습니다.",
+              "comment": "230515_서비스명 변경"
+            }
+          },
+          "expired": {
+            "title": {
+              "en": "Verification Link Expired",
+              "ja": "認証の有効期間満了。",
+              "ko": "인증 기간 만료"
+            },
+            "desc": {
+              "en": "Your email verification link has expired.<br>Please restart the sign up process.",
+              "ja": "送信された認証メールの有効期間が終了しました。<br>再度、会員登録の手続きを進行お願いします。",
+              "ko": "이메일 인증기간이 만료되었습니다. <br>회원가입을 다시 진행해 주세요.",
+              "comment": "!!일어 수정"
+            }
+          }
+        }
+      },
+      "resetPassword": {
+        "title": {
+          "en": "Reset Password",
+          "ja": "パスワード再設定",
+          "ko": "비밀번호 재설정"
+        },
+        "request": {
+          "form": {
+            "email": {
+              "validation": {
+                "required": {
+                  "ko": "이메일을 입력해 주세요.",
+                  "ja": "メールアドレスを入力してください。",
+                  "en": "Please enter your email address."
+                },
+                "notFound": {
+                  "ko": "가입되지 않은 이메일입니다.",
+                  "ja": "登録されていないメールアドレスです。",
+                  "en": "Couldn't find your account."
+                }
+              }
+            }
+          },
+          "requestSuccess": {
+            "title": {
+              "en": "Password Reset Email Sent",
+              "ja": "メール送信完了",
+              "ko": "메일 발송 완료"
+            },
+            "desc": {
+              "en": "An email has been sent to your email address.<br>Follow the directions in the email to reset your<br> password.",
+              "ja": "パスワード再設定のご案内メールを送信しました。<br>メールをご確認し、パスワードを再設定してください。",
+              "ko": "비밀번호 재설정에 관해 메일을 보냈습니다. <br>메일을 확인하시고 비밀번호를 재설정해 주세요."
+            }
+          }
+        },
+        "done": {
+          "title": {
+            "en": "Password Reset Complete",
+            "ja": "パスワードの再設定完了",
+            "ko": "비밀번호 재설정 완료"
+          },
+          "desc": {
+            "en": "You can now sign in using your<br>new password.",
+            "ja": "新しいパスワードでログインいただけます。",
+            "ko": "새로운 비밀번호로 로그인하실 수 있습니다."
+          }
+        },
+        "expired": {
+          "title": {
+            "ko": "비밀번호 재설정 기간 만료",
+            "ja": "パスワード再設定の有効期間満了",
+            "en": "Password Reset Link Expired"
+          },
+          "desc": {
+            "ko": "다시 비밀번호 찾기를 시도해 주시기 바랍니다.",
+            "ja": "パスワードの再設定をもう一度お願いいたします。",
+            "en": "Your password reset link has expired.<br>Please restart the password reset process."
+          }
+        }
+      }
+    },
+    "plan": {
+      "free": {
+        "ko": "무료",
+        "en": "Free",
+        "ja": "無料"
+      },
+      "about": {
+        "title": {
+          "ko": "나에게 맞는 ‘플랜’ 선택하기",
+          "en": "Choose the plan that's right for you!",
+          "ja": "あなたに合う「料金のプラン」を選択しよう！",
+          "comment": "210723 다국어 적용"
+        },
+        "description": {
+          "ko": "서비스와 방문 고객의 규모, 광고 분석 필요 여부에 따라 나에게 맞는 플랜을 선택해 고객 여정 분석을 시작할 수 있습니다.",
+          "en": "You can start analyzing your customer journey by choosing the plan that's right for you,<br>based on the size of your service, the size of your customers, and your ad analytics needs.",
+          "ja": "サービスとアクセスするカスタマーの規模、広告分析の必要に応じてプランを選択し、カスタマージャーニー分析が始められます。",
+          "comment": "210723 다국어 적용, 210907 영문 워딩 변경"
+        },
+        "feature": {
+          "pv": {
+            "name": {
+              "ko": "분석 PV",
+              "en": "Analysis PV",
+              "ja": "分析 PV",
+              "comment": "210723 다국어 적용"
+            },
+            "unit": {
+              "ko": "월 {count}만 PV부터",
+              "en": "Starting from {count}0k PV / mo",
+              "ja": "月{count}万以上",
+              "comment": "210914 영/일문 변경되어 있어서 수정함"
+            },
+            "description": {
+              "ko": "제공 PV를 모두 소진할 경우, 필요한 만큼만 PV를 충전하여 <br>합리적으로 고객 여정 분석을 이어갈 수 있습니다.",
+              "en": "When all of the provided PV is used, you can reasonably <br> continue your customer journey analysis by charging PV only as needed.",
+              "ja": "提供PVを全部消化した場合、新しくPVをチャージし、合理的にカスタマ<br>ージャーニー分析を続けられます。",
+              "comment": "toss"
+            }
+          },
+          "domainCount": {
+            "name": {
+              "ko": "분석 도메인",
+              "en": "Analysis domain",
+              "ja": "分析ドメイン",
+              "comment": "210723 다국어 적용"
+            },
+            "unit": {
+              "ko": "{count}개",
+              "en": "{count}",
+              "ja": "{count}個",
+              "comment": "210723 다국어 적용"
+            }
+          },
+          "viewMore": {
+            "name": {
+              "ko": "고객 여정 분석",
+              "en": "Customer Journey",
+              "ja": "カスタマージャーニー分析",
+              "comment": "210723 다국어 적용"
+            },
+            "detail": {
+              "ko": "기본 + 상세 분석",
+              "en": "Basic + In-depth analysis",
+              "ja": "デフォルト+詳細分析",
+              "comment": "210817 다국어적용"
+            },
+            "description": {
+              "ko": "고객의 유입부터 이탈까지 제한없이 <br>모든 여정을 볼 수 있습니다.",
+              "en": "You can see the entire journey from <br>customer inflow to drop off unlimitedly.",
+              "ja": "顧客の流入から離脱までの<br>全カスタマージャーニー制限なしで閲覧できます。",
+              "comment": "210813 홈페이지와 동일하게 변경"
+            },
+            "descriptionPro": {
+              "ko": "되돌아온 고객(롤백)의 직전 URL을 <br>TOP100까지 볼 수 있습니다.",
+              "en": "You can see the URLs of the user <br>who returned (rollback) up to 100.",
+              "ja": "前のページから戻ったユーザー（ロールバック）の<br>戻る前のURLをTOP100まで確認できます。",
+              "comment": "21.07.21 sh 홈페이지 툴팁과 문구 동일하게 교체"
+            }
+          },
+          "campaignTargeting": {
+            "name": {
+              "ko": "광고 분석",
+              "en": "Advertising analysis",
+              "ja": "広告流入分析",
+              "comment": "210813 홈페이지와 동일하게 변경"
+            },
+            "description": {
+              "ko": "URL에 포함된 UTM Parameter를 기준으로 마케팅 <br>광고 집행을 통해 유입된 고객을 세그멘팅해 여정을 분석할 수 있습니다.",
+              "en": "Based on the UTM parameter included in the URL, the <br> journey can be analyzed by segmenting the customers who <br>have entered through marketing advertisement execution.",
+              "ja": "URLに含まれたUTMのParameterを基に、マーケティング広告に流入さ<br>れたカスタマーをセグメントし、ジャーニー分析ができます。",
+              "comment": "210813 홈페이지와 동일하게 변경"
+            }
+          },
+          "pvLimit": {
+            "name": {
+              "ko": "월 PV 관리",
+              "en": "Advertising analysis",
+              "ja": "広告流入分析",
+              "comment": "210813 홈페이지와 동일하게 변경"
+            },
+            "description1": {
+              "ko": "월간 PV : 100 / <span>1,000</span>",
+              "en": "Monthly PV : 100 / <span>1,000</span>",
+              "ja": "月間 PV : 100 / <span>1,000</span>",
+              "comment": "210813 홈페이지와 동일하게 변경"
+            },
+            "description2": {
+              "ko": "도메인에 사용할 PV를<br>월간 기준으로 제한할 수 있습니다.",
+              "en": "You can limit the PV to be used <br>for your domain on a monthly basis.",
+              "ja": "ドメインに使用するPVを1ヶ月単位で<br>制限することもできます。"
+            }
+          }
+        },
+        "unlimited": {
+          "ko": "무제한",
+          "en": "Unlimited",
+          "ja": "無制限",
+          "comment": "220523 국문 추가"
+        },
+        "available": {
+          "ko": "가능",
+          "en": "Possible",
+          "ja": "可能"
+        },
+        "inUse": {
+          "ko": "이용 중",
+          "en": "In use",
+          "ja": "利用中",
+          "comment": "210813 다국어적용"
+        },
+        "free": {
+          "ko": "무료 사용하기",
+          "en": "Try it for free",
+          "ja": "無料で利用する"
+        },
+        "pricePerMonth": {
+          "ko": "월 {price}원",
+          "en": "{price} (KRW) / mo",
+          "ja": "月/{price}ウォン"
+        },
+        "limited": {
+          "ko": "기간한정",
+          "en": "for a limited time",
+          "ja": "期間限定",
+          "comment": "210813 다국어적용"
+        },
+        "everyone": {
+          "ko": "Everyone",
+          "en": "Everyone",
+          "ja": "Everyone",
+          "comment": "21.07.21 sh 플랜명 통일"
+        },
+        "pro": {
+          "ko": "Pro",
+          "en": "Pro",
+          "ja": "Pro",
+          "comment": "21.07.21 sh 플랜명 통일"
+        },
+        "tip": {
+          "ko": "* 연간 결제와 무통장 입금 방식은 별도로 문의해주세요!",
+          "en": "* Please contact us for annual payment and non-bankbook deposit method!",
+          "ja": "* 年間支払いや、振り込みでの支払いに関しましては、お問合せください。"
+        }
+      },
+      "agree": {
+        "ko": "위 내용을 확인했으며, 이에 동의합니다.",
+        "en": "I have read the above and agree to it.",
+        "ja": "上記の内容を確認し、これに同意します。"
+      },
+      "wireDescription": {
+        "ko": "뷰저블 운영팀으로 무통장 입금 신청 부탁드립니다.",
+        "en": "Please apply for direct deposit to the Beusable Operation team.",
+        "ja": "ビューザブル運営チームへ、銀行振込の申請をお願いします。",
+        "comment": "210813 다국어적용"
+      },
+      "monthlyPv": {
+        "en": "Monthly PV",
+        "ja": "月間PV",
+        "ko": "월간 PV"
+      },
+      "chargeJam": {
+        "en": "Top Up JAM",
+        "ja": "JAMチャージ",
+        "ko": "JAM 충전"
+      },
+      "heatmapJam": {
+        "title": {
+          "en": "Manage JAM",
+          "ja": "JAM 管理",
+          "ko": "JAM 관리"
+        },
+        "description": {
+          "title": {
+            "en": "Heatmap Basket",
+            "ja": "ヒートマップ バケット",
+            "ko": "히트맵 바구니"
+          },
+          "tooltip": {
+            "en": "This is the JAM basket used for heatmap analysis.",
+            "ja": "ヒートマップ分析の際に使用する、JAMバケットです。",
+            "ko": "히트맵 분석을 위해 사용되는 JAM 바구니입니다."
+          }
+        },
+        "shift": {
+          "title": {
+            "en": "Manage JAM",
+            "ja": "JAM 管理",
+            "ko": "JAM 관리"
+          },
+          "move": {
+            "toBasket": {
+              "en": "Move to basket",
+              "ja": "バケットに移動する",
+              "ko": "바구니로 이동"
+            },
+            "toMyJam": {
+              "en": "Move to My JAM",
+              "ja": "マイJAMに移動する",
+              "ko": "나의 JAM으로 이동"
+            }
+          },
+          "button": {
+            "en": "Move",
+            "ja": "移動する",
+            "ko": "이동"
+          },
+          "cantMove": {
+            "comment": "20230914 son",
+            "en": "Cannot be moved <br>when heatmaps are running",
+            "ja": "ヒートマップが実行中は<br> 移動できません。",
+            "ko": "히트맵이 실행 중일 때 <br> 이동 불가"
+          }
+        }
+      },
+      "noChargedJam": {
+        "en": "No activity found.",
+        "ja": "履歴がありません。",
+        "ko": "내역이 존재하지 않습니다."
+      },
+      "noUsedJam": {
+        "en": "No activity found.",
+        "ja": "履歴がありません。",
+        "ko": "내역이 존재하지 않습니다."
+      },
+      "noExpiredJam": {
+        "en": "No JAM that expire within 1 year are found.",
+        "ja": "有効期間が1年未満のJAMがありません。",
+        "ko": "유효기간이 1년 미만인 JAM이 존재하지 않습니다."
+      },
+      "jamExpiredDateDesc": {
+        "ko": "JAM의 유효기간이 임박한 순으로 먼저 사용됩니다.",
+        "ja": "JAMの有効期間が近いものから先に使用されます。",
+        "en": "JAM that expires sooner will be used first."
+      },
+      "alert": [
+        {
+          "title": {
+            "ko": "JAM 충전 완료",
+            "ja": "JAMチャージ完了",
+            "en": "JAM charging complete"
+          },
+          "description": {
+            "ko": "요청이 성공적으로 완료되었습니다.",
+            "ja": "入力したURLもしくはパラメーターをご確認ください。",
+            "en": "Please check the entered URL or parameter values."
+          }
+        },
+        {
+          "title": {
+            "ko": "JAM 충전 실패",
+            "ja": "JAM charging failed",
+            "en": "JAMチャージ失敗"
+          },
+          "description": {
+            "ko": "결제하신 카드 정보를 확인하시거나 <br/> 다른 카드로 결제를 시도해 주세요.",
+            "ja": "入力したURLもしくはパラメーターをご確認ください。",
+            "en": "Please check the entered URL or parameter values."
+          }
+        }
+      ],
+      "cardPlan": {
+        "en": "(monthly subscription)",
+        "ko": "(정기 구독)",
+        "ja": "(フォロー)"
+      },
+      "subscribeYourPlan": {
+        "en": "Subscribe Your Plan",
+        "ja": "プランのお申込み",
+        "ko": "플랜 신청"
+      },
+      "subscriptionTerms": {
+        "en": "Subscription Terms",
+        "ja": "利用期間",
+        "ko": "이용 기간"
+      },
+      "expiryDate": {
+        "en": "Termination Date",
+        "ja": "解約期間",
+        "ko": "해지 적용일"
+      },
+      "planInUse": {
+        "en": "Plan in Use",
+        "ja": "ご利用中のプラン",
+        "ko": "이용 중인 플랜"
+      },
+      "noPlanInUse": {
+        "en": "No Plan in Use",
+        "ja": "ご利用中のプランなし",
+        "ko": "이용 중인 플랜 없음"
+      },
+      "planSubscription": {
+        "en": "Plan Subscription",
+        "ja": "プランのお申込み",
+        "ko": "플랜 신청"
+      },
+      "planChoose": {
+        "en": "Choose a plan you want to subscribe.",
+        "ja": "ご希望の有料プランをご選択ください。",
+        "ko": "이용하실 플랜을 선택해 주세요"
+      },
+      "changePlan": {
+        "en": "Change Plan",
+        "ja": "プラン変更",
+        "ko": "플랜 변경"
+      },
+      "chargeAmount": {
+        "en": "Total (KRW)",
+        "ja": "合計 (KRW)",
+        "ko": "결제 금액"
+      },
+      "chargedJam": {
+        "en": "JAM",
+        "ja": "JAM",
+        "ko": "JAM"
+      },
+      "expiredJam": {
+        "en": "JAM Expired",
+        "ja": "JAM有効期限満了",
+        "ko": "JAM 유효기간 만료"
+      },
+      "refundedJam": {
+        "en": "Refunded JAM",
+        "ja": "JAM払い戻し",
+        "ko": "JAM 환불"
+      },
+      "surveyTooltip": {
+        "en": "You can select this segment when using a paid plan.",
+        "ja": "有料プランを利用する場合、選択できるセグメントです。",
+        "ko": "유료 플랜을 이용할 경우, 선택할 수 있는 세그먼트입니다."
+      },
+      "jamChargeDate": {
+        "en": "Date",
+        "ja": "日付",
+        "ko": "일자"
+      },
+      "jamChargedDate": {
+        "en": "Top up date",
+        "ja": "チャージ日時",
+        "ko": "충전 일자"
+      },
+      "myJam": {
+        "en": "My JAM",
+        "ja": "マイJAM",
+        "ko": "나의 JAM"
+      },
+      "descriptionWithJam": {
+        "en": "You have remaining JAM. All JAM will expire and cannot be restored once your account is deleted.",
+        "ja": "使用していないJAMがあります。会員退会時、残余JAMは全て消滅し、復旧できません。",
+        "ko": "사용하지 않은 JAM이 존재합니다. 회원 탈퇴시 남은 JAM은 모두 소멸되어 복구할 수 없습니다."
+      },
+      "confirmWithJam": {
+        "en": "I have confirmed and agree that all my JAM will expire.",
+        "ja": "JAMが全て消費されることに同意します。",
+        "ko": "JAM이 모두 소멸되는 점을 확인했고, 이에 동의합니다."
+      },
+      "jamAmount": {
+        "en": "JAM",
+        "ja": "個",
+        "ko": "개"
+      },
+      "jamExpiration": {
+        "ko": "유효기간",
+        "en": "Expiration date",
+        "ja": "有効期間"
+      },
+      "detail": {
+        "ko": "상세 내역",
+        "en": "Detail",
+        "ja": "詳細内訳"
+      },
+      "emptyJam": {
+        "ko": "PV가 필요할 때마다 JAM으로 쉽고 빠르게 결제하세요!",
+        "en": "Easily pay with JAM whenever you need PV!",
+        "ja": "必要なPV数に応じて、JAMで手軽に購入しましよう！"
+      },
+      "remainJam": {
+        "ko": "남은 JAM",
+        "en": "Remaining JAM",
+        "ja": "残りのJAM"
+      },
+      "freeJam": {
+        "ko": "남은 JAM",
+        "en": "Remaining JAM",
+        "ja": "残りのJAM"
+      },
+      "paidJam": {
+        "ko": "남은 JAM",
+        "en": "Remaining JAM",
+        "ja": "残りのJAM"
+      },
+      "usedJam": {
+        "ko": "사용 JAM",
+        "en": "Used JAM",
+        "ja": "使用したJAM"
+      },
+      "usedJamDate": {
+        "ko": "일자",
+        "en": "Date",
+        "ja": "日付"
+      },
+      "jamExpirationGuide": {
+        "ko": "유효기간 안내",
+        "en": "Expiration notice",
+        "ja": "有効期間のご案内"
+      },
+      "jamExpirationAlert": {
+        "ko": "유효기간이 지난 JAM은 소멸되며, 복구되지 않습니다.",
+        "en": "Expired JAM cannot be restored.",
+        "ja": "有効期間が過ぎたJAMは消滅し、復旧されません。"
+      },
+      "DeactivationJam": {
+        "ko": "미사용된 JAM이 있는 경우 회원 탈퇴 진행이 불가능합니다. <br>남은 JAM을 모두 사용하고 탈퇴를 진행해 주세요.",
+        "en": "You cannot delete your account if you have remaining JAM.<br> Please use all your JAM before proceeding.",
+        "ja": "未使用のJAMがある場合、退会手続きができません。<br>残余JAMをすべて消費後、改めて退会手続きをお願い致します。"
+      },
+      "jamChargeHistory": {
+        "en": "My JAM History",
+        "ja": "マイJAMの内訳",
+        "ko": "나의 JAM 내역"
+      },
+      "period": {
+        "en": "Date Range",
+        "ja": "閲覧期間",
+        "ko": "조회 기간"
+      },
+      "jamUseHistory": {
+        "en": "Heatmap Basket History",
+        "ja": "ヒートマップ バケットの内訳",
+        "ko": "히트맵 바구니 내역"
+      },
+      "changePlanConfirm": {
+        "title": {
+          "ko": "플랜 변경",
+          "en": "Confirm plan change",
+          "ja": "プラン変更の確認",
+          "comment": "210813 다국어적용"
+        },
+        "paymentType": {
+          "card": {
+            "ko": "신용카드",
+            "en": "Credit Card",
+            "ja": "クレジットカード"
+          },
+          "bank": {
+            "ko": "무통장 입금",
+            "en": "Wire Transfer",
+            "ja": "銀行振込"
+          }
+        },
+        "nowUsing": {
+          "ko": "현재 이용 중",
+          "en": "Currently in use",
+          "ja": "現在、利用中 ",
+          "comment": "210813 다국어적용"
+        },
+        "changeTo": {
+          "ko": "변경 내용",
+          "en": "Changes",
+          "ja": "変更内容",
+          "comment": "210813 다국어적용"
+        },
+        "price": {
+          "ko": "가격 :",
+          "en": "Price :",
+          "ja": "価額 :",
+          "comment": "210813 다국어적용"
+        },
+        "total": {
+          "ko": "이용 요금",
+          "en": "The total amount",
+          "ja": "合計",
+          "comment": "210813 다국어적용"
+        },
+        "vatNotInclude": {
+          "ko": "금액 : VAT 별도",
+          "en": "Price : VAT not included",
+          "ja": "金額 : 税抜き",
+          "comment": "210813 다국어적용"
+        },
+        "transferRemain": {
+          "ko": "‘{currentPlan} 플랜' 잔여 분 이관",
+          "en": "Transfer of Remaining Quota from '{currentPlan} Plan'",
+          "ja": "'{currentPlan}プラン'残余分の移行"
+        },
+        "downgrade": {
+          "desc1": {
+            "ko": "{newPlan} 플랜은 {startDate} 부터 변경되어 적용됩니다.",
+            "en": "{newPlan} plan is changed and applied from {startDate}.",
+            "ja": "{newPlan}プランは {startDate} から変更後、適用されます。 ",
+            "comment": "210813 다국어적용"
+          }
+        },
+        "upgrade": {
+          "desc0": {
+            "ko": "매월 플랜 시작일에 변경된 플랜으로 자동 정기 결제됩니다.",
+            "en": "The changed plan will be charged monthly on the plan start date as <br>a recurring payment.",
+            "ja": "毎月のプラン開始日に変更されたプランで自動決済されます。"
+          },
+          "desc1": {
+            "ko": "선택하신 플랜은 결제 완료 이후, 즉시 적용됩니다.",
+            "en": "The selected plan will be applied immediately after payment is completed.",
+            "ja": "選択したプランは決済完了後、すぐに適用されます。",
+            "comment": "210813 다국어적용"
+          },
+          "desc2": {
+            "ko": "{currentPlan}플랜의 잔여PV 및 CX Report는 1회에 한하여 모두 이관됩니다.",
+            "ja": "「{currentPlan}プラン」の残りのPV数およびCX Reportは、1回限りですべて移行されます。",
+            "en": "All remaining PVs and CX Reports from the {currentPlan} plan will be transferred at once.",
+            "comment": "toss"
+          }
+        },
+        "restriction": {
+          "title": {
+            "ko": "기능 제한",
+            "en": "Functional limitations",
+            "ja": "機能の制限",
+            "comment": "210813 다국어적용"
+          },
+          "domainCount": {
+            "title": {
+              "ko": "마케팅 분석 제한",
+              "en": "Marketing analysis limited",
+              "ja": "マーケティング分析の制限",
+              "comment": "210813 다국어적용"
+            },
+            "description": {
+              "ko": "Everyone 플랜 기간에는 UTM과 Survey에서 일부 세그먼트만 조회 가능합니다.<br/>(유료 플랜 기간에 수집된 UTM 데이터는 조회하실 수 있습니다.)",
+              "en": "You can only view a portion of UTM and Survey segments during<br> the Everyone plan period. <br>(You can view UTM data collected duringthe paid plan period.)",
+              "ja": "Everyoneプラン期間では、 UTMと Surveyで一部セグメントのみ閲覧できます。<br>  (有料プラン期間に収集した UTMデータは閲覧できます）"
+            }
+          },
+          "campaignTargeting": {
+            "title": {
+              "ko": "타겟 이후 여정 조회 불가",
+              "en": " Target subsequent journey unavailable",
+              "ja": "ターゲット機能以降のジャーニー照会不可",
+              "comment": "210813 다국어적용"
+            },
+            "description": {
+              "ko": "타겟 페이지의 이후 여정은 조회할 수 없습니다.",
+              "en": "You can no longer view the subsequent journey of targeted pages.",
+              "ja": "ターゲット機能以降のジャーニーは照会できません。",
+              "comment": "210813 다국어적용"
+            }
+          },
+          "pvLimit": {
+            "title": {
+              "ko": "즐겨찾기 갯수 제한",
+              "en": " Number of bookmarks limited",
+              "ja": "お気に入り登録数の制限",
+              "comment": "210824 다국어적용"
+            },
+            "description": {
+              "ko": "즐겨찾기는 1개로 제한되며, 기존 즐겨찾기 설정은 초기화됩니다.",
+              "en": "Bookmarks will be limited to 1 (one) and remaining bookmarks will be reset.",
+              "ja": "お気に入りは1つのみ制限され、既存のお気に入りの設定は初期化されます。",
+              "comment": "210824 다국어적용"
+            }
+          },
+          "webinar": {
+            "title": {
+              "ko": "웨비나 신청 불가",
+              "en": "Webinar registration unavailable",
+              "ja": "ウェビナー申請の不可",
+              "comment": "210824 다국어적용"
+            },
+            "description": {
+              "ko": "저니맵 활용 웨비나에 신청할 수 없습니다.",
+              "en": "You can no longer register for Journey Map guide webinars.",
+              "ja": "ジャーニーマップのウェビナーに申請できません。",
+              "comment": "210824 다국어적용"
+            }
+          }
+        },
+        "features": {
+          "title": {
+            "ko": "추가 기능 제공",
+            "en": "Additional features provided",
+            "ja": "追加機能を提供",
+            "comment": "210813 다국어적용"
+          },
+          "domainCount": {
+            "ko": "<span>UTM과 Survey의 모든 세그먼트를 조회</span>할 수 있습니다. <br/>(Everyone 플랜 기간의 UTM 데이터는 확인하실 수 없습니다.)",
+            "en": "You can <span>register an unlimited number of domains to analyze.</span> ",
+            "ja": "<span>分析ドメイン数が無制限で</span>提供されます。",
+            "comment": "210813 다국어적용"
+          },
+          "campaignTargeting": {
+            "ko": "즐겨찾기를 <span>최대 60개</span>까지 설정 가능합니다.",
+            "en": "Marketing is provided for the period applying the Pro plan.",
+            "ja": "Proプラン利用期間には<span>Marketing機能が提供</span>されます。",
+            "comment": "210813 다국어적용"
+          },
+          "pvLimit": {
+            "ko": "타겟 노드의 <span>이후 여정을 조회</span>할 수 있습니다.",
+            "en": "<span>Monthly PV limit function is provided</span> to manage PV usage.",
+            "ja": "使用するPVを管理できる<span>月間PV制限機能が提供</span>されます。",
+            "comment": "210813 다국어적용"
+          },
+          "webinar": {
+            "ko": "저니맵 활용 <span>웨비나에 신청</span>할 수 있습니다.<br/> (뷰저블 포럼 공지에서 신청 가능)",
+            "en": "<span>Monthly PV limit function is provided</span> to manage PV usage.",
+            "ja": "使用するPVを管理できる<span>月間PV制限機能が提供</span>されます。",
+            "comment": "210813 다국어적용"
+          },
+          "toPvLimit": {
+            "title": {
+              "ko": "월간 PV 제한",
+              "en": "Monthly PV limit",
+              "ja": "月間PV制限"
+            },
+            "description": {
+              "ko": "도메인에서 월간 소진할 수 있는 PV를 제한할 수 있습니다.",
+              "en": "You can limit the PV that your domain can consume per month.",
+              "ja": "ドメインから1か月間消費されるPV数の設定が可能です。"
+            }
+          }
+        }
+      },
+      "cancelChangeConfirm": {
+        "title": {
+          "ko": "취소 완료",
+          "en": "Cancelled",
+          "ja": "キャンセル完了",
+          "comment": "210813 다국어적용"
+        },
+        "description": {
+          "ko": "요청하신 플랜 변경이 취소 되었습니다.",
+          "en": "The plan change you requested has been cancelled.",
+          "ja": "リクエストされたプラン変更が<br>キャンセルされました。",
+          "comment": "210813 다국어적용"
+        },
+        "next": {
+          "ko": "현재 이용 중인 플랜이 다음 플랜 결제일에 결제됩니다.",
+          "en": "Your current plan will be billed on the next plan billing date.",
+          "ja": "現在利用中のプランが次回プラン決済日に決済されます。",
+          "comment": "210813 다국어적용"
+        }
+      },
+      "contactPlan": {
+        "en": "Plan inquiry",
+        "ja": "プランのお問い合わせ",
+        "ko": "플랜 문의",
+        "comment": "210813 다국어적용"
+      },
+      "viewMorePlans": {
+        "en": "View More Plans",
+        "ja": "プランをもっと見る",
+        "ko": "플랜 더 보기"
+      },
+      "cancelPlanChange": {
+        "en": "Cancel Plan Change",
+        "ja": "プラン変更キャンセル",
+        "ko": "플랜 변경 취소"
+      },
+      "cancelSchedule": {
+        "en": "Cancel Plan Change",
+        "ja": "プラン変更キャンセル",
+        "ko": "예약 취소"
+      },
+      "contactForm": {
+        "ko": "플랜 변경 문의드립니다. 결제 방법을 안내해주세요.\n\n<플랜 변경>\n\n변경할 플랜 명:\n결제수단:\n변경 적용일자:",
+        "ja": "プラン変更に関してお問い合わせします。決済方法を案内してください。 \n\n<プラン変更>\n\n変更するプラン名 :\n決済方法 :\n プラン変更を適用する日程 :",
+        "en": "I would like to inquire about a plan change.Please guide me how to pay. \n\n<Plan Change> \n\nPlan name to be changed: \nPayment method: \nDate the change will take effect:",
+        "comment": "210813 다국어적용"
+      },
+      "downgradeForm": {
+        "ko": "[현재 플랜 유지]\n\n다음 플랜 다운그레이드 신청 취소합니다. 절차에 대해 답변 부탁드립니다.\n\n신청할 다음 플랜: {planName}",
+        "ja": "[現在のプランを維持]\n\n 次回のプランのダウングレード要請をキャンセルします。手続きに関してご回答ください。\n\n申請する次のプラン: {planName}",
+        "en": "[Keep current plan] \n\nCancel the next plan downgrade application.\n\nPlease respond to the cancellation procedure.\n\nNext plan to apply for: {planName}",
+        "comment": "210813 다국어적용"
+      },
+      "chargePv": {
+        "minimumAmount": {
+          "ko": "최소 충전 수량은 100,000PV 입니다.",
+          "en": "The minimum charge quantity is 100,000 PV.",
+          "ja": "最低チャージPVの数量は100,000PV です。",
+          "comment": "toss"
+        },
+        "reloadedImmediately": {
+          "ko": "PV는 결제 즉시 충전됩니다.",
+          "en": "PV is charged immediately upon payment.",
+          "ja": "PVは決済後、すぐにチャージされます。 ",
+          "comment": "toss"
+        },
+        "unitPrice": {
+          "ko": "PV 충전 단가는 1PV = 0.1원 입니다.",
+          "en": "The unit price of PV charging is 1PV = 0.3 won. (KRW)",
+          "ja": "PVチャージ単価は、 1PV = 0.1ウォンです。",
+          "comment": "toss"
+        },
+        "unitPriceJam": {
+          "ko": "PV 충전 단가는 10JAM=100,000PV 입니다.",
+          "en": "The unit price for PV top up is 10 JAM = 100,000 PV.",
+          "ja": "PVチャージ単価は、10JAM=100,000PVです。",
+          "comment": "toss"
+        },
+        "notBeCarried": {
+          "ko": "잔여 PV는 다음 플랜으로 이월되지 않는 점 유의해 주세요.",
+          "en": "Please note that the remaining PV is not carried over to the next plan.",
+          "ja": "残りPVは次回のプランへ繰越しされません。その点、ご注意ください。",
+          "comment": "210813 다국어적용"
+        },
+        "terms" : {
+          "ko": "자세한 뷰저블 이용 약관 확인하기 (링크)",
+          "en": "Check detailed viewable terms and conditions (link)",
+          "ja": "詳しいビュージャブル利用規約を確認する(リンク)"
+        }
+      },
+      "noJam": {
+        "about": {
+          "ko": " JAM은 뷰저블>Journey Map 내에서 사용하실 수 있는 결제수단입니다.",
+          "en": "JAM is a payment method you can use for Beusable Journey Map.",
+          "ja": "JAMはビューザブル＞ジャーニーマップ内でご利用いただける決済方法です。"
+        },
+        "period": {
+          "ko": "충전한 JAM은 5년 동안 자유롭게 사용하실 수 있습니다. (충전일로부터 5년)",
+          "en": "The charged JAM can be used freely for 5 years. (5 years from the charge date)",
+          "ja": "チャージしたJAMは5年間自由にご利用いただけます。（チャージ日から5年）"
+        },
+        "unitPrice": {
+          "ko": "PV 충전 단가는 10JAM=100,000PV 입니다.",
+          "en": "The unit price for PV top up is 10 JAM = 100,000 PV.",
+          "ja": "PVチャージ単価は、10JAM=100,000PVです。"
+        },
+        "description": {
+          "ko": "보유하신 JAM이 없습니다.",
+          "en": "You do not have any JAM.",
+          "ja": "取得したJAMがありません。"
+        }
+      },
+      "topUpJam": {
+        "period": {
+          "ko": "충전한 유료 JAM의 유효기간은 충전한 날로부터 5년입니다. 기간 내 미사용 시에는 자동 소멸됩니다",
+          "en": "The expiration date of the purchased JAM is 5 years from charge date. It will automatically expire if not used by the end of the period.",
+          "ja": "有効期間が過ぎたJAMは消滅し、復旧されません。有効期間が1年未満の残余JAMのみご案内します。"
+        },
+        "about": {
+          "ko": "최소 충전 JAM은 10개 입니다.",
+          "en": "The minimum charge quantity is 10 JAM.",
+          "ja": "最低チャージJAMの数量は10個です。"
+        },
+        "description": {
+          "ko": "JAM 사용시 유효기간이 임박한 순으로 먼저 차감됩니다.",
+          "en": "JAM will be used in the first order of expiration",
+          "ja": "有効期間が1年未満のJAMがありません。"
+        },
+        "terms" : {
+          "ko": "자세한 뷰저블 이용 약관 확인하기 (링크)",
+          "en": "Check detailed viewable terms and conditions (link)",
+          "ja": "詳しいビュージャブル利用規約を確認する(リンク)"
+        }
+      },
+      "planLabel": {
+        "ko": "{planName} 플랜이",
+        "en": "{planName} Plan",
+        "ja": "{planName}プランは"
+      },
+      "nextPlanLabel": {
+        "ko": "다음 {planName} 플랜이",
+        "en": "Your next {planName} Plan",
+        "ja": "次のプランは{planName}プランは"
+      },
+      "downgradeLabel": {
+        "ko": "예약된 {planName} 플랜이",
+        "en": "Your next {planName} Plan",
+        "ja": "次{planName}プランはの",
+        "comment": "210813 다국어적용"
+      },
+      "inactive": {
+        "ko": "휴면 상태",
+        "en": "Dormant state",
+        "ja": "休眠状態",
+        "comment": "210813 다국어적용"
+      },
+      "inactiveLabel": {
+        "ko": "휴면 상태가",
+        "en": "Dormant state has been",
+        "ja": "休眠状態が",
+        "comment": "210813 다국어적용"
+      },
+      "appliedAt": {
+        "ko": "{startDate}부터 적용되었습니다.",
+        "en": "applied since {startDate}.",
+        "ja": "{startDate}から適用されました。",
+        "comment": "210813 다국어적용"
+      },
+      "endInactive": {
+        "ko": "휴면 해제",
+        "en": "Activate dormant state",
+        "ja": "休眠解除",
+        "comment": "210813 다국어적용"
+      },
+      "startAt": {
+        "ko": "{startDate}에 시작합니다.",
+        "en": "starts on {startDate}.",
+        "ja": "{startDate}から開始します。"
+      },
+      "toStart": {
+        "ko": "Journey Map 시작하기",
+        "en": "To start Journey Map",
+        "ja": "ジャーニマップを開始する",
+        "comment": "230515_서비스명 변경"
+      },
+      "unpaid": {
+        "ko": "이용 중이신 플랜의 결제가 정상적으로 이루어지지 않았습니다.",
+        "ja": "ご利用中のプラン決済が正常に行われませんでした。",
+        "en": "The payment for the plan you are using did not work properly.",
+        "comment": "210813 다국어적용"
+      },
+      "planChart": {
+        "ko": "플랜 사용 현황",
+        "en": "Plan Usage",
+        "ja": "プラン利用現況"
+      },
+      "pvChart": {
+        "ko": "PV 사용 현황",
+        "en": "PV Usage",
+        "ja": "PV利用現況"
+      },
+      "aiReportChart": {
+        "ko": "CX Report 사용 현황",
+        "en": "CX Report Usage",
+        "ja": "CX Report利用現況"
+      },
+      "jamChargingGuide": {
+        "ko": "JAM은 PV충전, CX Report 구매,<br>CX Heatmap에 활용할 수 있어요!<br><a href='{link}/1336' target='_blank'>►자세한 활용 방법 알아 보러 가기(링크)</a>",
+        "ja": "JAMは、PVチャージ、CX Report購入、<br>CXヒートマップに活用できます！<br><a href='{link}/2248' target='_blank'>►詳しい活用方法を確認しに行く（リンク）</a>",
+        "en": "JAM can be used for PV charging,<br> CX Report purchases, and CX Heatmap!<br><a href='{link}/2249' target='_blank'>►Learn more about how to use it (Link)</a>"
+      },
+      "wireForm": {
+        "ko": "결제 방법을 안내해주세요.\n\n상품명: {product} 플랜\n기간: {period}\n신청 PV: {pv}\nCX Report: {aiReportCredit}\n결제 수단: {payment}\n금액: {price}원 (VAT 별도)",
+        "en": "How does the payment processing work?\n\nProduct name: {product} Plan\nPeriod: {period}\nRequest PV: {pv}\nCX Report: {aiReportCredit}\n\nThe payment method : {payment}\nPrice: {price} $ (USD / excl. VAT)",
+        "ja": "決済方法をご教示ください。\n\n商品名: {product} プラン\n期間: {period}\n申請PV数: {pv}\nCX Report: {aiReportCredit}\nお支払方法 :  {payment}\n金額: {price}円 (税別)",
+        "comment": "URL에 넣어서 보내기 때문에 한글 4바이트 기준 300자 정도 이하로 해야함"
+      },
+      "wireFormEveryone": {
+        "ko": "Everyone 플랜 변경으로 희망합니다.\n\n상품명: Everyone 플랜",
+        "en": "Everyone 플랜 변경으로 희망합니다.\n\nProduct name: Everyone Plan",
+        "ja": "Everyone 플랜 변경으로 희망합니다.\n\n商品名: Everyone プラン",
+        "comment": "URL에 넣어서 보내기 때문에 한글 4바이트 기준 300자 정도 이하로 해야함"
+      },
+      "wireFormEnterprise": {
+        "ko": "결제 방법을 안내해주세요.\n\n상품명: Enterprise 플랜",
+        "en": "How does the payment processing work?\n\nProduct name: Enterprise Plan",
+        "ja": "決済方法をご教示ください。\n\n商品名: Enterprise プラン",
+        "comment": "URL에 넣어서 보내기 때문에 한글 4바이트 기준 300자 정도 이하로 해야함"
+      },
+      "jamForm": {
+        "ko": "무통장 입금 신청합니다. 결제 방법을 안내해주세요.\n\n상품명: {product}\n수랑: {amount}\n금액: {price}원 (VAT 별도)",
+        "en": "I would like to pay by Bank Transfer. How does the payment processing work?\n\nProduct name: {product}\nQuantity: {amount}\nPrice: {price} $ (USD / excl. VAT)",
+        "ja": "振り込み申請をいたします。決済方法をご教示ください。\n\n商品名: {product}\n数量: {amount}\n金額: {price}円 (税別)",
+        "comment": "URL에 넣어서 보내기 때문에 한글 4바이트 기준 300자 정도 이하로 해야함"
+      },
+      "paymentFailed": {
+        "ko": "플랜 결제 실패",
+        "en": "Plan payment failed",
+        "ja": "プラン決済失敗",
+        "comment": "210813 다국어적용"
+      },
+      "checkPaymentMethod": {
+        "ko": "등록하신 결제 정보를 확인해 주세요.",
+        "en": "Please check your registered payment information.",
+        "ja": "登録した決済情報をお確かめください。",
+        "comment": "210813 다국어적용"
+      },
+      "jamFilter": {
+        "addJam": {
+          "ko": "추가(+)",
+          "en": "Added(+)",
+          "ja": "追加(+)",
+          "comment": "BA-4023"
+        },
+        "subtractJam": {
+          "ko": "소진(-)",
+          "en": "Used(-)",
+          "ja": "消費(-)",
+          "comment": "BA-4023"
+        }
+      },
+      "jamState": {
+        "all": {
+          "ko": "전체",
+          "en": "All",
+          "ja": "すべて"
+        },
+        "JAM_CHARGE": {
+          "ko": "JAM 충전",
+          "en": "JAM top up",
+          "ja": "JAM チャージ",
+          "comment": "BA-4023"
+        },
+        "PV_CHARGE": {
+          "ko": "PV 충전",
+          "en": "Top Up PVs",
+          "ja": "PV チャージ",
+          "comment": "toss"
+        },
+        "MOVE_TO_BASKET": {
+          "ko": "히트맵 바구니로 이동",
+          "en": "Move to Heatmap Basket",
+          "ja": "ヒートマップ バケットへ移動"
+        },
+        "MOVE_TO_MY_JAM": {
+          "ko": "나의 JAM으로 이동",
+          "en": "Move to My JAM",
+          "ja": "マイJAMへ移動"
+        },
+        "JAM_EXPIRED": {
+          "ko": "유효기간 만료",
+          "en": "JAM Expired",
+          "ja": "JAM有効期限満了",
+          "comment": "BA-4023"
+        },
+        "JAM_REFUND": {
+          "ko": "JAM 환불",
+          "en": "Refunded JAM",
+          "ja": "JAM払い戻し",
+          "comment": "BA-4023"
+        },
+        "CARD": {
+          "ko": "신용/체크카드",
+          "en": "Credit/Debit Card",
+          "ja": "クレジットカード",
+          "comment": "BA-4023"
+        },
+        "WIRE": {
+          "ko": "무통장 입금",
+          "en": "Wire Transfer",
+          "ja": "銀行振込",
+          "comment": "BA-4023"
+        },
+        "4grit": {
+          "ko": "관리자 제공",
+          "ja": "管理者提供",
+          "en": "Admin",
+          "comment": "BA-4023"
+        },
+        "PAYMENT_NONE": {
+          "ko": "결제 수단 없음",
+          "ja": "決済方法なし",
+          "en": "No Payment Method",
+          "comment": "BA-4023"
+        },
+        "CX_HEATMAP": {
+          "ko": "CX Heatmap",
+          "ja": "CX Heatmap",
+          "en": "CX Heatmap",
+          "comment": "BA-4023"
+        },
+        "BUY_REPORT_PREFIX": {
+          "ko": "CX Report (Prefix) 구매",
+          "ja": "CX レポート(Prefix)購入",
+          "en": "CX Report (Prefix) purchase"
+        },
+        "BUY_REPORT_INDEPTH": {
+          "ko": "CX Report (In-depth) 구매",
+          "ja": "CX レポート(In-depth)購入",
+          "en": "CX Report(In-depth) purchase"
+        },
+        "BUY_REPORT_PERIOD": {
+          "ko": "CX Report (기간 비교) 구매",
+          "ja": "CX レポート(期間の比較)購入",
+          "en": "CX Report(Period Comparison) purchase"
+        },
+        "CANCEL_REPORT_PREFIX": {
+          "ko": "CX Report (Prefix) 환불",
+          "ja": "CX レポート(Prefix)購入",
+          "en": "CX Report (Prefix) purchase"
+        },
+        "CANCEL_REPORT_INDEPTH": {
+          "ko": "CX Report (In-depth) 환불",
+          "ja": "CX レポート(In-depth)購入",
+          "en": "CX Report (In-depth) purchase"
+        },
+        "CANCEL_REPORT_PERIOD": {
+          "ko": "CX Report (기간 비교) 환불",
+          "ja": "CX レポート(期間の比較)購入",
+          "en": "CX Report (Period Comparison) purchase"
+        }
+      },
+      "pricing": {
+        "month": {
+          "ko": "월",
+          "en": "month",
+          "ja": "月"
+        },
+        "currencyUnit": {
+          "ko": "원",
+          "en": "$",
+          "ja": "円"
+        },
+        "total": {
+          "ko": "최종 이용 금액",
+          "en": "Final total",
+          "ja": "合計金額"
+        },
+        "monthlyFee": {
+          "ko": "월간 이용 금액",
+          "en": "Monthly fee",
+          "ja": "月額利用料"
+        },
+        "planFee": {
+          "ko": "플랜 이용 금액",
+          "en": "Plan fee",
+          "ja": "プラン利用料"
+        },
+        "basicDiscount": {
+          "ko": "기본 할인 제공",
+          "en": "Basic discount",
+          "ja": "基本割引提供"
+        },
+        "basicPlusDiscount": {
+          "ko": "기본가에 10% 할인",
+          "en": "10% off the normal price",
+          "ja": "基本料金から10%割引"
+        },
+        "additionalPlusPlan": {
+          "ko": "플러스 플랜 추가 금액",
+          "en": "Additional fee on the Plus plan",
+          "ja": "プラスプラン追加料金"
+        },
+        "applyTimes": {
+          "ko": "베타 기간 무료 제공",
+          "en": "Free charge during Beta",
+          "ja": "Beta期間中、無料提供"
+        },
+        "applyTimes_back": {
+          "ko": "X1.5배 적용",
+          "en": "X1.5",
+          "ja": "X1.5倍適用"
+        },
+        "annualDiscount": {
+          "ko": "연간 할인 적용",
+          "en": "Annual discount",
+          "ja": "年間割引適用"
+        },
+        "tenPercentDiscount": {
+          "ko": "10% 할인 적용",
+          "en": "10% off",
+          "ja": "10%割引適用"
+        }
+      },
+      "cxReport": {
+        "myCxReport": {
+          "ko": "나의 CX Report",
+          "en": "My CX Report",
+          "ja": "マイ CX Report"
+        },
+        "noCxReport": {
+          "ko": "제공된 CX Report가 없습니다.",
+          "en": "No CX Report provided.",
+          "ja": "提供されたCX Reportがありません。"
+        }
+      }
+    }  
+  }
+}
