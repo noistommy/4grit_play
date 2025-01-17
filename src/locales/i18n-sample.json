@@ -12,6 +12,11 @@
         "ja": "有効期間",
         "comment": "BA-4023"
       },
+      "emailTest": {
+        "ko": "sample{'@'}naver.com",
+        "en": "sample{'@'}naver.com",
+        "ja": "sample{'@'}naver.com"
+      },
       "availablePV": {
         "ko": "분석 가능",
         "en": "Available",
@@ -1828,7 +1833,7 @@
           "ko": "200자 이내로 작성해주세요.",
           "ja": "200字以内で作成してください。",
           "en": "No more than 200 characters allowed.",
-          "comment": "#20221213-queue/@일어확인필요"
+          "comment": "#20221213-queue/일어확인필요"
         },
         "duplicateQueueName": {
           "ko": "다른 Queue와 중복되지 않도록 설정해주세요.",
@@ -2737,9 +2742,9 @@
             "comment": "210813 다국어적용"
           },
           "desc": {
-            "ko": "다시 한번 시도해 주세요.<br>문제가 반복될 경우, 뷰저블 운영팀<br>beusable@4grit.com으로 문의 주세요.",
-            "en": "Please try again. <br>If the problem repeats, please contact <br>the Beusable team at beusable@4grit.com.",
-            "ja": "もう一度お試しください。<br>引き続き問題が発生する場合、運営チーム<br>beusable@4grit.comへお問合せ下さい。",
+            "ko": "다시 한번 시도해 주세요.<br>문제가 반복될 경우, 뷰저블 운영팀<br>beusable{'@'}4grit.com으로 문의 주세요.",
+            "en": "Please try again. <br>If the problem repeats, please contact <br>the Beusable team at beusable{'@'}4grit.com.",
+            "ja": "もう一度お試しください。<br>引き続き問題が発生する場合、運営チーム<br>beusable{'@'}4grit.comへお問合せ下さい。",
             "comment": "210813 다국어적용"
           }
         },
@@ -2836,9 +2841,9 @@
           "ja": "入力したアドレスをもう一度<br>ご検討ください。"
         },
         "description": {
-          "ko": "요청한 페이지를 찾을 수 없습니다.<br>입력한 주소가 맞는지 다시 한번 검토해 주세요.<br><br>*뷰저블 운영팀 : beusable@4grit.com",
-          "en": "Oops! Something went wrong. <br>The requested page could not be found. <br> Please check the address you entered is correct. <br><br>*Beusable Operation team: beusable@4grit.com",
-          "ja": "リクエストしたページが見つかりません。 <br>入力したアドレスが正しいかもう一度ご確認お願い致します。<br><br>*ビューザブル運営チーム : beusable@4grit.com"
+          "ko": "요청한 페이지를 찾을 수 없습니다.<br>입력한 주소가 맞는지 다시 한번 검토해 주세요.<br><br>*뷰저블 운영팀 : beusable{'@'}4grit.com",
+          "en": "Oops! Something went wrong. <br>The requested page could not be found. <br> Please check the address you entered is correct. <br><br>*Beusable Operation team: beusable{'@'}4grit.com",
+          "ja": "リクエストしたページが見つかりません。 <br>入力したアドレスが正しいかもう一度ご確認お願い致します。<br><br>*ビューザブル運営チーム : beusable{'@'}4grit.com"
         },
         "button": {
           "ko": "홈으로 이동",
@@ -2853,9 +2858,9 @@
           "ja": "もう一度お試しください。"
         },
         "description": {
-          "ko": "작업을 다시 한번 시도해 주세요.<br>만약 문제가 해결되지 않는다면 뷰저블 <br>운영팀으로 문의해 주세요.<br><br>*뷰저블 운영팀 : beusable@4grit.com",
-          "en": "Please try the operation again. <br>If the problem is not resolved, please contact <br>the Beusable Operation Team. <br><br>*Beusable Operation Team: beusable@4grit.com",
-          "ja": "もう一度同じ作業を行なってください。 <br>もし、問題が解決しない場合、お手数をおかけしますが<br>ビューザブル運営チームへお問い合わせして下さい。<br><br>*ビューザブル運営チーム : beusable@4grit.com"
+          "ko": "작업을 다시 한번 시도해 주세요.<br>만약 문제가 해결되지 않는다면 뷰저블 <br>운영팀으로 문의해 주세요.<br><br>*뷰저블 운영팀 : beusable{'@'}4grit.com",
+          "en": "Please try the operation again. <br>If the problem is not resolved, please contact <br>the Beusable Operation Team. <br><br>*Beusable Operation Team: beusable{'@'}4grit.com",
+          "ja": "もう一度同じ作業を行なってください。 <br>もし、問題が解決しない場合、お手数をおかけしますが<br>ビューザブル運営チームへお問い合わせして下さい。<br><br>*ビューザブル運営チーム : beusable{'@'}4grit.com"
         },
         "button": {
           "ko": "홈으로 이동",
@@ -2871,9 +2876,9 @@
           "comment": "210824 다국어 적용"
         },
         "description": {
-          "ko": "접근 권한이 있는 계정만 공유 링크 이동이 가능합니다.<br>리포트 조회가 가능한 계정으로 접속해 주세요.<br><br><span>*뷰저블 운영팀 : beusable@4grit.com</span>",
-          "en": "Only an account with access rights can move the share link.<br> Please log in with an account that can view reports.<br><br><span>*Beusable Operation Team : beusable@4grit.com</span>",
-          "ja": "アクセス権限があるアカウントのみ共有リンクへ移動することができます。<br>レポート照会できるアカウントでアクセスしてください。<br><br><span>*ビューザブル運営チーム : beusable@4grit.com</span>",
+          "ko": "접근 권한이 있는 계정만 공유 링크 이동이 가능합니다.<br>리포트 조회가 가능한 계정으로 접속해 주세요.<br><br><span>*뷰저블 운영팀 : beusable{'@'}4grit.com</span>",
+          "en": "Only an account with access rights can move the share link.<br> Please log in with an account that can view reports.<br><br><span>*Beusable Operation Team : beusable{'@'}4grit.com</span>",
+          "ja": "アクセス権限があるアカウントのみ共有リンクへ移動することができます。<br>レポート照会できるアカウントでアクセスしてください。<br><br><span>*ビューザブル運営チーム : beusable{'@'}4grit.com</span>",
           "comment": "210824 다국어 적용"
         },
         "button": {
@@ -2891,9 +2896,9 @@
           "comment": "210824 다국어 적용"
         },
         "description": {
-          "ko": "요청한 공유 리포트를 찾을 수 없습니다.<br>입력한 주소가 pluck로 발급된 주소가 맞는지 다시 한번 검토해 주세요.<br><br><span>*뷰저블 운영팀 : beusable@4grit.com</span>",
-          "en": "The requested shared report could not be found.<br>Please check the address you entered is the one issued by pluck. <br><br><span>*Beusable Operation Team : beusable@4grit.com</span>",
-          "ja": "リクエストいただいた共有レポートが見つかりませんでした。 <br>入力したアドレスがpluckで発行されたアドレスかもう一度ご確認ください。 <br><br><span>*ビューザブル運営チーム : beusable@4grit.com</span>",
+          "ko": "요청한 공유 리포트를 찾을 수 없습니다.<br>입력한 주소가 pluck로 발급된 주소가 맞는지 다시 한번 검토해 주세요.<br><br><span>*뷰저블 운영팀 : beusable{'@'}4grit.com</span>",
+          "en": "The requested shared report could not be found.<br>Please check the address you entered is the one issued by pluck. <br><br><span>*Beusable Operation Team : beusable{'@'}4grit.com</span>",
+          "ja": "リクエストいただいた共有レポートが見つかりませんでした。 <br>入力したアドレスがpluckで発行されたアドレスかもう一度ご確認ください。 <br><br><span>*ビューザブル運営チーム : beusable{'@'}4grit.com</span>",
           "comment": "210824 다국어 적"
         },
         "button": {

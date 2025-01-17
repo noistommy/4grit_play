@@ -4,19 +4,41 @@
   <div class="container">
     <section>
       <h4>basic grid</h4>
-      <div class="btf-grid">
-        <div class="column" v-for="col in 12" :key="col"></div>
+      <div class="be-grid">
+        <div class="column dum" v-for="col in 12" :key="col"></div>
+        <div class="column dum" v-for="col in [2, 6, 4]" :key="col" :class="`col-${col}`"></div>
       </div>
     </section>
     <section>
       <h4>basic grid-table</h4>
-      <div class="btf-grid tabled bordered">
+      <div class="be-grid tabled bordered">
         <div class="rows">
-          <div class="column label" v-for="col in 12" :key="col">{{col}}</div>
+          <div class="column label align-center" v-for="col in 12" :key="col">{{col}}</div>
         </div>
         <div class="rows" v-for="row in 4" :key="row">
           <div class="column" v-for="col in 12" :key="col">{{col}}</div>
         </div>
+      </div>
+    </section>
+    <section>
+      <div class="be-grid tabled">
+        <div class="rows" v-for="row in 3" :key="row">
+          <div class="column label col-2">test</div>
+          <div class="column col-10">is test</div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="be-grid tabled bordered">
+        <div class="rows" v-for="row in 2" :key="row">
+          <div class="column label col-2">test</div>
+          <div class="column col-10">is test</div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="be-grid">
+        <div class="column dum col-sm-4 col-xs-8" v-for="col in [3, 3, 3, 3, 4, 4, 4]" :key="col" :class="`col-${col}`"></div>
       </div>
     </section>
   </div>
@@ -29,24 +51,25 @@
   section {
     border: 1px solid #d7d7d7;
     padding: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
-.btf-grid:not(.tabled) > .column:not(.empty) {
+.be-grid:not(.tabled) > .column.dum {
   &:after {
-    content: 'COL';
+    content: '';
     width: 100%;
     height: 100%;
     text-align: center;
-    background-color: #f2f2f2;
-    box-shadow: 0 0 0 1px #ccc inset;
+    background-color: #ccc;
+    // box-shadow: 0 0 0 1px #ccc inset;
     min-height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
-.column > .btf-grid {
+.column > .be-grid {
   background-color: #f2f2f2;
   .column::after {
     background-color: #d6d6d6 !important;
@@ -88,7 +111,7 @@ $headerBackgroundColor: #eeeeee;
 $verticalMargin: 1em;
 $horizontalMargin: 0;
 $margin: $verticalMargin $horizontalMargin;
-.btf {
+.be {
   &-form .fields,
   &-grid {
     --gutter: $gridGutter;
@@ -180,11 +203,10 @@ $margin: $verticalMargin $horizontalMargin;
     margin: 0;
   }
 }
-.btf-grid {
+.be-grid {
   &.tabled, &.tabled .rows {
     --gutter: #{$gridTableGutter}px;
-    background-color: $tableBorderColor;
-    border: 1px solid $tableBorderColor;
+    
     font-size: $tableFontSize;
     margin: $gridTableGutter * -1px;
     margin-bottom: $gridTableGutter * 1px;
@@ -215,8 +237,7 @@ $margin: $verticalMargin $horizontalMargin;
       &.label {
         background-color: $headerBackgroundColor;
         color: $tableFontColor;
-        text-align: center;
-        justify-content: center;
+        // justify-content: center;
         font-weight: bold;
       }
       &.align-left { justify-content: flex-start; }
@@ -227,6 +248,11 @@ $margin: $verticalMargin $horizontalMargin;
       &.align-bottom { align-items: flex-end; }
     }
     &.bordered {
+      background-color: $tableBorderColor;
+      border: 1px solid $tableBorderColor;
+      &> .rows {
+        border-bottom: 1px solid $tableBorderColor;
+      }
       .column {
         border-right: 1px solid $tableBorderColor;
       }
@@ -235,7 +261,7 @@ $margin: $verticalMargin $horizontalMargin;
   &.tabled .rows {
     margin: 0;
     border: 0;
-    border-bottom: 1px solid $tableBorderColor;
+    
     &:last-child {
       border-bottom: 0;
     }

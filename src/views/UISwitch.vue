@@ -17,15 +17,18 @@ const selectedToggle = () => {
 </script>
 
 <template>
-    <div class="btf-switch" @click="selectedToggle">
-        <div class="b-base">
-            <i class="icon size-20" :class="[pdata.baseClass]"></i>
-            <i class="icon size-20" :class="[pdata.onClass]"></i>
-        </div>
-        <div class="b-button" :class="{on: toggle}">
-            <div class="button-wrap">
-                <i class="icon size-20" :class="[`${pdata.baseClass}-active`]"></i>
-                <i class="icon size-20" :class="[`${pdata.onClass}-active`]"></i>
+    <div class="container">
+
+        <div class="btf-switch" @click="selectedToggle">
+            <div class="b-base">
+                <i class="icon size-20" :class="[pdata.baseClass]"></i>
+                <i class="icon size-20" :class="[pdata.onClass]"></i>
+            </div>
+            <div class="b-button" :class="{on: toggle}">
+                <div class="button-wrap">
+                    <i class="icon size-20" :class="[`${pdata.baseClass}-active`]"></i>
+                    <i class="icon size-20" :class="[`${pdata.onClass}-active`]"></i>
+                </div>
             </div>
         </div>
     </div>

@@ -59,7 +59,7 @@ const router = createRouter({
       path: '/side-nav-layout',
       name: 'side-nav-layout',
 
-      component: () => import('../views/SideNavLayout.vue')
+      component: () => import('../views/SideNavView.vue')
     
     },
     {
@@ -67,6 +67,41 @@ const router = createRouter({
       name: 'grid-system',
 
       component: () => import('../views/GridSystem.vue')
+    
+    },
+    {
+      path: '/grid-system2',
+      name: 'grid-system2',
+
+      component: () => import('../views/GridSystem2.vue')
+    
+    },
+    {
+      path: '/snackbar',
+      name: 'snackbar',
+
+      component: () => import('../views/SnackbarView.vue')
+    
+    },
+    {
+      path: '/new-style',
+      name: 'new-style',
+
+      component: () => import('../views/NewStyle.vue')
+    
+    },
+    {
+      path: '/scroll-timeline',
+      name: 'scroll-timeline',
+
+      component: () => import('../views/ScrollTimeline.vue')
+    
+    },
+    {
+      path: '/sub-grid',
+      name: 'sub-grid',
+
+      component: () => import('../views/SubGrid.vue')
     
     }
   ]

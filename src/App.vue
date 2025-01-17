@@ -22,7 +22,7 @@ const { proxy } = getCurrentInstance()
 
 
 const testSnackbar = () => {
-  proxy.$snackbars.show('success', 'tesat snackbars', {})
+  // proxy.$snackbars.show('success', 'tesat snackbars', {})
 }
 
 </script>
@@ -42,6 +42,11 @@ const testSnackbar = () => {
         <RouterLink to="/fire-cracker">FireCracker</RouterLink>
         <RouterLink to="/side-nav-layout">SideNavLayout</RouterLink>
         <RouterLink to="/grid-system">GridSystem</RouterLink>
+        <RouterLink to="/grid-system2">GridSystem2</RouterLink>
+        <RouterLink to="/snackbar">Snackbar</RouterLink>
+        <RouterLink to="/new-style">NewStyle</RouterLink>
+        <RouterLink to="/scroll-timeline">ScrollTimeline</RouterLink>
+        <RouterLink to="/sub-grid">SubGrid</RouterLink>
       </nav>
     </header>
     <div class="handle-pane"></div>
@@ -66,6 +71,7 @@ nav {
   width: 100%;
   text-align: center;
   padding: 1rem;
+  flex-wrap: wrap;
 }
 
 nav a.router-link-exact-active {

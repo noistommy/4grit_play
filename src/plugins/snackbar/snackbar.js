@@ -14,9 +14,12 @@ class Snackbars {
     }
     this.snackbar = this.getSnackbar(extendOption)
 
-    
+    let closeEl
     const snack = new Snack(type, contents, extendOption).snack
-
+    if (extendOption.closeButton) {
+      closeEl = this.setClose()
+      snack.appendChild(closeEl)
+    }
     if(pos) {
       this.snackbar.classList.add('anywhere')
       this.snackbar.style.top = pos.y + 'px'
@@ -35,9 +38,18 @@ class Snackbars {
       ? null
       : setTimeout(() => this.hideSnack(snack, interval), extendOption.timeout)
 
-    snack.onClick = () => {
-      this.hideSnack(snack, interval)
+    if (extendOption.closeButton) {
+      console.log('close')
+      closeEl.onclick = () => {
+        this.hideSnack(snack, interval)
+      }
+    } else if (extendOption.clickToClose) {
+      console.log(snack)
+      snack.onclick = () => {
+        this.hideSnack(snack, interval)
+      }
     }
+    
   }
   getSnackbar () {
       let snackbar = document.querySelector('.snackbars')
@@ -49,6 +61,12 @@ class Snackbars {
 
       document.body.appendChild(snackbar)
       return snackbar
+  }
+  setClose() {
+    const closeButton = document.createElement('div')
+    closeButton.classList.add('toast-close')
+    closeButton.innerHTML = '<i class="fa fa-xmark" />'
+    return closeButton
   }
   hideSnack (snack, interval) {
     console.log(this.snackId)

@@ -1,7 +1,7 @@
 <script setup>
 import { ref, reactive, onMounted, computed } from 'vue'
 
-const paginationType = ref(1)
+const paginationType = ref(0)
 const firstPageNum = ref(1)
 const dataList = new Array(431).fill(null).map((item, i) => { return i + 1 })
 const pageList = ref([])
@@ -58,11 +58,19 @@ const selectedToNext = () => {
 const selectedToStart = () => {
   currentPage.value = 1
   firstPageNum.value = 1
+  setPageList()
 }
 
 const selectedToEnd = () => {
   firstPageNum.value = pageLength.value - pageLength.value % pageRange + 1
-  currentPage.value = firstPageNum.value
+  
+  currentPage.value = paginationType.value ? firstPageNum.value : pageLength.value
+  setPageList()
+}
+
+const selectPage = (page) => {
+  currentPage.value = page
+  setPageList()
 }
 
 const setPageList = () => {
@@ -74,6 +82,10 @@ const setPageList = () => {
 
 <template>
   <h1>UI Pagination</h1>
+  <div class="pagination-nav">
+    <button class="ga-button" :class="{primary: paginationType === 0}" @click="paginationType = 0">Type 1</button>
+    <button class="ga-button" :class="{primary: paginationType === 1}" @click="paginationType = 1">Type 2</button>
+  </div>
   <div class="example-list">
     <div class="num-block" v-for="rank in pageList" :key="rank" v-btf-tooltip="rank">{{ rank }}</div>
   </div>
@@ -101,7 +113,10 @@ const setPageList = () => {
         <div class="total">{{ pageLength }}</div>
       </template>
       <template v-else>
-        <div class="num-block" v-for="page in visiablePages" :key="page" :class="{current: currentPage === page}">{{page}}</div>
+        <div class="num-block"
+        v-for="page in visiablePages" :key="page"
+        :class="{current: currentPage === page}"
+        @click="selectPage(page)">{{page}}</div>
       </template>
     </div>
   </div>
@@ -124,15 +139,25 @@ const setPageList = () => {
       height: 32px;
       padding: 10px 4px;
       line-height: 1;
-      outline: 1px solid var(--color-border);
       border-radius: 4px;
       text-align: center;
+      &.border {
+        outline: 1px solid var(--brd);
+      }
+      &.circle {
+        border-radius: 50%;
+      }
+      &.current {
+        color: #FC004E;
+        font-weight: 500;
+    
+      }
     }
   }
   .control {
     padding: 4px;
     border-radius: 50%;
-    outline: 1px solid var(--color-border);
+    outline: 1px solid var(--brd);
     text-align: center;
     width: 24px;
     height: 24px;
@@ -153,26 +178,23 @@ const setPageList = () => {
     }
   }
 }
-.num-block {
-  min-width: 32px;
-  height: 32px;
-  padding: 10px 4px;
-  line-height: 1;
-  outline: 1px solid var(--color-border);
-  border-radius: 4px;
-  text-align: center;
-  font-size: 13px;
-  &.current {
-    color: #FC004E;
-    font-weight: 500;
 
-  }
-}
 .example-list {
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
+  .num-block {
+    min-width: 32px;
+    height: 32px;
+    padding: 10px 4px;
+    line-height: 1;
+    outline: 1px solid var(--brd);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 13px;
+    
+  }
 }
 </style>

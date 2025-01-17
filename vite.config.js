@@ -14,7 +14,7 @@ export default defineConfig({
     svgLoader(),
     VueDevTools(),
     VueI18nPlugin({
-      include: resolve(dirname(fileURLToPath(import.meta.url)), './src/locales1/**'),
+      include: resolve(dirname(fileURLToPath(import.meta.url)), './src/locales/**'),
       strictMessage: false
     })
   ],
