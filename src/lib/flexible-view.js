@@ -14,6 +14,7 @@ const onMouseDown = ({ target: resizer, pageX: initX ,pageY: initY  }) => {
             if (layout === 'h') {
                 let paneWidth = initSize + offset
                 pane.style.width = `${paneWidth}px`
+                container.style.setProperty('--side', paneWidth)
             } else {
                 let paneHeight = initSize + offset
                 pane.style.height = `${paneHeight}px`

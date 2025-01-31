@@ -1,5 +1,5 @@
 <script setup>
-import { ref, reactive, defineEmits } from 'vue'
+import { ref, reactive } from 'vue'
 
 const emit = defineEmits(['select'])
 const toggle = ref(true)

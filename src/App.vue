@@ -38,6 +38,7 @@ const testSnackbar = () => {
         <RouterLink to="/flexible">Flexible View</RouterLink>
         <RouterLink to="/ui-switch">UI_Switch</RouterLink>
         <RouterLink to="/ui-pagination">UI_Pagination</RouterLink>
+        <RouterLink to="/slide-extend-list">SlideExtendListx</RouterLink>
         <RouterLink to="/ui-select-box">UI_SelectBox</RouterLink>
         <RouterLink to="/fire-cracker">FireCracker</RouterLink>
         <RouterLink to="/side-nav-layout">SideNavLayout</RouterLink>
@@ -47,6 +48,7 @@ const testSnackbar = () => {
         <RouterLink to="/new-style">NewStyle</RouterLink>
         <RouterLink to="/scroll-timeline">ScrollTimeline</RouterLink>
         <RouterLink to="/sub-grid">SubGrid</RouterLink>
+        <RouterLink to="/ui-table">UiTable</RouterLink>
       </nav>
     </header>
     <div class="handle-pane"></div>

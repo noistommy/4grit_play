@@ -42,6 +42,13 @@ const router = createRouter({
       component: () => import('../views/UIPagination.vue')
     },
     {
+      path: '/slide-extend-list',
+      name: 'slide-extend-list',
+
+      component: () => import('../views/SlideExtendList.vue')
+    
+    },
+    {
       path: '/ui-select-box',
       name: 'ui-select-box',
 
@@ -102,6 +109,13 @@ const router = createRouter({
       name: 'sub-grid',
 
       component: () => import('../views/SubGrid.vue')
+    
+    },
+    {
+      path: '/ui-table',
+      name: 'ui-table',
+
+      component: () => import('../views/UiTable.vue')
     
     }
   ]

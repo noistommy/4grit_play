@@ -4,6 +4,8 @@ import './assets/icomoon/style.css'
 
 import './plugins/snackbar/snackbar.scss'
 
+import '../bower_components/xeicon/xeicon.min.css'
+
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import { createI18n } from "vue-i18n";

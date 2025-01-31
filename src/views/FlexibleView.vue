@@ -56,14 +56,6 @@ import onMouseDown from '@/lib/flexible-view'
             
         </div>
     </div>
-    <div class="ga-grid">
-        <div class="column span-3"><span>1</span></div>
-        <div class="column span-3"><span>1</span></div>
-        <div class="column span-5"></div>
-        <div class="column span-3"><span>1</span></div>
-        <div class="column span-3"><span>1</span></div>
-        <div class="column span-6"><span>1</span></div>
-    </div>
 </template>
 
 <style lang="scss" scoped>
