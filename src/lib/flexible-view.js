@@ -4,19 +4,22 @@ const onMouseDown = ({ target: resizer, pageX: initX ,pageY: initY  }) => {
     
         const container = resizer.parentElement
         const layout = container.className.match('layout-h') ? 'h' : 'v'
-        const pane = resizer.previousElementSibling
+        const reverse = resizer.classList.contains('reverse')
+        let pane = reverse ? resizer.nextElementSibling : resizer.previousElementSibling
+        
         const initPaneWidth = pane.offsetWidth
         const initPaneHeight = pane.offsetHeight
 
         const { addEventListener: addEvent, removeEventListener: removeEvent } = window
 
         const resize = (initSize, offset = 0) => {
+            const direction = reverse ? -1 : 1
             if (layout === 'h') {
-                let paneWidth = initSize + offset
+                let paneWidth = initSize + (offset * direction)
                 pane.style.width = `${paneWidth}px`
                 container.style.setProperty('--side', paneWidth)
             } else {
-                let paneHeight = initSize + offset
+                let paneHeight = initSize + (offset * direction)
                 pane.style.height = `${paneHeight}px`
             }
         }

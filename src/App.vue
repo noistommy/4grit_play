@@ -49,6 +49,7 @@ const testSnackbar = () => {
         <RouterLink to="/scroll-timeline">ScrollTimeline</RouterLink>
         <RouterLink to="/sub-grid">SubGrid</RouterLink>
         <RouterLink to="/ui-table">UiTable</RouterLink>
+        <RouterLink to="/ui-data-table">UiDataTable</RouterLink>
       </nav>
     </header>
     <div class="handle-pane"></div>

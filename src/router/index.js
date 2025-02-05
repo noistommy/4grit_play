@@ -117,6 +117,13 @@ const router = createRouter({
 
       component: () => import('../views/UiTable.vue')
     
+    },
+    {
+      path: '/ui-data-table',
+      name: 'ui-data-table',
+
+      component: () => import('../views/UiDataTable.vue')
+    
     }
   ]
 })

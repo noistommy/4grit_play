@@ -49,6 +49,7 @@ const selectOption = (option) => {
       </label>
       <div class="ga-tag label">Search {{ isSearch ? 'on' : 'off' }}</div>
     </div>
+    {{ selectedSBs }}
     <div class="slide-box-wrapper">
         <div class="ga-select-box" :class="[{open: showSB1}, boxType]" @click="toggleSB">
           <div class="selected-item ga-input icon right">

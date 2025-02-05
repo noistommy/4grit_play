@@ -16,6 +16,7 @@ import router from './router'
 import { createMetaManager, defaultConfig, deepestResolver } from 'vue-meta'
 
 import Snackbars from './plugins/snackbar'
+import Toast from './plugins/toast'
 
 // import messages from "@intlify/unplugin-vue-i18n/messages";
 import i18nMessages from '@/locales/i18n-sample.json'
@@ -45,6 +46,7 @@ app.use(Tooltip, {
 
 app.use(i18n)
 app.use(Snackbars)
+app.use(Toast)
 
 // app.provide('$snackbars', Snackbars)
 

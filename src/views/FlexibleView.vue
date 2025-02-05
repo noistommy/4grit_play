@@ -51,7 +51,7 @@ import onMouseDown from '@/lib/flexible-view'
     </div>
     <div class="flexible-container layout-h" @mousedown="onMouseDown">
         <div class="view-1">View 1</div>
-        <span class="flexible-handle"></span>
+        <span class="flexible-handle reverse"></span>
         <div class="view-2">
             
         </div>
@@ -67,52 +67,54 @@ import onMouseDown from '@/lib/flexible-view'
 .flexible-container {
     width: 780px;
     height: 800px;
-    border: 1px solid var(--color-border);
+    border: 1px solid var(--brd);
     margin: 0 auto;
     display: flex;
     
     .view-2 {
         flex-grow: 1;
     }
+    .view-1:has(+ .reverse) {
+        background-color: #555;
+        flex-grow: 1;
+    }
+    .reverse + .view-2 {
+        flex-grow:0;
+    }
     
     span.flexible-handle {
         cursor: row-resize;
         position: relative;
         display: inline-block;
-        
-        
         transition: all 250ms;
-        &:hover {
-            height: 20px;
-            border-bottom: 1px solid var(--color-border);
-            &:after {
-                content: '';
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 10px;
-                height: 10px;
-                border-radius: 8px;
-                background-color: #ccc;
-            }
+
+        height: 20px;
+        border-bottom: 1px solid var(--brd);
+        &:after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 10px;
+            height: 10px;
+            border-radius: 8px;
+            background-color: #ccc;
         }
     }
     &.layout-h {
-        height: 300px;
+        // height: 300px;
         .view-1 {
             width: 300px
         }
         span.flexible-handle {
             width: 5px;
             height: 100%;
-            border-left: 1px solid var(--color-border);
-            &:hover {
-                width: 20px;
-                border-right: 1px solid var(--color-border);
-                &:after {
-                    height: 80px;
-                }
+            border-left: 1px solid var(--brd);
+            width: 20px;
+            border-right: 1px solid var(--brd);
+            &:after {
+                height: 80px;
             }
         }
     }
@@ -124,13 +126,11 @@ import onMouseDown from '@/lib/flexible-view'
         span.flexible-handle {
             width: 100%;
             height: 5px;
-            border-top: 1px solid var(--color-border);
-            &:hover {
-                height: 20px;
-                border-bottom: 1px solid var(--color-border);
-                &:after {
-                    width: 80px;
-                }
+            border-top: 1px solid var(--brd);
+            height: 20px;
+            border-bottom: 1px solid var(--brd);
+            &:after {
+                width: 80px;
             }
         }
     }
