@@ -1,5 +1,5 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 const boxType = ref('dropdown')
 const isSearch = ref(false)
 const options = [
@@ -30,6 +30,13 @@ const selectOption = (option) => {
     selectedSBs.value.push(option)
   }
 }
+
+onMounted(() => {
+  window.addEventListner('click', (e) => {
+    console.log(e.target.classlist)
+  })
+})
+
 
 </script>
 

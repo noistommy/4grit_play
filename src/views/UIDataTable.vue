@@ -3,6 +3,21 @@ import { BeDataTable } from '@/packages/BeDataTable'
 import { ref } from 'vue'
 
 const fixedColumn = ref(false)
+const columns = [
+  { key: 'id', name: '아이디', type: 'string', isFix: true, sort: true},
+  { key: 'name', name: '이름', type: 'string', isFix: false},
+  { key: 'state', name: '상태', type: 'array', isFix: false},
+  { key: 'state', name: '상태', type: 'array', isFix: false},
+  { key: 'state', name: '상태', type: 'array', isFix: false},
+  { key: 'state', name: '상태', type: 'array', isFix: false},
+  { key: 'state', name: '상태', type: 'array', isFix: false},
+  { key: 'state', name: '상태', type: 'array', isFix: false},
+  { key: 'state', name: '상태', type: 'array', isFix: false},
+  { key: 'state', name: '상태', type: 'array', isFix: false},
+  { key: 'state', name: '상태', type: 'array', isFix: false},
+  { key: 'state', name: '상태', type: 'array', isFix: false},
+  { key: 'state', name: '상태', type: 'array', isFix: false}
+]
 
 
 </script>
@@ -18,7 +33,7 @@ const fixedColumn = ref(false)
         </label>
       </div>
       <div class="table-wrapper">
-        <BeDataTable :use-fixed="fixedColumn"></BeDataTable>
+        <BeDataTable :columns="columns" :use-fixed="fixedColumn"></BeDataTable>
       </div>
     </div>
 </template>
@@ -28,7 +43,7 @@ const fixedColumn = ref(false)
   padding: 1rem;
 }
 .table-wrapper {
-  width: 1000px;
+  width: 100%;
   height: 600px;
   overflow: auto;
 }
