@@ -22,7 +22,7 @@ const totalWidth = computed(() => {
     return t += item
   }, 0)
 })
-const minCellWidth = 100
+const minCellWidth = 120
 const baseCellWidth = ref(null)
 
 const setCellStyle = col => {
@@ -94,7 +94,7 @@ onMounted(() => {
               </div>
             </template>
             <template v-else-if="val.type === 'tag'">
-              <div class="ga-tag label blue">value {{ jdx + 1 }}</div>
+              <div class="ga-button compact blue circle">value {{ jdx + 1 }}</div>
             </template>
             <template v-else-if="val.type === 'mark'">
               value {{ jdx + 1 }}
@@ -257,6 +257,7 @@ $table-header-title-bg: #eeeeee;
       &.fixed {
         background-color: $table-color-bg;
         position: sticky;
+        z-index: 100;
         &.col-hover {
           background-color: $table-cell-hover-color;
         }
