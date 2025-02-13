@@ -2,21 +2,32 @@
 import { BeDataTable } from '@/packages/BeDataTable'
 import { ref } from 'vue'
 
-const fixedColumn = ref(false)
+const fixedColumn = ref(true)
+const baseWidth = null
 const columns = [
-  { key: 'id', name: '아이디', type: 'string', isFix: true, sort: true},
-  { key: 'name', name: '이름', type: 'string', isFix: false},
-  { key: 'state', name: '상태', type: 'array', isFix: false},
-  { key: 'state', name: '상태', type: 'array', isFix: false},
-  { key: 'state', name: '상태', type: 'array', isFix: false},
-  { key: 'state', name: '상태', type: 'array', isFix: false},
-  { key: 'state', name: '상태', type: 'array', isFix: false},
-  { key: 'state', name: '상태', type: 'array', isFix: false},
-  { key: 'state', name: '상태', type: 'array', isFix: false},
-  { key: 'state', name: '상태', type: 'array', isFix: false},
-  { key: 'state', name: '상태', type: 'array', isFix: false},
-  { key: 'state', name: '상태', type: 'array', isFix: false},
-  { key: 'state', name: '상태', type: 'array', isFix: false}
+  { key: 'detail', name: '자세히', type: 'tag', isFix: true,  width: 60 },
+  { key: 'status', name: '상태', type: 'tag', isFix: true, sort: 'desc', width: baseWidth},
+  { key: 'authName', name: '등급', type: 'mark', isFix: true, width: baseWidth},
+  { key: 'userId', name: '아이디', type: 'string', isFix: true, width: baseWidth},
+  { key: 'companyName', name: '회사명', type: 'string', isFix: false, width: 250},
+  { key: 'department', name: '부서', type: 'string', isFix: false, width: baseWidth},
+  { key: 'email', name: '이메일', type: 'string', isFix: false, width: 400},
+  { key: 'phone', name: '전화번호', type: 'string', isFix: false, width: baseWidth},
+  { key: 'date', name: '초대/가입일', type: 'date', isFix: false, width: baseWidth},
+  { key: 'plan', name: '플랜', type: 'tag', isFix: false, width: baseWidth},
+  { key: 'companyName', name: '회사명', type: 'string', isFix: false, width: 250},
+  { key: 'department', name: '부서', type: 'string', isFix: false, width: baseWidth},
+  { key: 'email', name: '이메일', type: 'string', isFix: false, width: 400},
+  { key: 'phone', name: '전화번호', type: 'string', isFix: false, width: baseWidth},
+  { key: 'date', name: '초대/가입일', type: 'date', isFix: false, width: baseWidth},
+  { key: 'plan', name: '플랜', type: 'tag', isFix: false, width: baseWidth},
+  { key: 'plan', name: '플랜', type: 'tag', isFix: false, width: baseWidth},
+  { key: 'companyName', name: '회사명', type: 'string', isFix: false, width: 250},
+  { key: 'department', name: '부서', type: 'string', isFix: false, width: baseWidth},
+  { key: 'email', name: '이메일', type: 'string', isFix: false, width: 400},
+  { key: 'phone', name: '전화번호', type: 'string', isFix: false, width: baseWidth},
+  { key: 'date', name: '초대/가입일', type: 'date', isFix: false, width: baseWidth},
+  { key: 'plan', name: '플랜', type: 'tag', isFix: false, width: baseWidth}
 ]
 
 
