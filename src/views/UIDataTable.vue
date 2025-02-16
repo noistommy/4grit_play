@@ -3,6 +3,7 @@ import { BeDataTable } from '@/packages/BeDataTable'
 import { ref } from 'vue'
 
 const fixedColumn = ref(true)
+const listType = ref('table')
 const baseWidth = null
 const columns = [
   { key: 'detail', name: '자세히', type: 'tag', isFix: true,  width: 60 },
@@ -42,20 +43,33 @@ const columns = [
           <span class="on" :class="{active: fixedColumn}">ON</span>
           <span class="off" :class="{active: !fixedColumn}">OFF</span>
         </label>
+        <span>|</span>
+        <span class="label">리스트 타입</span>
+        <div class="ga-buttons">
+          <div class="ga-button" :class="{selected: listType === 'list'}" @click="listType = 'list'">LIST</div>
+          <div class="ga-button" :class="{selected: listType === 'table'}"  @click="listType = 'table'">TABLE</div>
+        </div>
       </div>
       <div class="table-wrapper">
-        <BeDataTable :columns="columns" :use-fixed="fixedColumn"></BeDataTable>
+        <BeDataTable :columns="columns" :use-fixed="fixedColumn" :list-type="listType"></BeDataTable>
       </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
+.table-container {
+  padding: 10px;
+  background-color: #fff;
+}
 .table-control {
   padding: 1rem;
+  span.label {
+    color: #333;
+    margin-right: 10px;
+  }
 }
 .table-wrapper {
   width: 100%;
   height: 600px;
-  overflow: auto;
 }
 </style>
