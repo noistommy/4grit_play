@@ -1,15 +1,33 @@
 <script setup>
-import { inject } from 'vue'
+import { reactive, inject } from 'vue'
 import { useI18n } from 'vue-i18n'
 const snackbars = inject('$snackbars')
 const toast = inject('$toast')
+const modal = inject('$beModal')
 
+import SolomonUfo from '@/components/TestArea/TestSVG.vue'
 const showSnackbar = (state) => {
     snackbars.show(state, state, { toast: true, freeze: false })
 }
 
 const showToast = (state) => {
     toast.show(state, state, {})
+}
+const modalProps = {
+  title: '모달 테스트',
+  description: '모달 테스트 입니다.',
+  pText: '저장'
+}
+const modalOption = reactive({
+  clickToClose: true,
+  escapeToClose: true
+})
+const showModal= () => {
+    modal.show({
+        comp: SolomonUfo,
+        props: modalProps,
+        options: modalOption
+    })
 }
 
 const showAnywhere = () => {
@@ -50,6 +68,7 @@ const selectLocale = (localeText) => {
         <div class="ga-button danger" @click="showToast('danger')">danger</div>
         <div class="ga-button" @click="showAnywhere">Anywhere</div> 
     </div>
+    <div class="be-button" @click="showModal()">Show Modal</div>
     <h1>i18n 테스트</h1>
     <div class="ga-buttons">
         <button class="ga-button" @click="selectLocale('ko')">KO</button>

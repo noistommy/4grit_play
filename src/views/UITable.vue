@@ -35,6 +35,12 @@ const columns = [
         </tbody>
       </table>
     </div>
+
+    <div class="test-array">
+      <div class="test item">qwe</div>
+      <div class="test item">qwe</div>
+      <div class="test item">qwe</div>
+    </div>
   </div>
 </template>
 
@@ -68,5 +74,14 @@ const columns = [
     // }
   }
 }
-
+.test-array {
+  display: flex;
+  gap: 10px;
+  .test.item {
+    &:not(:last-child):after:not(:last-child) {
+      content: ',';
+    }
+  
+  }
+}
 </style>

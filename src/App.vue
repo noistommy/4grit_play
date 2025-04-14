@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, getCurrentInstance } from 'vue';
+import { onMounted } from 'vue';
 import { useRoute } from 'vue-router'
 import { RouterLink, RouterView } from 'vue-router'
 import setMeta from '@/meta'
@@ -16,18 +16,11 @@ onMounted(() => {
   })
 })
 
-const { proxy } = getCurrentInstance()
-
-// composition api or setup
-
-
-const testSnackbar = () => {
-  // proxy.$snackbars.show('success', 'tesat snackbars', {})
-}
 
 </script>
 
 <template>
+  <BeTeleport />
   <metainfo />
   <div class="pane-layout layout-v">
     <header>

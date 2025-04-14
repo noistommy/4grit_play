@@ -23,6 +23,10 @@ import i18nMessages from '@/locales/i18n-sample.json'
 
 import Tooltip from './directives/tooltip'
 
+import BeModal from './plugins/modal'
+import './plugins/modal/be-modal.scss'
+import mitt from 'mitt'
+
 
 let maxLength = 0
 
@@ -43,11 +47,11 @@ app.use(Tooltip, {
     direction: 'top', // top | bottom | left | right
     align: 'center' // start | center | end
 })
-
+app.use(mitt)
 app.use(i18n)
 app.use(Snackbars)
 app.use(Toast)
-
+app.use(BeModal)
 // app.provide('$snackbars', Snackbars)
 
 app.use(createPinia())
